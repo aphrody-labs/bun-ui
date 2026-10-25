@@ -1,0 +1,4 @@
+{
+  "extends": "../../../bun-cloudflare/tsconfig.json",
+  "include": [".", "../../../bun-types/index.d.ts"]
+}
