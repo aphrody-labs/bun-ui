@@ -1,0 +1,29 @@
+# SPDX-License-Identifier: Apache-2.0
+[package]
+name = "aphrody-m3-iced"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.93"
+license = "Apache-2.0"
+description = "Material 3 adapter for iced 0.14 (Theme, palettes, widget styles) and libcosmic cosmic-theme."
+publish = false
+
+# Standalone until the Bun UI root Cargo workspace exists.
+[workspace]
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[features]
+default = []
+# cosmic-theme ThemeBuilder (schema v2) from the same M3 scheme.
+cosmic = ["dep:cosmic-theme"]
+
+[dependencies]
+aphrody-m3-tokens = { path = "../aphrody-m3-tokens" }
+iced = { version = "0.14", default-features = false, features = ["wgpu", "tiny-skia", "x11", "wayland", "thread-pool"] }
+cosmic-theme = { git = "https://github.com/pop-os/libcosmic", optional = true }
+
+[[example]]
+name = "gallery"
+path = "examples/gallery.rs"
