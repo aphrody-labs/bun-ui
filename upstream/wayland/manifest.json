@@ -1,0 +1,323 @@
+[
+  {
+    "group": "wayland",
+    "name": "wayland",
+    "path": "upstream/wayland/wayland",
+    "url": "https://gitlab.freedesktop.org/wayland/wayland.git",
+    "upstream": "https://gitlab.freedesktop.org/wayland/wayland.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "93c04ad3670633aea6f2435059378b75843b8e70",
+    "license": "MIT",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "Wayland core protocol and libwayland",
+    "size_mb": 6
+  },
+  {
+    "group": "wayland",
+    "name": "wayland-protocols",
+    "path": "upstream/wayland/wayland-protocols",
+    "url": "https://gitlab.freedesktop.org/wayland/wayland-protocols.git",
+    "upstream": "https://gitlab.freedesktop.org/wayland/wayland-protocols.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "b9edf66597586c914b5b1ff3d964d7ed201adab9",
+    "license": "MIT",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "Wayland extension protocols",
+    "size_mb": 3
+  },
+  {
+    "group": "wayland",
+    "name": "libinput",
+    "path": "upstream/wayland/libinput",
+    "url": "https://gitlab.freedesktop.org/libinput/libinput.git",
+    "upstream": "https://gitlab.freedesktop.org/libinput/libinput.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "41da55ecc08bb3769a737e8fbae0f34b71792a67",
+    "license": "MIT",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "Input device handling library",
+    "size_mb": 15
+  },
+  {
+    "group": "wayland",
+    "name": "libxkbcommon",
+    "path": "upstream/wayland/libxkbcommon",
+    "url": "https://github.com/xkbcommon/libxkbcommon.git",
+    "upstream": "https://github.com/xkbcommon/libxkbcommon.git",
+    "fork": null,
+    "branch": "master",
+    "commit": "b2de7de9fb253389f67eb3409907b03588004907",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Keyboard keymap handling library",
+    "size_mb": 15
+  },
+  {
+    "group": "wayland",
+    "name": "wlroots",
+    "path": "upstream/wayland/wlroots",
+    "url": "https://gitlab.freedesktop.org/wlroots/wlroots.git",
+    "upstream": "https://gitlab.freedesktop.org/wlroots/wlroots.git",
+    "fork": null,
+    "branch": "master",
+    "commit": "f9d2520f90e1026152ecb3178a7d390621fcee03",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Modular Wayland compositor library",
+    "size_mb": 14
+  },
+  {
+    "group": "wayland",
+    "name": "xwayland-satellite",
+    "path": "upstream/wayland/xwayland-satellite",
+    "url": "https://github.com/Supreeeme/xwayland-satellite.git",
+    "upstream": "https://github.com/Supreeeme/xwayland-satellite.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "e54e34c11758696240182549fb17d58473f8a3d4",
+    "license": "MPL-2.0",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Rootless Xwayland integration for compositors",
+    "size_mb": 2
+  },
+  {
+    "group": "wayland",
+    "name": "hyprland",
+    "path": "upstream/wayland/hyprland",
+    "url": "https://github.com/hyprwm/Hyprland.git",
+    "upstream": "https://github.com/hyprwm/Hyprland.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "390f8f8297911620d5dcb226520ba0cf21e43479",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Hyprland dynamic tiling compositor",
+    "size_mb": 118
+  },
+  {
+    "group": "wayland",
+    "name": "aquamarine",
+    "path": "upstream/wayland/aquamarine",
+    "url": "https://github.com/hyprwm/aquamarine.git",
+    "upstream": "https://github.com/hyprwm/aquamarine.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "163b138cfb22873de1e1bf253d57bf03154d1acd",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Hyprland rendering/backend library",
+    "size_mb": 2
+  },
+  {
+    "group": "wayland",
+    "name": "hyprutils",
+    "path": "upstream/wayland/hyprutils",
+    "url": "https://github.com/hyprwm/hyprutils.git",
+    "upstream": "https://github.com/hyprwm/hyprutils.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "7e1f69209cd910615d0573a93fa970408f643539",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Hyprland utility library",
+    "size_mb": 2
+  },
+  {
+    "group": "wayland",
+    "name": "hyprlang",
+    "path": "upstream/wayland/hyprlang",
+    "url": "https://github.com/hyprwm/hyprlang.git",
+    "upstream": "https://github.com/hyprwm/hyprlang.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "9508458be316a0d70d37ebed1ab725ccd10411ff",
+    "license": "LGPL-3.0-only",
+    "license_files": [
+      "COPYRIGHT",
+      "LICENSE"
+    ],
+    "role": "Hyprland configuration language",
+    "size_mb": 1
+  },
+  {
+    "group": "wayland",
+    "name": "hyprcursor",
+    "path": "upstream/wayland/hyprcursor",
+    "url": "https://github.com/hyprwm/hyprcursor.git",
+    "upstream": "https://github.com/hyprwm/hyprcursor.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "e4ed7c08123df5af460a0a70961380cbfb872f76",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Hyprland cursor theme format",
+    "size_mb": 1
+  },
+  {
+    "group": "wayland",
+    "name": "hyprgraphics",
+    "path": "upstream/wayland/hyprgraphics",
+    "url": "https://github.com/hyprwm/hyprgraphics.git",
+    "upstream": "https://github.com/hyprwm/hyprgraphics.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "80c7d00f2236732853e390019ff8d79d17fa3612",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Hyprland graphics/image utilities",
+    "size_mb": 2
+  },
+  {
+    "group": "wayland",
+    "name": "hyprwayland-scanner",
+    "path": "upstream/wayland/hyprwayland-scanner",
+    "url": "https://github.com/hyprwm/hyprwayland-scanner.git",
+    "upstream": "https://github.com/hyprwm/hyprwayland-scanner.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "62e62c1ca23da17612c6890d4ad2064f575643db",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Hyprland C++ Wayland protocol scanner",
+    "size_mb": 1
+  },
+  {
+    "group": "wayland",
+    "name": "hyprland-protocols",
+    "path": "upstream/wayland/hyprland-protocols",
+    "url": "https://github.com/hyprwm/hyprland-protocols.git",
+    "upstream": "https://github.com/hyprwm/hyprland-protocols.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "cd1aba6bd78775825eb230b3a4274c48b6705eb7",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Hyprland Wayland protocol extensions",
+    "size_mb": 1
+  },
+  {
+    "group": "wayland",
+    "name": "xdg-desktop-portal-hyprland",
+    "path": "upstream/wayland/xdg-desktop-portal-hyprland",
+    "url": "https://github.com/hyprwm/xdg-desktop-portal-hyprland.git",
+    "upstream": "https://github.com/hyprwm/xdg-desktop-portal-hyprland.git",
+    "fork": null,
+    "branch": "master",
+    "commit": "167adef947a6067d1b90317daa0c6625641b27fb",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "XDG desktop portal backend for Hyprland",
+    "size_mb": 2
+  },
+  {
+    "group": "wayland",
+    "name": "hyprlock",
+    "path": "upstream/wayland/hyprlock",
+    "url": "https://github.com/hyprwm/hyprlock.git",
+    "upstream": "https://github.com/hyprwm/hyprlock.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "0332e40b8e56404f11cd79f859f208a4b9de8714",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Hyprland screen locker",
+    "size_mb": 2
+  },
+  {
+    "group": "wayland",
+    "name": "hypridle",
+    "path": "upstream/wayland/hypridle",
+    "url": "https://github.com/hyprwm/hypridle.git",
+    "upstream": "https://github.com/hyprwm/hypridle.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "aa958ed7ad4863860b93ecd7189419e193bfae2c",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Hyprland idle daemon",
+    "size_mb": 1
+  },
+  {
+    "group": "wayland",
+    "name": "hyprpaper",
+    "path": "upstream/wayland/hyprpaper",
+    "url": "https://github.com/hyprwm/hyprpaper.git",
+    "upstream": "https://github.com/hyprwm/hyprpaper.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "39029bdfda857a5ea60340a427681893d12d4892",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Hyprland wallpaper utility",
+    "size_mb": 1
+  },
+  {
+    "group": "wayland",
+    "name": "waybar",
+    "path": "upstream/wayland/waybar",
+    "url": "https://github.com/Alexays/Waybar.git",
+    "upstream": "https://github.com/Alexays/Waybar.git",
+    "fork": null,
+    "branch": "master",
+    "commit": "c15ec02ede4343592a59eb5c2ff4443c9c045f7c",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Wayland status bar",
+    "size_mb": 9
+  },
+  {
+    "group": "wayland",
+    "name": "greenfield",
+    "path": "upstream/wayland/greenfield",
+    "url": "https://github.com/udevbe/greenfield.git",
+    "upstream": "https://github.com/udevbe/greenfield.git",
+    "fork": null,
+    "branch": "master",
+    "commit": "6c578f4db7ec027eb1d8a5f7ec6e09f7646dbb57",
+    "license": "AGPL-3.0-only",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Browser/WASM Wayland compositor",
+    "size_mb": 57
+  }
+]

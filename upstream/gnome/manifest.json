@@ -1,0 +1,476 @@
+[
+  {
+    "group": "gnome",
+    "name": "gtk",
+    "path": "upstream/gnome/gtk",
+    "url": "https://gitlab.gnome.org/GNOME/gtk.git",
+    "branch": "main",
+    "commit": "c706c00ea6f113352b39728fd022b45cea8aef52",
+    "license": "LGPL-2.1-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "GTK toolkit",
+    "size_mb": 251
+  },
+  {
+    "group": "gnome",
+    "name": "glib",
+    "path": "upstream/gnome/glib",
+    "url": "https://gitlab.gnome.org/GNOME/glib.git",
+    "branch": "main",
+    "commit": "4b1a2f7b650c57b8a28af134eaf3229bf7c52013",
+    "license": "LGPL-2.1-or-later",
+    "license_files": [
+      "COPYING",
+      "LICENSES/AFL-2.0.txt",
+      "LICENSES/Apache-2.0.txt",
+      "LICENSES/CC-BY-SA-3.0.txt",
+      "LICENSES/CC0-1.0.txt",
+      "LICENSES/GPL-2.0-or-later.txt",
+      "LICENSES/LGPL-2.1-only.txt",
+      "LICENSES/LGPL-2.1-or-later.txt",
+      "LICENSES/LLVM-exception.txt",
+      "LICENSES/LicenseRef-old-glib-tests.txt",
+      "LICENSES/MIT.txt",
+      "LICENSES/MPL-1.1.txt"
+    ],
+    "role": "core utility/object library",
+    "size_mb": 96
+  },
+  {
+    "group": "gnome",
+    "name": "gobject-introspection",
+    "path": "upstream/gnome/gobject-introspection",
+    "url": "https://gitlab.gnome.org/GNOME/gobject-introspection.git",
+    "branch": "main",
+    "commit": "c6c7e781549b359de979fe584e67760dceb7a344",
+    "license": "LGPL-2.0-or-later AND GPL-2.0-or-later",
+    "license_files": [
+      "COPYING",
+      "COPYING.GPL",
+      "COPYING.LGPL"
+    ],
+    "role": "GObject introspection/bindings metadata",
+    "size_mb": 25
+  },
+  {
+    "group": "gnome",
+    "name": "pango",
+    "path": "upstream/gnome/pango",
+    "url": "https://gitlab.gnome.org/GNOME/pango.git",
+    "branch": "main",
+    "commit": "68e981d243d50e03f3df12fb400f31647ef570d2",
+    "license": "LGPL-2.0-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "text layout",
+    "size_mb": 20
+  },
+  {
+    "group": "gnome",
+    "name": "cairo",
+    "path": "upstream/gnome/cairo",
+    "url": "https://gitlab.freedesktop.org/cairo/cairo.git",
+    "branch": "master",
+    "commit": "74755964edef651691d5cd36ff140108298e4e6e",
+    "license": "LGPL-2.1-only OR MPL-1.1",
+    "license_files": [
+      "COPYING",
+      "COPYING-LGPL-2.1",
+      "COPYING-MPL-1.1"
+    ],
+    "role": "2D vector graphics",
+    "size_mb": 116
+  },
+  {
+    "group": "gnome",
+    "name": "harfbuzz",
+    "path": "upstream/gnome/harfbuzz",
+    "url": "https://github.com/harfbuzz/harfbuzz.git",
+    "branch": "main",
+    "commit": "75d8ac5d2313842550174eaab0cbaf653c8f2f77",
+    "license": "MIT-Modern-Variant",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "text shaping",
+    "size_mb": 155
+  },
+  {
+    "group": "gnome",
+    "name": "graphene",
+    "path": "upstream/gnome/graphene",
+    "url": "https://github.com/ebassi/graphene.git",
+    "branch": "master",
+    "commit": "98173e59a3d80d3dd5ad6e4eaab919b4649ac7e5",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE.txt",
+      "LICENSES/CC-BY-4.0.txt",
+      "LICENSES/CC0-1.0.txt",
+      "LICENSES/MIT.txt"
+    ],
+    "role": "graphics math types",
+    "size_mb": 3
+  },
+  {
+    "group": "gnome",
+    "name": "gdk-pixbuf",
+    "path": "upstream/gnome/gdk-pixbuf",
+    "url": "https://gitlab.gnome.org/GNOME/gdk-pixbuf.git",
+    "branch": "master",
+    "commit": "ff4acb5b5c9a8ac29667235ec1626c996dec84de",
+    "license": "LGPL-2.1-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "image loading",
+    "size_mb": 47
+  },
+  {
+    "group": "gnome",
+    "name": "libadwaita",
+    "path": "upstream/gnome/libadwaita",
+    "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
+    "branch": "main",
+    "commit": "f2e30ed1ea41b2238acda1cf2af232f61a48a17d",
+    "license": "LGPL-2.1-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "GNOME HIG widgets",
+    "size_mb": 22
+  },
+  {
+    "group": "gnome",
+    "name": "gtksourceview",
+    "path": "upstream/gnome/gtksourceview",
+    "url": "https://gitlab.gnome.org/GNOME/gtksourceview.git",
+    "branch": "master",
+    "commit": "47f34469f21dbcd48522f042204e52ad60fef0ef",
+    "license": "LGPL-2.1-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "source editor widget",
+    "size_mb": 21
+  },
+  {
+    "group": "gnome",
+    "name": "vte",
+    "path": "upstream/gnome/vte",
+    "url": "https://gitlab.gnome.org/GNOME/vte.git",
+    "branch": "master",
+    "commit": "5d75dcfd27bc2bfd17b1f6fddd6494abdc0355fc",
+    "license": "LGPL-3.0-or-later AND GPL-3.0-or-later",
+    "license_files": [
+      "COPYING.CC-BY-4-0",
+      "COPYING.GPL3",
+      "COPYING.LGPL3",
+      "COPYING.README",
+      "COPYING.XTERM"
+    ],
+    "role": "terminal widget",
+    "size_mb": 11
+  },
+  {
+    "group": "gnome",
+    "name": "libpanel",
+    "path": "upstream/gnome/libpanel",
+    "url": "https://gitlab.gnome.org/GNOME/libpanel.git",
+    "branch": "main",
+    "commit": "1d8c714703111bb9f2e9dd22cc2b288c1beda09c",
+    "license": "LGPL-3.0-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "IDE dock/panel widgets",
+    "size_mb": 3
+  },
+  {
+    "group": "gnome",
+    "name": "gnome-shell",
+    "path": "upstream/gnome/gnome-shell",
+    "url": "https://gitlab.gnome.org/GNOME/gnome-shell.git",
+    "branch": "main",
+    "commit": "216e6d957fe534ac7bbfaf1187472585586935f9",
+    "license": "GPL-2.0-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "desktop shell",
+    "size_mb": 45
+  },
+  {
+    "group": "gnome",
+    "name": "mutter",
+    "path": "upstream/gnome/mutter",
+    "url": "https://gitlab.gnome.org/GNOME/mutter.git",
+    "branch": "main",
+    "commit": "2b9c0787f99dacef16ba987656e28ffcb344b9a2",
+    "license": "GPL-2.0-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "Wayland compositor/window manager",
+    "size_mb": 94
+  },
+  {
+    "group": "gnome",
+    "name": "gnome-session",
+    "path": "upstream/gnome/gnome-session",
+    "url": "https://gitlab.gnome.org/GNOME/gnome-session.git",
+    "branch": "main",
+    "commit": "faba9abf0bf70d6cc0bd6ad34f9d781cc2d153b2",
+    "license": "GPL-2.0-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "session manager",
+    "size_mb": 9
+  },
+  {
+    "group": "gnome",
+    "name": "gnome-settings-daemon",
+    "path": "upstream/gnome/gnome-settings-daemon",
+    "url": "https://gitlab.gnome.org/GNOME/gnome-settings-daemon.git",
+    "branch": "main",
+    "commit": "d3e717002a6f89aa1f350f4c6267ceeaff6d2cc6",
+    "license": "GPL-2.0-or-later",
+    "license_files": [
+      "COPYING",
+      "COPYING.LIB"
+    ],
+    "role": "settings daemon",
+    "size_mb": 24
+  },
+  {
+    "group": "gnome",
+    "name": "gsettings-desktop-schemas",
+    "path": "upstream/gnome/gsettings-desktop-schemas",
+    "url": "https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas.git",
+    "branch": "main",
+    "commit": "368be61205df9a6a120500cee39f0b4561109f12",
+    "license": "LGPL-2.1-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "desktop GSettings schemas",
+    "size_mb": 14
+  },
+  {
+    "group": "gnome",
+    "name": "gnome-control-center",
+    "path": "upstream/gnome/gnome-control-center",
+    "url": "https://gitlab.gnome.org/GNOME/gnome-control-center.git",
+    "branch": "main",
+    "commit": "2c8b93b4af3e3b8b76a5743789a77e791b786dfa",
+    "license": "GPL-2.0-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "system settings app",
+    "size_mb": 82
+  },
+  {
+    "group": "gnome",
+    "name": "adwaita-icon-theme",
+    "path": "upstream/gnome/adwaita-icon-theme",
+    "url": "https://gitlab.gnome.org/GNOME/adwaita-icon-theme.git",
+    "branch": "master",
+    "commit": "82d305723107d2ab619c0a4e4ec3136558bb4fe7",
+    "license": "LGPL-3.0-or-later OR CC-BY-SA-3.0",
+    "license_files": [
+      "COPYING",
+      "COPYING_CCBYSA3",
+      "COPYING_LGPL"
+    ],
+    "role": "icon theme",
+    "size_mb": 17
+  },
+  {
+    "group": "gnome",
+    "name": "gnome-themes-extra",
+    "path": "upstream/gnome/gnome-themes-extra",
+    "url": "https://gitlab.gnome.org/GNOME/gnome-themes-extra.git",
+    "branch": "master",
+    "commit": "7cdb6c77e9b0e136f993144409a5681fb7771466",
+    "license": "LGPL-2.1-or-later",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "legacy GTK themes",
+    "size_mb": 25
+  },
+  {
+    "group": "gnome",
+    "name": "xdg-desktop-portal-gnome",
+    "path": "upstream/gnome/xdg-desktop-portal-gnome",
+    "url": "https://gitlab.gnome.org/GNOME/xdg-desktop-portal-gnome.git",
+    "branch": "main",
+    "commit": "f613aa2c515ce8c068628cbd1d05e486e7ac1f03",
+    "license": "LGPL-2.1-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "desktop portal backend",
+    "size_mb": 4
+  },
+  {
+    "group": "gnome",
+    "name": "libsoup",
+    "path": "upstream/gnome/libsoup",
+    "url": "https://gitlab.gnome.org/GNOME/libsoup.git",
+    "branch": "master",
+    "commit": "df94fbefb7ac57e9d38fb9f55c8c9ad7fcf44d3b",
+    "license": "LGPL-2.0-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "HTTP client/server library",
+    "size_mb": 13
+  },
+  {
+    "group": "gnome",
+    "name": "blueprint-compiler",
+    "path": "upstream/gnome/blueprint-compiler",
+    "url": "https://gitlab.gnome.org/GNOME/blueprint-compiler.git",
+    "branch": "main",
+    "commit": "609c681e648572d90c3080267cdd5eea24f5975f",
+    "license": "LGPL-3.0-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "GTK UI markup compiler",
+    "size_mb": 4
+  },
+  {
+    "group": "gnome",
+    "name": "gnome-build-meta",
+    "path": "upstream/gnome/gnome-build-meta",
+    "url": "https://gitlab.gnome.org/GNOME/gnome-build-meta.git",
+    "branch": "master",
+    "commit": "9658ca91d39ee7d3f68c5a3c71403c52757238ff",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "BuildStream manifest of all GNOME deps",
+    "size_mb": 22
+  },
+  {
+    "group": "gnome",
+    "name": "meson",
+    "path": "upstream/gnome/meson",
+    "url": "https://github.com/mesonbuild/meson.git",
+    "branch": "master",
+    "commit": "d12465d96360c69a7aae532c17945770c91f0834",
+    "license": "Apache-2.0",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "build system",
+    "size_mb": 56
+  },
+  {
+    "group": "gnome",
+    "name": "ninja",
+    "path": "upstream/gnome/ninja",
+    "url": "https://github.com/ninja-build/ninja.git",
+    "branch": "master",
+    "commit": "3ccb2270e8ef5a84bb31c4651c0df84440f30362",
+    "license": "Apache-2.0",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "build executor",
+    "size_mb": 5
+  },
+  {
+    "group": "gnome",
+    "name": "gtk4-rs",
+    "path": "upstream/gnome/gtk4-rs",
+    "url": "https://github.com/gtk-rs/gtk4-rs.git",
+    "branch": "main",
+    "commit": "be83dab3b39c6326cacfc016994cfd1b627a3294",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Rust GTK4 bindings",
+    "size_mb": 73
+  },
+  {
+    "group": "gnome",
+    "name": "gtk-rs-core",
+    "path": "upstream/gnome/gtk-rs-core",
+    "url": "https://github.com/gtk-rs/gtk-rs-core.git",
+    "branch": "main",
+    "commit": "23d190c15f86f1c1e94d94815a286f5359768c2a",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Rust GLib/GIO/Cairo/Pango bindings",
+    "size_mb": 130
+  },
+  {
+    "group": "gnome",
+    "name": "relm4",
+    "path": "upstream/gnome/relm4",
+    "url": "https://github.com/Relm4/Relm4.git",
+    "branch": "main",
+    "commit": "76c2e8025544cbc09f5e9bd81affbc39974ec885",
+    "license": "Apache-2.0 OR MIT",
+    "license_files": [
+      "LICENSE-APACHE",
+      "LICENSE-MIT"
+    ],
+    "role": "Rust GUI framework on GTK4",
+    "size_mb": 5
+  },
+  {
+    "group": "gnome",
+    "name": "libadwaita-rs",
+    "path": "upstream/gnome/libadwaita-rs",
+    "url": "https://gitlab.gnome.org/World/Rust/libadwaita-rs.git",
+    "branch": "master",
+    "commit": "c6bf50124191ffbb284fb9235291c7432e723e57",
+    "license": "MIT",
+    "license_files": [
+      "LICENCE"
+    ],
+    "role": "Rust libadwaita bindings",
+    "size_mb": 6
+  },
+  {
+    "group": "gnome",
+    "name": "gir",
+    "path": "upstream/gnome/gir",
+    "url": "https://github.com/gtk-rs/gir.git",
+    "branch": "main",
+    "commit": "ece6e68a7beb4d165b5c8987fcaf21d524c71ad6",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Rust binding generator",
+    "size_mb": 6
+  },
+  {
+    "group": "gnome",
+    "name": "gnome-builder",
+    "path": "upstream/gnome/gnome-builder",
+    "url": "https://gitlab.gnome.org/GNOME/gnome-builder.git",
+    "branch": "main",
+    "commit": "0e4dbc7afb05983fbe7f4ec922d09a40f4ac1718",
+    "license": "GPL-3.0-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "GNOME IDE",
+    "size_mb": 81
+  }
+]

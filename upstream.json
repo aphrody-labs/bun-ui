@@ -1,1 +1,3880 @@
-{"schema":1,"upstreams":[]}
+{
+ "schema": 1,
+ "upstreams": [
+  {
+   "group": "cosmic",
+   "name": "async-fetcher",
+   "path": "upstream/cosmic/async-fetcher",
+   "url": "https://github.com/pop-os/async-fetcher.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "4c21208cfa9c3710f72da4fbc50f8ed9cdce7b9b",
+   "license": null,
+   "license_files": [],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "buildchain",
+   "path": "upstream/cosmic/buildchain",
+   "url": "https://github.com/pop-os/buildchain.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "bccae567227e166921cc8f58a5372e3bb0377716",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-app-library",
+   "path": "upstream/cosmic/cosmic-app-library",
+   "url": "https://github.com/pop-os/cosmic-app-library.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "3651caff79bcf36f7c16ba5ed4f41de530c7b1a7",
+   "license": null,
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-app-template",
+   "path": "upstream/cosmic/cosmic-app-template",
+   "url": "https://github.com/pop-os/cosmic-app-template.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "97ff759e658922d7f02e708b10cfda421352b100",
+   "license": null,
+   "license_files": [],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-applet-template",
+   "path": "upstream/cosmic/cosmic-applet-template",
+   "url": "https://github.com/pop-os/cosmic-applet-template.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "58f506fd800724fd64e1056f36a745800a1a6d52",
+   "license": null,
+   "license_files": [],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-applets",
+   "path": "upstream/cosmic/cosmic-applets",
+   "url": "https://github.com/pop-os/cosmic-applets.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "dc252e34fd368a63981633075194e52b3f794f9a",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-bg",
+   "path": "upstream/cosmic/cosmic-bg",
+   "url": "https://github.com/pop-os/cosmic-bg.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "9520e16758693bc2f6845d52680f236d548edda2",
+   "license": null,
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-edit",
+   "path": "upstream/cosmic/cosmic-edit",
+   "url": "https://github.com/pop-os/cosmic-edit.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "4ac1cc84f784d4f89327f3d3459af2633ceb4f12",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-files",
+   "path": "upstream/cosmic/cosmic-files",
+   "url": "https://github.com/pop-os/cosmic-files.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "4efe802ede04b4e56d55727c54ab40d4e8777f4b",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-greeter",
+   "path": "upstream/cosmic/cosmic-greeter",
+   "url": "https://github.com/pop-os/cosmic-greeter.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "b7b59d487ecdbe97b7e317cc57b8e21015072f29",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-idle",
+   "path": "upstream/cosmic/cosmic-idle",
+   "url": "https://github.com/pop-os/cosmic-idle.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "6d6f07af60bb307882cdcbd0bda0a6fc76bd0df3",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-initial-setup",
+   "path": "upstream/cosmic/cosmic-initial-setup",
+   "url": "https://github.com/pop-os/cosmic-initial-setup.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "653a4db1841e70ef8e36d3c6f0a14b7fce335697",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-launcher",
+   "path": "upstream/cosmic/cosmic-launcher",
+   "url": "https://github.com/pop-os/cosmic-launcher.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "b6c2ed7d1224a94568b083162ea6b79409ef111b",
+   "license": null,
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-mime-apps",
+   "path": "upstream/cosmic/cosmic-mime-apps",
+   "url": "https://github.com/pop-os/cosmic-mime-apps.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "8fc81e8857e46c018ea21ab985aaf30ac853c007",
+   "license": null,
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-monitor",
+   "path": "upstream/cosmic/cosmic-monitor",
+   "url": "https://github.com/pop-os/cosmic-monitor.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "d79ff440dfa899ea6e9a3019dcfd9f9e8a44448d",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-notifications",
+   "path": "upstream/cosmic/cosmic-notifications",
+   "url": "https://github.com/pop-os/cosmic-notifications.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "382927dc48964f3b098429ad6b836cc4b7e7ecf2",
+   "license": null,
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-osd",
+   "path": "upstream/cosmic/cosmic-osd",
+   "url": "https://github.com/pop-os/cosmic-osd.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "4f96e98981712f02b98f704a6f19c4c6a58b378b",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-osk",
+   "path": "upstream/cosmic/cosmic-osk",
+   "url": "https://github.com/pop-os/cosmic-osk.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "6b146a2b0a23d88ae84223ad06c6813bda5a9386",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-panel",
+   "path": "upstream/cosmic/cosmic-panel",
+   "url": "https://github.com/pop-os/cosmic-panel.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "ca20ce3185b3b4404f429d59d429c40b58a2ddef",
+   "license": null,
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-player",
+   "path": "upstream/cosmic/cosmic-player",
+   "url": "https://github.com/pop-os/cosmic-player.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "34a41f247a37eb681dd5c27c832e2d1f3c1dc1e4",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-protocols",
+   "path": "upstream/cosmic/cosmic-protocols",
+   "url": "https://github.com/pop-os/cosmic-protocols.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "c0cff4db14c37ed954983158e4055aa94c7741d9",
+   "license": null,
+   "license_files": [],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-randr",
+   "path": "upstream/cosmic/cosmic-randr",
+   "url": "https://github.com/pop-os/cosmic-randr.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "f1a97655c97e8799bf4a37a8f5103a8ab5e5068d",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-reader",
+   "path": "upstream/cosmic/cosmic-reader",
+   "url": "https://github.com/pop-os/cosmic-reader.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "208c76f08199c19629efed630ca78aea2149a6e9",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-session",
+   "path": "upstream/cosmic/cosmic-session",
+   "url": "https://github.com/pop-os/cosmic-session.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "4b0a0a24e98b9e755b6a7146e4cb29539cacda0a",
+   "license": null,
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-settings-daemon",
+   "path": "upstream/cosmic/cosmic-settings-daemon",
+   "url": "https://github.com/pop-os/cosmic-settings-daemon.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "655b14fb9572dd7f7231ec6c343c63984e99741a",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-store",
+   "path": "upstream/cosmic/cosmic-store",
+   "url": "https://github.com/pop-os/cosmic-store.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "5b9bbeddb02d5a783299fb8c809fca0edb302c89",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-term",
+   "path": "upstream/cosmic/cosmic-term",
+   "url": "https://github.com/pop-os/cosmic-term.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "a5e1bb5eba2083ff6f4b3110706be7060e306270",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-time",
+   "path": "upstream/cosmic/cosmic-time",
+   "url": "https://github.com/pop-os/cosmic-time.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "257aecae2aa4073e96e7ebf24c6c0d4698c85dda",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-viewer",
+   "path": "upstream/cosmic/cosmic-viewer",
+   "url": "https://github.com/pop-os/cosmic-viewer.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "300210f1c7d86ba14a43602e40dd5fe1deb16703",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "cosmic-workspaces-epoch",
+   "path": "upstream/cosmic/cosmic-workspaces-epoch",
+   "url": "https://github.com/pop-os/cosmic-workspaces-epoch.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "cb953ea0e6fb45ac8f62f9c52f1347c971388e03",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "dbus-settings-bindings",
+   "path": "upstream/cosmic/dbus-settings-bindings",
+   "url": "https://github.com/pop-os/dbus-settings-bindings.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "eed01dd3609e90e3c8cd043656734c500956c793",
+   "license": null,
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "deb-control",
+   "path": "upstream/cosmic/deb-control",
+   "url": "https://github.com/pop-os/deb-control.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "f92a25a7c081099e1865f12344ab6824ee58435b",
+   "license": null,
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "debrepbuild",
+   "path": "upstream/cosmic/debrepbuild",
+   "url": "https://github.com/pop-os/debrepbuild.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "6ea438993430dddb7bf6acf91ecd3352ead06641",
+   "license": null,
+   "license_files": [],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "distinst-v2",
+   "path": "upstream/cosmic/distinst-v2",
+   "url": "https://github.com/pop-os/distinst-v2.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "0bd5c03602f416e845e7e09599e4594ab9f344d4",
+   "license": null,
+   "license_files": [
+    "COPYING"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "distinst",
+   "path": "upstream/cosmic/distinst",
+   "url": "https://github.com/pop-os/distinst.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "282dfc441ee608e963930d0ce01f04b672ca4f71",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "firmware-manager",
+   "path": "upstream/cosmic/firmware-manager",
+   "url": "https://github.com/pop-os/firmware-manager.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "a45bdc7ba6fe5a9ae640ebe72d81641eec4a8003",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "freedesktop-desktop-entry",
+   "path": "upstream/cosmic/freedesktop-desktop-entry",
+   "url": "https://github.com/pop-os/freedesktop-desktop-entry.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "19765f334a741f1182fa0f8b0da92b7685050b08",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "freedesktop-icons",
+   "path": "upstream/cosmic/freedesktop-icons",
+   "url": "https://github.com/pop-os/freedesktop-icons.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "ab4c57b8e416c6af9297cb04d101889896fd9a92",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "glyphon-pop",
+   "path": "upstream/cosmic/glyphon-pop",
+   "url": "https://github.com/pop-os/glyphon.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "a8e04730a155bc2dbc5cbcb402281645a3f4ca36",
+   "license": null,
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT",
+    "LICENSE-ZLIB"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "greetd-pop",
+   "path": "upstream/cosmic/greetd-pop",
+   "url": "https://github.com/pop-os/greetd.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "0262c421d9e453fe90a96917a182a7077547e024",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "iced-pop",
+   "path": "upstream/cosmic/iced-pop",
+   "url": "https://github.com/pop-os/iced.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "229186b5180b6217d93866c912e6373ac378b231",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "inputplumber-zbus",
+   "path": "upstream/cosmic/inputplumber-zbus",
+   "url": "https://github.com/pop-os/inputplumber-zbus.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "6317e9cd3b4cc3e74e0e04b2515aa89c61895112",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "inputplumber",
+   "path": "upstream/cosmic/inputplumber",
+   "url": "https://github.com/pop-os/inputplumber.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "185ef95218c0e1348034660c89fdabe620f1dd68",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "just-pop",
+   "path": "upstream/cosmic/just-pop",
+   "url": "https://github.com/pop-os/just.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "dd64d0bc636b1f2a9d3bb2e440a8d23361b4ee7f",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "keyboard-configurator",
+   "path": "upstream/cosmic/keyboard-configurator",
+   "url": "https://github.com/pop-os/keyboard-configurator.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "676cdc6bba54110b8275652a6695b34900861dc7",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "launch-pad",
+   "path": "upstream/cosmic/launch-pad",
+   "url": "https://github.com/pop-os/launch-pad.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "5b516ee6a012b5ad4a5acc0cf51b4472fc6733af",
+   "license": null,
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "launcher",
+   "path": "upstream/cosmic/launcher",
+   "url": "https://github.com/pop-os/launcher.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "86c2639ba82f4d846c801abe84fcea8ae8e7d716",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "os-release",
+   "path": "upstream/cosmic/os-release",
+   "url": "https://github.com/pop-os/os-release.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "5d42b3083a070c0f132ee9a561f5a78bb90541c5",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "packagekit-zbus",
+   "path": "upstream/cosmic/packagekit-zbus",
+   "url": "https://github.com/pop-os/packagekit-zbus.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "ad88d9bb0ca0174cba41d90af0f8f3538f57d5ac",
+   "license": null,
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "partition-identity",
+   "path": "upstream/cosmic/partition-identity",
+   "url": "https://github.com/pop-os/partition-identity.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "3f77024918a19dd1ff531b52f78be50bba623945",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "pop",
+   "path": "upstream/cosmic/pop",
+   "url": "https://github.com/pop-os/pop.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "b863879b23d5de073f0fdd349c290b7e340e84a7",
+   "license": null,
+   "license_files": [],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "poparazzi",
+   "path": "upstream/cosmic/poparazzi",
+   "url": "https://github.com/pop-os/poparazzi.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "a9e2c12933857c8ab71e8f1bf95d3dffd5b8073c",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "popsicle",
+   "path": "upstream/cosmic/popsicle",
+   "url": "https://github.com/pop-os/popsicle.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "924f78ce132fe994a62e31c91a1a4bc1bcb0cf2f",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "proc-mounts",
+   "path": "upstream/cosmic/proc-mounts",
+   "url": "https://github.com/pop-os/proc-mounts.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "2eca05a2b8bd27c993bc22c9742263547e1dbc72",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "recently-used-xbel",
+   "path": "upstream/cosmic/recently-used-xbel",
+   "url": "https://github.com/pop-os/recently-used-xbel.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "fe32c16fe7d241ac35d1104d6df0e9ab8a979b82",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "rust-bindgen-cli-pop",
+   "path": "upstream/cosmic/rust-bindgen-cli-pop",
+   "url": "https://github.com/pop-os/rust-bindgen-cli.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "378a924ce4784d444cfe5c416b0ae224eb1dd1df",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "softbuffer-pop",
+   "path": "upstream/cosmic/softbuffer-pop",
+   "url": "https://github.com/pop-os/softbuffer.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "81883e7b940891f6d5d78061e85b913b3ca3f20d",
+   "license": null,
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "support-panel",
+   "path": "upstream/cosmic/support-panel",
+   "url": "https://github.com/pop-os/support-panel.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "dab69fe2cac32306fc8ada0b68fd0958235e8410",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "sys-mount",
+   "path": "upstream/cosmic/sys-mount",
+   "url": "https://github.com/pop-os/sys-mount.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "edea4924caf0779298f61fe52fbc5371fa87d282",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "system76-firmware",
+   "path": "upstream/cosmic/system76-firmware",
+   "url": "https://github.com/pop-os/system76-firmware.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "b3395aedf35aa3616bf96d5172dabecb6be4dabe",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "system76-oled",
+   "path": "upstream/cosmic/system76-oled",
+   "url": "https://github.com/pop-os/system76-oled.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "98f778def254cf4bbc590060460a69f3e9763c02",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "system76-power",
+   "path": "upstream/cosmic/system76-power",
+   "url": "https://github.com/pop-os/system76-power.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "9a334723fbc96b993bcbe9ade1914224f8170bf7",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "system76-scheduler",
+   "path": "upstream/cosmic/system76-scheduler",
+   "url": "https://github.com/pop-os/system76-scheduler.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "8651bbf74bcfc8a46443b30199b380e12defa97e",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "tensorman",
+   "path": "upstream/cosmic/tensorman",
+   "url": "https://github.com/pop-os/tensorman.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "24fa3b2bb06a29708162ee474a733e9a227b1778",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "upgrade",
+   "path": "upstream/cosmic/upgrade",
+   "url": "https://github.com/pop-os/upgrade.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "4ee68cfd636630565bd194c1643f2c9973f72e3e",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "winit-pop",
+   "path": "upstream/cosmic/winit-pop",
+   "url": "https://github.com/pop-os/winit.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "winit-0.29",
+   "commit": "bdc66109acc85c912264c9e4b864520345bdb45f",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "xdg-desktop-portal-cosmic",
+   "path": "upstream/cosmic/xdg-desktop-portal-cosmic",
+   "url": "https://github.com/pop-os/xdg-desktop-portal-cosmic.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "f448ddfb296bf7bb23517b24b2f532559a334a1c",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "xdgen",
+   "path": "upstream/cosmic/xdgen",
+   "url": "https://github.com/pop-os/xdgen.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "7334c0ec54a465583d9095fda597305cf5ae8a31",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "cosmic",
+   "name": "xkb-data",
+   "path": "upstream/cosmic/xkb-data",
+   "url": "https://github.com/pop-os/xkb-data.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "85bfc7641069864a684e65ed253d4b6f274f2d6c",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "desktop",
+   "name": "mochi-desktop",
+   "path": "upstream/desktop/mochi-desktop",
+   "url": "https://github.com/miflow13/mochi-desktop",
+   "upstream": "https://github.com/miflow13/mochi-desktop",
+   "fork": null,
+   "branch": "main",
+   "commit": "471342631206c40d56bbba016578926e16ca8d0b",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Desktop companion (owner-requested); Python reference for shell pet/assistant overlay"
+  },
+  {
+   "group": "desktop",
+   "name": "linux-wallpaperengine",
+   "path": "upstream/desktop/linux-wallpaperengine",
+   "url": "https://github.com/Almamu/linux-wallpaperengine",
+   "upstream": "https://github.com/Almamu/linux-wallpaperengine",
+   "fork": null,
+   "branch": "main",
+   "commit": "b016d7d1fdcf4e5fd2f9c9fa420a8aaa07fee02d",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Wallpaper Engine scene/video/web wallpaper renderer for Linux (OpenGL, Wayland layer-shell)"
+  },
+  {
+   "group": "desktop",
+   "name": "wallpaper-engine-kde-plugin",
+   "path": "upstream/desktop/wallpaper-engine-kde-plugin",
+   "url": "https://github.com/catsout/wallpaper-engine-kde-plugin",
+   "upstream": "https://github.com/catsout/wallpaper-engine-kde-plugin",
+   "fork": null,
+   "branch": "main",
+   "commit": "ca50d24388718964ae7e6ab25a438f79a5a74aaa",
+   "license": "GPL-2.0-only",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "KDE Plasma Wallpaper Engine plugin (Qt/QML + Vulkan scene renderer)"
+  },
+  {
+   "group": "desktop",
+   "name": "awww",
+   "path": "upstream/desktop/awww",
+   "url": "https://codeberg.org/LGFae/awww",
+   "upstream": "https://codeberg.org/LGFae/awww",
+   "fork": null,
+   "branch": "main",
+   "commit": "25ea4fd7a42359379da9ddadedda1c477caa4ae0",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Wayland animated wallpaper daemon (formerly LGFae/swww, moved to Codeberg; GitHub archived)"
+  },
+  {
+   "group": "desktop",
+   "name": "mpvpaper",
+   "path": "upstream/desktop/mpvpaper",
+   "url": "https://github.com/GhostNaN/mpvpaper",
+   "upstream": "https://github.com/GhostNaN/mpvpaper",
+   "fork": null,
+   "branch": "master",
+   "commit": "fc5ed285d657c31fbd063b854884ea00e72d2d51",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "mpv-based video wallpaper for wlroots layer-shell"
+  },
+  {
+   "group": "desktop",
+   "name": "gslapper",
+   "path": "upstream/desktop/gslapper",
+   "url": "https://github.com/Nomadcxx/gSlapper",
+   "upstream": "https://github.com/Nomadcxx/gSlapper",
+   "fork": null,
+   "branch": "master",
+   "commit": "54cb8aa58cfcc501aaaa54d626f8249418d0d0d7",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "GStreamer video wallpaper for Wayland (mpvpaper alternative)"
+  },
+  {
+   "group": "desktop",
+   "name": "waypaper",
+   "path": "upstream/desktop/waypaper",
+   "url": "https://github.com/anufrievroman/waypaper",
+   "upstream": "https://github.com/anufrievroman/waypaper",
+   "fork": null,
+   "branch": "main",
+   "commit": "7c1f0b3db4e666533822c2682b7ad42373ff18e8",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "GUI wallpaper picker frontend for swww/awww, hyprpaper, mpvpaper, swaybg"
+  },
+  {
+   "group": "desktop",
+   "name": "wpaperd",
+   "path": "upstream/desktop/wpaperd",
+   "url": "https://github.com/danyspin97/wpaperd",
+   "upstream": "https://github.com/danyspin97/wpaperd",
+   "fork": null,
+   "branch": "main",
+   "commit": "483225a9c6ad4f9bbf9104f958eafee9c47d4612",
+   "license": "GPL-3.0-or-later",
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": "Rust Wayland wallpaper daemon with transitions and per-output playlists"
+  },
+  {
+   "group": "desktop",
+   "name": "komorebi",
+   "path": "upstream/desktop/komorebi",
+   "url": "https://github.com/Komorebi-Fork/komorebi",
+   "upstream": "https://github.com/Komorebi-Fork/komorebi",
+   "fork": null,
+   "branch": "master",
+   "commit": "cd747a40832912b9f45457ec9d8328b730b7c526",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Animated/video/web wallpaper manager (maintained Komorebi-Fork of cheesecakeufo/komorebi)"
+  },
+  {
+   "group": "desktop",
+   "name": "hidamari",
+   "path": "upstream/desktop/hidamari",
+   "url": "https://github.com/jeffshee/hidamari",
+   "upstream": "https://github.com/jeffshee/hidamari",
+   "fork": null,
+   "branch": "master",
+   "commit": "d3a22e3380cf059f25ea4fb89a149a7603ec4ca5",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "GTK video/web live wallpaper for Linux"
+  },
+  {
+   "group": "desktop",
+   "name": "lively",
+   "path": "upstream/desktop/lively",
+   "url": "https://github.com/rocksdanister/lively",
+   "upstream": "https://github.com/rocksdanister/lively",
+   "fork": null,
+   "branch": "core-separation",
+   "commit": "25a0a5f4ed1988ff42117d3a17feb321062237fe",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Lively Wallpaper, Win32 animated wallpaper reference (default branch core-separation)"
+  },
+  {
+   "group": "desktop",
+   "name": "shaderbg",
+   "path": "upstream/desktop/shaderbg",
+   "url": "https://git.sr.ht/~mstoeckl/shaderbg",
+   "upstream": "https://git.sr.ht/~mstoeckl/shaderbg",
+   "fork": null,
+   "branch": "main",
+   "commit": "027d4f87fd542c79d4276b521e39025477b6d03e",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "GLSL shader live wallpaper for wlr-layer-shell compositors (glpaper successor; glpaper is Mercurial-only)"
+  },
+  {
+   "group": "desktop",
+   "name": "lottie-web",
+   "path": "upstream/desktop/lottie-web",
+   "url": "https://github.com/airbnb/lottie-web",
+   "upstream": "https://github.com/airbnb/lottie-web",
+   "fork": null,
+   "branch": "master",
+   "commit": "bede03d25d232826e0c9dca1733d542d8a7754fb",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": "Lottie reference web player (SVG/canvas/HTML)"
+  },
+  {
+   "group": "desktop",
+   "name": "rlottie",
+   "path": "upstream/desktop/rlottie",
+   "url": "https://github.com/Samsung/rlottie",
+   "upstream": "https://github.com/Samsung/rlottie",
+   "fork": null,
+   "branch": "master",
+   "commit": "ea06d2f29ba01b8d06c00a838d107f5e484ae59b",
+   "license": "MIT",
+   "license_files": [
+    "COPYING",
+    "licenses",
+    "licenses/"
+   ],
+   "role": "Samsung native Lottie renderer (MIT core; some shared parts under other licenses, see licenses/)"
+  },
+  {
+   "group": "desktop",
+   "name": "velato",
+   "path": "upstream/desktop/velato",
+   "url": "https://github.com/linebender/velato",
+   "upstream": "https://github.com/linebender/velato",
+   "fork": null,
+   "branch": "main",
+   "commit": "83336b6519ac7289beea53fcc2ec1e9603f25124",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "Lottie renderer on vello (Rust/wgpu)"
+  },
+  {
+   "group": "desktop",
+   "name": "dotlottie-rs",
+   "path": "upstream/desktop/dotlottie-rs",
+   "url": "https://github.com/LottieFiles/dotlottie-rs",
+   "upstream": "https://github.com/LottieFiles/dotlottie-rs",
+   "fork": null,
+   "branch": "main",
+   "commit": "da82c74a3267a3e9150186af8f294ab1cd86b486",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "dotLottie player runtime in Rust (ThorVG backend, state machines, WASM/FFI)"
+  },
+  {
+   "group": "desktop",
+   "name": "thorvg",
+   "path": "upstream/desktop/thorvg",
+   "url": "https://github.com/thorvg/thorvg",
+   "upstream": "https://github.com/thorvg/thorvg",
+   "fork": null,
+   "branch": "main",
+   "commit": "22d2e2451adc2eb7631f973b87570b7e704a3f93",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "ThorVG vector graphics engine (Lottie, SVG; SW/GL/WebGPU backends)"
+  },
+  {
+   "group": "desktop",
+   "name": "rive-runtime",
+   "path": "upstream/desktop/rive-runtime",
+   "url": "https://github.com/rive-app/rive-runtime",
+   "upstream": "https://github.com/rive-app/rive-runtime",
+   "fork": null,
+   "branch": "main",
+   "commit": "0f4fa96fc5e9fe4bc41a398bff8275e59cfb86e2",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Rive C++ runtime and renderer"
+  },
+  {
+   "group": "desktop",
+   "name": "rive-wasm",
+   "path": "upstream/desktop/rive-wasm",
+   "url": "https://github.com/rive-app/rive-wasm",
+   "upstream": "https://github.com/rive-app/rive-wasm",
+   "fork": null,
+   "branch": "master",
+   "commit": "bade9980b1ff11d54aed2a746b19386c755b670b",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Rive WebAssembly/JS runtime for the web"
+  },
+  {
+   "group": "desktop",
+   "name": "gsap",
+   "path": "upstream/desktop/gsap",
+   "url": "https://github.com/greensock/GSAP",
+   "upstream": "https://github.com/greensock/GSAP",
+   "fork": null,
+   "branch": "master",
+   "commit": "13e2b790546426a1a2e0e9b409f3f8dc6d6611f2",
+   "license": "LicenseRef-GSAP-Standard-No-Charge",
+   "license_files": [
+    "package.json#license",
+    "README.md"
+   ],
+   "role": "GSAP animation library (proprietary no-charge license, not OSI)"
+  },
+  {
+   "group": "desktop",
+   "name": "motion",
+   "path": "upstream/desktop/motion",
+   "url": "https://github.com/motiondivision/motion",
+   "upstream": "https://github.com/motiondivision/motion",
+   "fork": null,
+   "branch": "main",
+   "commit": "fa2079f101353f1fa1c9463f5ba9709a0ca3d3bf",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": "Motion (formerly Framer Motion) web animation library"
+  },
+  {
+   "group": "desktop",
+   "name": "theatre",
+   "path": "upstream/desktop/theatre",
+   "url": "https://github.com/theatre-js/theatre",
+   "upstream": "https://github.com/theatre-js/theatre",
+   "fork": null,
+   "branch": "main",
+   "commit": "6ea82b938ea49609489f6377ded693ccc6ee8f5b",
+   "license": "Apache-2.0 AND AGPL-3.0-only",
+   "license_files": [
+    "LICENSE",
+    "packages/core/LICENSE",
+    "packages/studio/LICENSE",
+    "packages/app/LICENSE"
+   ],
+   "role": "Theatre.js motion design: core Apache-2.0, studio/app AGPL-3.0"
+  },
+  {
+   "group": "desktop",
+   "name": "astal",
+   "path": "upstream/desktop/astal",
+   "url": "https://github.com/Aylur/astal",
+   "upstream": "https://github.com/Aylur/astal",
+   "fork": null,
+   "branch": "main",
+   "commit": "cbcd9f49dd6b9638dc5623b56cc6e1e0a60b593e",
+   "license": "LGPL-2.1-only",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Astal GObject libraries for building desktop shells (Wayland services)"
+  },
+  {
+   "group": "desktop",
+   "name": "ags",
+   "path": "upstream/desktop/ags",
+   "url": "https://github.com/Aylur/ags",
+   "upstream": "https://github.com/Aylur/ags",
+   "fork": null,
+   "branch": "main",
+   "commit": "bbee2f18939f1ec7ff720e717cf305e73635628f",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "AGS scaffolding CLI/TS framework over Astal for desktop shells"
+  },
+  {
+   "group": "desktop",
+   "name": "quickshell",
+   "path": "upstream/desktop/quickshell",
+   "url": "https://git.outfoxxed.me/quickshell/quickshell",
+   "upstream": "https://git.outfoxxed.me/quickshell/quickshell",
+   "fork": null,
+   "branch": "master",
+   "commit": "9b0f339b19057f4731bf3b48293307d7ef241671",
+   "license": "LGPL-3.0-only",
+   "license_files": [
+    "LICENSE",
+    "LICENSE-GPL"
+   ],
+   "role": "Quickshell QtQuick desktop shell toolkit (canonical git.outfoxxed.me; GPL notice also present)"
+  },
+  {
+   "group": "desktop",
+   "name": "dots-hyprland",
+   "path": "upstream/desktop/dots-hyprland",
+   "url": "https://github.com/end-4/dots-hyprland",
+   "upstream": "https://github.com/end-4/dots-hyprland",
+   "fork": null,
+   "branch": "main",
+   "commit": "2f2a376fdb2ad738bf55f693dd0b474b64bb0ab8",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE",
+    "licenses",
+    "licenses/"
+   ],
+   "role": "end-4 Hyprland dotfiles/Material shell reference (Quickshell-based)"
+  },
+  {
+   "group": "desktop",
+   "name": "caelestia-shell",
+   "path": "upstream/desktop/caelestia-shell",
+   "url": "https://github.com/caelestia-dots/shell",
+   "upstream": "https://github.com/caelestia-dots/shell",
+   "fork": null,
+   "branch": "main",
+   "commit": "44ed8f76ce9eae1fdba422f570a5bfa4547575e7",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Caelestia Quickshell desktop shell for Hyprland"
+  },
+  {
+   "group": "desktop",
+   "name": "eww",
+   "path": "upstream/desktop/eww",
+   "url": "https://github.com/elkowar/eww",
+   "upstream": "https://github.com/elkowar/eww",
+   "fork": null,
+   "branch": "master",
+   "commit": "48f5aa8b379adf29da0b0bb9ca04164f65d8bdaa",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "ElKowar's Wacky Widgets, Rust widget system for bars/overlays"
+  },
+  {
+   "group": "desktop",
+   "name": "ironbar",
+   "path": "upstream/desktop/ironbar",
+   "url": "https://github.com/JakeStanger/ironbar",
+   "upstream": "https://github.com/JakeStanger/ironbar",
+   "fork": null,
+   "branch": "master",
+   "commit": "119f361f661aa362843a6dccf02d13236520a8d9",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Rust GTK4 Wayland status bar"
+  },
+  {
+   "group": "desktop",
+   "name": "matugen",
+   "path": "upstream/desktop/matugen",
+   "url": "https://github.com/InioX/matugen",
+   "upstream": "https://github.com/InioX/matugen",
+   "fork": null,
+   "branch": "main",
+   "commit": "9f8c7fd583e44310a642772ff8f13b693949baf2",
+   "license": "GPL-2.0-or-later",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Material You color scheme generator and templating for Linux desktops"
+  },
+  {
+   "group": "desktop",
+   "name": "pywal16",
+   "path": "upstream/desktop/pywal16",
+   "url": "https://github.com/eylles/pywal16",
+   "upstream": "https://github.com/eylles/pywal16",
+   "fork": null,
+   "branch": "master",
+   "commit": "af711710cdc3c88248b667342e5d4289f00f8c6e",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": "pywal fork: wallpaper-derived terminal/desktop color schemes"
+  },
+  {
+   "group": "desktop",
+   "name": "wallust",
+   "path": "upstream/desktop/wallust",
+   "url": "https://codeberg.org/explosion-mental/wallust",
+   "upstream": "https://codeberg.org/explosion-mental/wallust",
+   "fork": null,
+   "branch": "master",
+   "commit": "a09480bc85d27556381eabfb73f18baa2235c25f",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Rust wallpaper color palette generator and templating (canonical Codeberg)"
+  },
+  {
+   "group": "gnome",
+   "name": "gtk",
+   "path": "upstream/gnome/gtk",
+   "url": "https://gitlab.gnome.org/GNOME/gtk.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "c706c00ea6f113352b39728fd022b45cea8aef52",
+   "license": "LGPL-2.1-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "GTK toolkit"
+  },
+  {
+   "group": "gnome",
+   "name": "glib",
+   "path": "upstream/gnome/glib",
+   "url": "https://gitlab.gnome.org/GNOME/glib.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "4b1a2f7b650c57b8a28af134eaf3229bf7c52013",
+   "license": "LGPL-2.1-or-later",
+   "license_files": [
+    "COPYING",
+    "LICENSES/AFL-2.0.txt",
+    "LICENSES/Apache-2.0.txt",
+    "LICENSES/CC-BY-SA-3.0.txt",
+    "LICENSES/CC0-1.0.txt",
+    "LICENSES/GPL-2.0-or-later.txt",
+    "LICENSES/LGPL-2.1-only.txt",
+    "LICENSES/LGPL-2.1-or-later.txt",
+    "LICENSES/LLVM-exception.txt",
+    "LICENSES/LicenseRef-old-glib-tests.txt",
+    "LICENSES/MIT.txt",
+    "LICENSES/MPL-1.1.txt"
+   ],
+   "role": "core utility/object library"
+  },
+  {
+   "group": "gnome",
+   "name": "gobject-introspection",
+   "path": "upstream/gnome/gobject-introspection",
+   "url": "https://gitlab.gnome.org/GNOME/gobject-introspection.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "c6c7e781549b359de979fe584e67760dceb7a344",
+   "license": "LGPL-2.0-or-later AND GPL-2.0-or-later",
+   "license_files": [
+    "COPYING",
+    "COPYING.GPL",
+    "COPYING.LGPL"
+   ],
+   "role": "GObject introspection/bindings metadata"
+  },
+  {
+   "group": "gnome",
+   "name": "pango",
+   "path": "upstream/gnome/pango",
+   "url": "https://gitlab.gnome.org/GNOME/pango.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "68e981d243d50e03f3df12fb400f31647ef570d2",
+   "license": "LGPL-2.0-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "text layout"
+  },
+  {
+   "group": "gnome",
+   "name": "cairo",
+   "path": "upstream/gnome/cairo",
+   "url": "https://gitlab.freedesktop.org/cairo/cairo.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "74755964edef651691d5cd36ff140108298e4e6e",
+   "license": "LGPL-2.1-only OR MPL-1.1",
+   "license_files": [
+    "COPYING",
+    "COPYING-LGPL-2.1",
+    "COPYING-MPL-1.1"
+   ],
+   "role": "2D vector graphics"
+  },
+  {
+   "group": "gnome",
+   "name": "harfbuzz",
+   "path": "upstream/gnome/harfbuzz",
+   "url": "https://github.com/harfbuzz/harfbuzz.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "75d8ac5d2313842550174eaab0cbaf653c8f2f77",
+   "license": "MIT-Modern-Variant",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "text shaping"
+  },
+  {
+   "group": "gnome",
+   "name": "graphene",
+   "path": "upstream/gnome/graphene",
+   "url": "https://github.com/ebassi/graphene.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "98173e59a3d80d3dd5ad6e4eaab919b4649ac7e5",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE.txt",
+    "LICENSES/CC-BY-4.0.txt",
+    "LICENSES/CC0-1.0.txt",
+    "LICENSES/MIT.txt"
+   ],
+   "role": "graphics math types"
+  },
+  {
+   "group": "gnome",
+   "name": "gdk-pixbuf",
+   "path": "upstream/gnome/gdk-pixbuf",
+   "url": "https://gitlab.gnome.org/GNOME/gdk-pixbuf.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "ff4acb5b5c9a8ac29667235ec1626c996dec84de",
+   "license": "LGPL-2.1-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "image loading"
+  },
+  {
+   "group": "gnome",
+   "name": "libadwaita",
+   "path": "upstream/gnome/libadwaita",
+   "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "f2e30ed1ea41b2238acda1cf2af232f61a48a17d",
+   "license": "LGPL-2.1-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "GNOME HIG widgets"
+  },
+  {
+   "group": "gnome",
+   "name": "gtksourceview",
+   "path": "upstream/gnome/gtksourceview",
+   "url": "https://gitlab.gnome.org/GNOME/gtksourceview.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "47f34469f21dbcd48522f042204e52ad60fef0ef",
+   "license": "LGPL-2.1-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "source editor widget"
+  },
+  {
+   "group": "gnome",
+   "name": "vte",
+   "path": "upstream/gnome/vte",
+   "url": "https://gitlab.gnome.org/GNOME/vte.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "5d75dcfd27bc2bfd17b1f6fddd6494abdc0355fc",
+   "license": "LGPL-3.0-or-later AND GPL-3.0-or-later",
+   "license_files": [
+    "COPYING.CC-BY-4-0",
+    "COPYING.GPL3",
+    "COPYING.LGPL3",
+    "COPYING.README",
+    "COPYING.XTERM"
+   ],
+   "role": "terminal widget"
+  },
+  {
+   "group": "gnome",
+   "name": "libpanel",
+   "path": "upstream/gnome/libpanel",
+   "url": "https://gitlab.gnome.org/GNOME/libpanel.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "1d8c714703111bb9f2e9dd22cc2b288c1beda09c",
+   "license": "LGPL-3.0-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "IDE dock/panel widgets"
+  },
+  {
+   "group": "gnome",
+   "name": "gnome-shell",
+   "path": "upstream/gnome/gnome-shell",
+   "url": "https://gitlab.gnome.org/GNOME/gnome-shell.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "216e6d957fe534ac7bbfaf1187472585586935f9",
+   "license": "GPL-2.0-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "desktop shell"
+  },
+  {
+   "group": "gnome",
+   "name": "mutter",
+   "path": "upstream/gnome/mutter",
+   "url": "https://gitlab.gnome.org/GNOME/mutter.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "2b9c0787f99dacef16ba987656e28ffcb344b9a2",
+   "license": "GPL-2.0-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "Wayland compositor/window manager"
+  },
+  {
+   "group": "gnome",
+   "name": "gnome-session",
+   "path": "upstream/gnome/gnome-session",
+   "url": "https://gitlab.gnome.org/GNOME/gnome-session.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "faba9abf0bf70d6cc0bd6ad34f9d781cc2d153b2",
+   "license": "GPL-2.0-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "session manager"
+  },
+  {
+   "group": "gnome",
+   "name": "gnome-settings-daemon",
+   "path": "upstream/gnome/gnome-settings-daemon",
+   "url": "https://gitlab.gnome.org/GNOME/gnome-settings-daemon.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "d3e717002a6f89aa1f350f4c6267ceeaff6d2cc6",
+   "license": "GPL-2.0-or-later",
+   "license_files": [
+    "COPYING",
+    "COPYING.LIB"
+   ],
+   "role": "settings daemon"
+  },
+  {
+   "group": "gnome",
+   "name": "gsettings-desktop-schemas",
+   "path": "upstream/gnome/gsettings-desktop-schemas",
+   "url": "https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "368be61205df9a6a120500cee39f0b4561109f12",
+   "license": "LGPL-2.1-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "desktop GSettings schemas"
+  },
+  {
+   "group": "gnome",
+   "name": "gnome-control-center",
+   "path": "upstream/gnome/gnome-control-center",
+   "url": "https://gitlab.gnome.org/GNOME/gnome-control-center.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "2c8b93b4af3e3b8b76a5743789a77e791b786dfa",
+   "license": "GPL-2.0-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "system settings app"
+  },
+  {
+   "group": "gnome",
+   "name": "adwaita-icon-theme",
+   "path": "upstream/gnome/adwaita-icon-theme",
+   "url": "https://gitlab.gnome.org/GNOME/adwaita-icon-theme.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "82d305723107d2ab619c0a4e4ec3136558bb4fe7",
+   "license": "LGPL-3.0-or-later OR CC-BY-SA-3.0",
+   "license_files": [
+    "COPYING",
+    "COPYING_CCBYSA3",
+    "COPYING_LGPL"
+   ],
+   "role": "icon theme"
+  },
+  {
+   "group": "gnome",
+   "name": "gnome-themes-extra",
+   "path": "upstream/gnome/gnome-themes-extra",
+   "url": "https://gitlab.gnome.org/GNOME/gnome-themes-extra.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "7cdb6c77e9b0e136f993144409a5681fb7771466",
+   "license": "LGPL-2.1-or-later",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "legacy GTK themes"
+  },
+  {
+   "group": "gnome",
+   "name": "xdg-desktop-portal-gnome",
+   "path": "upstream/gnome/xdg-desktop-portal-gnome",
+   "url": "https://gitlab.gnome.org/GNOME/xdg-desktop-portal-gnome.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "f613aa2c515ce8c068628cbd1d05e486e7ac1f03",
+   "license": "LGPL-2.1-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "desktop portal backend"
+  },
+  {
+   "group": "gnome",
+   "name": "libsoup",
+   "path": "upstream/gnome/libsoup",
+   "url": "https://gitlab.gnome.org/GNOME/libsoup.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "df94fbefb7ac57e9d38fb9f55c8c9ad7fcf44d3b",
+   "license": "LGPL-2.0-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "HTTP client/server library"
+  },
+  {
+   "group": "gnome",
+   "name": "blueprint-compiler",
+   "path": "upstream/gnome/blueprint-compiler",
+   "url": "https://gitlab.gnome.org/GNOME/blueprint-compiler.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "609c681e648572d90c3080267cdd5eea24f5975f",
+   "license": "LGPL-3.0-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "GTK UI markup compiler"
+  },
+  {
+   "group": "gnome",
+   "name": "gnome-build-meta",
+   "path": "upstream/gnome/gnome-build-meta",
+   "url": "https://gitlab.gnome.org/GNOME/gnome-build-meta.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "9658ca91d39ee7d3f68c5a3c71403c52757238ff",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "BuildStream manifest of all GNOME deps"
+  },
+  {
+   "group": "gnome",
+   "name": "meson",
+   "path": "upstream/gnome/meson",
+   "url": "https://github.com/mesonbuild/meson.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "d12465d96360c69a7aae532c17945770c91f0834",
+   "license": "Apache-2.0",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "build system"
+  },
+  {
+   "group": "gnome",
+   "name": "ninja",
+   "path": "upstream/gnome/ninja",
+   "url": "https://github.com/ninja-build/ninja.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "3ccb2270e8ef5a84bb31c4651c0df84440f30362",
+   "license": "Apache-2.0",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "build executor"
+  },
+  {
+   "group": "gnome",
+   "name": "gtk4-rs",
+   "path": "upstream/gnome/gtk4-rs",
+   "url": "https://github.com/gtk-rs/gtk4-rs.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "be83dab3b39c6326cacfc016994cfd1b627a3294",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Rust GTK4 bindings"
+  },
+  {
+   "group": "gnome",
+   "name": "gtk-rs-core",
+   "path": "upstream/gnome/gtk-rs-core",
+   "url": "https://github.com/gtk-rs/gtk-rs-core.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "23d190c15f86f1c1e94d94815a286f5359768c2a",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Rust GLib/GIO/Cairo/Pango bindings"
+  },
+  {
+   "group": "gnome",
+   "name": "relm4",
+   "path": "upstream/gnome/relm4",
+   "url": "https://github.com/Relm4/Relm4.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "76c2e8025544cbc09f5e9bd81affbc39974ec885",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "Rust GUI framework on GTK4"
+  },
+  {
+   "group": "gnome",
+   "name": "libadwaita-rs",
+   "path": "upstream/gnome/libadwaita-rs",
+   "url": "https://gitlab.gnome.org/World/Rust/libadwaita-rs.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "c6bf50124191ffbb284fb9235291c7432e723e57",
+   "license": "MIT",
+   "license_files": [
+    "LICENCE"
+   ],
+   "role": "Rust libadwaita bindings"
+  },
+  {
+   "group": "gnome",
+   "name": "gir",
+   "path": "upstream/gnome/gir",
+   "url": "https://github.com/gtk-rs/gir.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "ece6e68a7beb4d165b5c8987fcaf21d524c71ad6",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Rust binding generator"
+  },
+  {
+   "group": "gnome",
+   "name": "gnome-builder",
+   "path": "upstream/gnome/gnome-builder",
+   "url": "https://gitlab.gnome.org/GNOME/gnome-builder.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "0e4dbc7afb05983fbe7f4ec922d09a40f4ac1718",
+   "license": "GPL-3.0-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "GNOME IDE"
+  },
+  {
+   "group": "kde",
+   "name": "breeze-icons",
+   "path": "upstream/kde/breeze-icons",
+   "url": "https://invent.kde.org/frameworks/breeze-icons.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "ca31666344a64242d93aec3ee8df8a6676152daf",
+   "license": null,
+   "license_files": [
+    "COPYING-ICONS",
+    "COPYING.LIB"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "breeze",
+   "path": "upstream/kde/breeze",
+   "url": "https://invent.kde.org/plasma/breeze.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "75561b7f32f3121603a0f2c8ea929b20a0d6c311",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "craft-blueprints-kde",
+   "path": "upstream/kde/craft-blueprints-kde",
+   "url": "https://invent.kde.org/packaging/craft-blueprints-kde.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "51848c5646799a62016caf9e3f344d9351a7071c",
+   "license": null,
+   "license_files": [
+    "COPYING",
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "craft",
+   "path": "upstream/kde/craft",
+   "url": "https://invent.kde.org/packaging/craft.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "c11a27f1481ea0722026eeb2270058011464edfd",
+   "license": null,
+   "license_files": [
+    "COPYING"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "extra-cmake-modules",
+   "path": "upstream/kde/extra-cmake-modules",
+   "url": "https://invent.kde.org/frameworks/extra-cmake-modules.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "810d48141e81c4656aaef7e94264271692416b1d",
+   "license": null,
+   "license_files": [
+    "COPYING-CMAKE-SCRIPTS",
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "kconfig",
+   "path": "upstream/kde/kconfig",
+   "url": "https://invent.kde.org/frameworks/kconfig.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "75ca805bb010b6a55a0dfd1c5931eab334efeb6d",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "kcoreaddons",
+   "path": "upstream/kde/kcoreaddons",
+   "url": "https://invent.kde.org/frameworks/kcoreaddons.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "0a405e532794f86146793f77df98fd01959a9b1c",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "kde-builder",
+   "path": "upstream/kde/kde-builder",
+   "url": "https://invent.kde.org/sdk/kde-builder.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "8213a7f5f0529f869d3de223bdf000df1a00c371",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "kdecoration",
+   "path": "upstream/kde/kdecoration",
+   "url": "https://invent.kde.org/plasma/kdecoration.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "6fc10ba938df44cfb724e9fbb5179cb8cbbe76e4",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "ki18n",
+   "path": "upstream/kde/ki18n",
+   "url": "https://invent.kde.org/frameworks/ki18n.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "59ca2ae11fdb9f24633dd9d7ce8d74be4c45700e",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "kiconthemes",
+   "path": "upstream/kde/kiconthemes",
+   "url": "https://invent.kde.org/frameworks/kiconthemes.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "920e3ac638c30f6d7897a8fb5c87c71e4d6cb2fb",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "kirigami",
+   "path": "upstream/kde/kirigami",
+   "url": "https://invent.kde.org/frameworks/kirigami.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "f0344dc7e40748564a1edec29cab404bfd879530",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "kwidgetsaddons",
+   "path": "upstream/kde/kwidgetsaddons",
+   "url": "https://invent.kde.org/frameworks/kwidgetsaddons.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "8d73ce2afa9f4f595992e8a3ff6ca9f681caaa0b",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "kwin",
+   "path": "upstream/kde/kwin",
+   "url": "https://invent.kde.org/plasma/kwin.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "f41c984c8109ac4785daa817c61eea18da791a44",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "layer-shell-qt",
+   "path": "upstream/kde/layer-shell-qt",
+   "url": "https://invent.kde.org/plasma/layer-shell-qt.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "440e99dfff02460561a61312f4d90d5cc470b21d",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "libplasma",
+   "path": "upstream/kde/libplasma",
+   "url": "https://invent.kde.org/plasma/libplasma.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "8c0fb2550a969f481fdd075db163f60abab83ced",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "plasma-desktop",
+   "path": "upstream/kde/plasma-desktop",
+   "url": "https://invent.kde.org/plasma/plasma-desktop.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "60c30430af73738b8f395b6e95ce3ac4a6001523",
+   "license": null,
+   "license_files": [
+    "COPYING.DOC",
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "plasma-wayland-protocols",
+   "path": "upstream/kde/plasma-wayland-protocols",
+   "url": "https://invent.kde.org/libraries/plasma-wayland-protocols.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "1db07441870d54157e937674b99380a7dcc0fb32",
+   "license": null,
+   "license_files": [
+    "COPYING.LIB",
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "plasma-workspace",
+   "path": "upstream/kde/plasma-workspace",
+   "url": "https://invent.kde.org/plasma/plasma-workspace.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "965e685606f295105c3bde15fb5894b2a80b80ae",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "qqc2-desktop-style",
+   "path": "upstream/kde/qqc2-desktop-style",
+   "url": "https://invent.kde.org/frameworks/qqc2-desktop-style.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "305eb2c44fdc3eb38eebea3b0e6b493cf12d1e5e",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "repo-metadata",
+   "path": "upstream/kde/repo-metadata",
+   "url": "https://invent.kde.org/sysadmin/repo-metadata.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "56e48135d0db70288f838a1acdd0b01d677ed868",
+   "license": null,
+   "license_files": [],
+   "role": null
+  },
+  {
+   "group": "kde",
+   "name": "union",
+   "path": "upstream/kde/union",
+   "url": "https://invent.kde.org/plasma/union.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "8fc872d62bbd3de5447c6b3f6b1bf21f3b62a86b",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "os",
+   "name": "omarchy",
+   "path": "upstream/os/omarchy",
+   "url": "https://github.com/aphrody-labs/omarchy.git",
+   "upstream": "https://github.com/basecamp/omarchy.git",
+   "fork": "aphrody-labs/omarchy",
+   "branch": "quattro",
+   "commit": "51bfd1dbaa1b5f790e19623faf2745945d40c796",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Omarchy Arch/Hyprland desktop configuration"
+  },
+  {
+   "group": "os",
+   "name": "omarchy-pkgs",
+   "path": "upstream/os/omarchy-pkgs",
+   "url": "https://github.com/aphrody-labs/omarchy-pkgs.git",
+   "upstream": "https://github.com/omacom/omarchy-pkgs.git",
+   "fork": "aphrody-labs/omarchy-pkgs",
+   "branch": "master",
+   "commit": "a97afe08808ad81290792e9f9823c761be3a5f86",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Omarchy package repository PKGBUILDs"
+  },
+  {
+   "group": "os",
+   "name": "cachyos-pkgbuilds",
+   "path": "upstream/os/cachyos-pkgbuilds",
+   "url": "https://github.com/aphrody-labs/cachyos-pkgbuilds.git",
+   "upstream": "https://github.com/CachyOS/CachyOS-PKGBUILDS.git",
+   "fork": "aphrody-labs/cachyos-pkgbuilds",
+   "branch": "master",
+   "commit": "a2e6c4392d397bed2df7134200dda558f2452af6",
+   "license": "GPL-3.0-or-later",
+   "license_files": [],
+   "role": "CachyOS package PKGBUILDs"
+  },
+  {
+   "group": "os",
+   "name": "linux-cachyos",
+   "path": "upstream/os/linux-cachyos",
+   "url": "https://github.com/aphrody-labs/linux-cachyos.git",
+   "upstream": "https://github.com/CachyOS/linux-cachyos.git",
+   "fork": "aphrody-labs/linux-cachyos",
+   "branch": "master",
+   "commit": "5a14cc870dbe958da0fe3fff96d0df6561b8b064",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": "CachyOS kernel PKGBUILDs"
+  },
+  {
+   "group": "os",
+   "name": "cachyos-settings",
+   "path": "upstream/os/cachyos-settings",
+   "url": "https://github.com/CachyOS/CachyOS-Settings.git",
+   "upstream": "https://github.com/CachyOS/CachyOS-Settings.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "f79b237defab24c45c1d49ad570abd9d3dc03609",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": "CachyOS system tuning settings"
+  },
+  {
+   "group": "os",
+   "name": "cachyos-kernel-manager",
+   "path": "upstream/os/cachyos-kernel-manager",
+   "url": "https://github.com/CachyOS/kernel-manager.git",
+   "upstream": "https://github.com/CachyOS/kernel-manager.git",
+   "fork": null,
+   "branch": "develop",
+   "commit": "6b4a373e6a4e7295a0803034e597c4f2a055a411",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "CachyOS kernel manager GUI"
+  },
+  {
+   "group": "os",
+   "name": "proton-cachyos",
+   "path": "upstream/os/proton-cachyos",
+   "url": "https://github.com/aphrody-labs/proton-cachyos.git",
+   "upstream": "https://github.com/CachyOS/proton-cachyos.git",
+   "fork": "aphrody-labs/proton-cachyos",
+   "branch": "cachyos_main",
+   "commit": "c75a016add0e855ff571943c86e2830f13e1b59d",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE",
+    "LICENSE.proton"
+   ],
+   "role": "CachyOS Proton build"
+  },
+  {
+   "group": "os",
+   "name": "bazzite",
+   "path": "upstream/os/bazzite",
+   "url": "https://github.com/ublue-os/bazzite.git",
+   "upstream": "https://github.com/ublue-os/bazzite.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "e1f5c7340db7ec9184374bc000e9385b31eacc8e",
+   "license": "Apache-2.0",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Bazzite gaming OS image (Universal Blue)"
+  },
+  {
+   "group": "os",
+   "name": "ublue-main",
+   "path": "upstream/os/ublue-main",
+   "url": "https://github.com/ublue-os/main.git",
+   "upstream": "https://github.com/ublue-os/main.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "e7bec503dcfae15e7bbc82756396795fca33752f",
+   "license": "Apache-2.0",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Universal Blue base images"
+  },
+  {
+   "group": "os",
+   "name": "gamescope",
+   "path": "upstream/os/gamescope",
+   "url": "https://github.com/aphrody-labs/gamescope.git",
+   "upstream": "https://github.com/ValveSoftware/gamescope.git",
+   "fork": "aphrody-labs/gamescope",
+   "branch": "master",
+   "commit": "2b5cf191d1047d6895516a834de8a72ac1c342f3",
+   "license": "BSD-2-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Valve micro-compositor for gaming sessions"
+  },
+  {
+   "group": "os",
+   "name": "mangohud",
+   "path": "upstream/os/mangohud",
+   "url": "https://github.com/flightlessmango/MangoHud.git",
+   "upstream": "https://github.com/flightlessmango/MangoHud.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "a68858a15456cc24a08075e20a8c4e40367b2dbd",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Vulkan/OpenGL performance overlay"
+  },
+  {
+   "group": "os",
+   "name": "gamescope-session",
+   "path": "upstream/os/gamescope-session",
+   "url": "https://github.com/aphrody-labs/chimeraos-gamescope-session.git",
+   "upstream": "https://github.com/ChimeraOS/gamescope-session.git",
+   "fork": "aphrody-labs/chimeraos-gamescope-session",
+   "branch": "main",
+   "commit": "73d2da84ace7f41006a0f85bd2fdb19ef593a464",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "ChimeraOS gamescope session framework"
+  },
+  {
+   "group": "os",
+   "name": "gamescope-session-steam",
+   "path": "upstream/os/gamescope-session-steam",
+   "url": "https://github.com/aphrody-labs/chimeraos-gamescope-session-steam.git",
+   "upstream": "https://github.com/ChimeraOS/gamescope-session-steam.git",
+   "fork": "aphrody-labs/chimeraos-gamescope-session-steam",
+   "branch": "main",
+   "commit": "1a3fdb7fa15a4bba7204bef69702b7a10a297828",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "ChimeraOS Steam gamescope session"
+  },
+  {
+   "group": "os",
+   "name": "pacman",
+   "path": "upstream/os/pacman",
+   "url": "https://github.com/aphrody-labs/pacman.git",
+   "upstream": "https://gitlab.archlinux.org/pacman/pacman.git",
+   "fork": "aphrody-labs/pacman",
+   "branch": "master",
+   "commit": "45c4eef61de33bcdf3efcc2e97dc5eefb29e97b4",
+   "license": "GPL-2.0-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "Arch package manager and libalpm"
+  },
+  {
+   "group": "os",
+   "name": "archiso",
+   "path": "upstream/os/archiso",
+   "url": "https://gitlab.archlinux.org/archlinux/archiso.git",
+   "upstream": "https://gitlab.archlinux.org/archlinux/archiso.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "723da192226e1c9d5def9168f13332793c82a85e",
+   "license": "GPL-3.0-or-later",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Arch ISO image builder"
+  },
+  {
+   "group": "os",
+   "name": "devtools",
+   "path": "upstream/os/devtools",
+   "url": "https://gitlab.archlinux.org/archlinux/devtools.git",
+   "upstream": "https://gitlab.archlinux.org/archlinux/devtools.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "2d3116511f02bb4ff3fbed31342909719e4a4db6",
+   "license": "GPL-3.0-or-later",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Arch packaging development tools"
+  },
+  {
+   "group": "os",
+   "name": "arch-install-scripts",
+   "path": "upstream/os/arch-install-scripts",
+   "url": "https://gitlab.archlinux.org/archlinux/arch-install-scripts.git",
+   "upstream": "https://gitlab.archlinux.org/archlinux/arch-install-scripts.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "9ceab1792f3301826c719be428e40810985bd897",
+   "license": "GPL-2.0-only",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "pacstrap/arch-chroot/genfstab"
+  },
+  {
+   "group": "qt",
+   "name": "cxx-qt",
+   "path": "upstream/qt/cxx-qt",
+   "url": "https://github.com/KDAB/cxx-qt.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "main",
+   "commit": "3c288df83135c9986757fe65953e3fa2c7b10dec",
+   "license": null,
+   "license_files": [
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "qt",
+   "name": "qmetaobject-rs",
+   "path": "upstream/qt/qmetaobject-rs",
+   "url": "https://github.com/woboq/qmetaobject-rs.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "master",
+   "commit": "1f4d09a0787daa1a97e17bd12b8d1d4e9d8c70c8",
+   "license": null,
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": null
+  },
+  {
+   "group": "qt",
+   "name": "qt5",
+   "path": "upstream/qt/qt5",
+   "url": "https://code.qt.io/qt/qt5.git",
+   "upstream": null,
+   "fork": null,
+   "branch": "dev",
+   "commit": "a7a102f801ab6b9ef67a017e28d9b57e52ed4d15",
+   "license": null,
+   "license_files": [
+    "LICENSE.md",
+    "LICENSES"
+   ],
+   "role": null
+  },
+  {
+   "group": "rust",
+   "name": "accesskit",
+   "path": "upstream/rust/accesskit",
+   "url": "https://github.com/AccessKit/accesskit.git",
+   "upstream": "https://github.com/AccessKit/accesskit.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "9671c2d3122c091b9e6c4f0e33021e3dce1377b1",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT",
+    "LICENSE.chromium"
+   ],
+   "role": "accessibility infrastructure"
+  },
+  {
+   "group": "rust",
+   "name": "bevy",
+   "path": "upstream/rust/bevy",
+   "url": "https://github.com/aphrody-labs/bevy.git",
+   "upstream": "https://github.com/bevyengine/bevy.git",
+   "fork": "https://github.com/aphrody-labs/bevy.git",
+   "branch": "main",
+   "commit": "c8d199b192a1b173746f7a160d259c4db8ab7789",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "game engine / ECS UI (bevy_ui)"
+  },
+  {
+   "group": "rust",
+   "name": "bevy-inspector-egui",
+   "path": "upstream/rust/bevy-inspector-egui",
+   "url": "https://github.com/jakobhellermann/bevy-inspector-egui.git",
+   "upstream": "https://github.com/jakobhellermann/bevy-inspector-egui.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "9ac848f7a12832347625c71110f03a8cd25d3ffb",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE.md",
+    "LICENSE-MIT.md"
+   ],
+   "role": "bevy inspector UI"
+  },
+  {
+   "group": "rust",
+   "name": "bevy_cosmic_edit",
+   "path": "upstream/rust/bevy_cosmic_edit",
+   "url": "https://github.com/Dimchikkk/bevy_cosmic_edit.git",
+   "upstream": "https://github.com/Dimchikkk/bevy_cosmic_edit.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "e4c7dc146752a8a400a537a5339365ca7ab299cd",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "bevy text editing via cosmic-text"
+  },
+  {
+   "group": "rust",
+   "name": "bevy_egui",
+   "path": "upstream/rust/bevy_egui",
+   "url": "https://github.com/vladbat00/bevy_egui.git",
+   "upstream": "https://github.com/vladbat00/bevy_egui.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "c6d5cdb9b16df708a270e176db012953e24332ef",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "egui plugin for bevy"
+  },
+  {
+   "group": "rust",
+   "name": "bevy_lunex",
+   "path": "upstream/rust/bevy_lunex",
+   "url": "https://github.com/bytestring-net/bevy_lunex.git",
+   "upstream": "https://github.com/bytestring-net/bevy_lunex.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "15fdc857d938a7aba138f07424a98890245e9779",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "bevy UI layout"
+  },
+  {
+   "group": "rust",
+   "name": "clap",
+   "path": "upstream/rust/clap",
+   "url": "https://github.com/clap-rs/clap.git",
+   "upstream": "https://github.com/clap-rs/clap.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "ccc89b83875474399e9d9d70841163f6319d1a41",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "CLI argument parsing"
+  },
+  {
+   "group": "rust",
+   "name": "cosmic-comp",
+   "path": "upstream/rust/cosmic-comp",
+   "url": "https://github.com/pop-os/cosmic-comp.git",
+   "upstream": "https://github.com/pop-os/cosmic-comp.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "8cb1802caada438bb5cc7670dfabdaca5fad0502",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "COSMIC Wayland compositor"
+  },
+  {
+   "group": "rust",
+   "name": "cosmic-epoch",
+   "path": "upstream/rust/cosmic-epoch",
+   "url": "https://github.com/aphrody-labs/cosmic-epoch.git",
+   "upstream": "https://github.com/pop-os/cosmic-epoch.git",
+   "fork": "https://github.com/aphrody-labs/cosmic-epoch.git",
+   "branch": "master",
+   "commit": "cfa498958dc8aeac73aa911cbd318c01e47ac957",
+   "license": "NOASSERTION (meta-repo, no license file; members carry their own)",
+   "license_files": [],
+   "role": "COSMIC desktop meta-repo"
+  },
+  {
+   "group": "rust",
+   "name": "cosmic-settings",
+   "path": "upstream/rust/cosmic-settings",
+   "url": "https://github.com/pop-os/cosmic-settings.git",
+   "upstream": "https://github.com/pop-os/cosmic-settings.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "f1d00fc06e18203e880771617657067c10c43321",
+   "license": "GPL-3.0-only",
+   "license_files": [
+    "LICENSE.md"
+   ],
+   "role": "COSMIC settings app"
+  },
+  {
+   "group": "rust",
+   "name": "cosmic-text",
+   "path": "upstream/rust/cosmic-text",
+   "url": "https://github.com/pop-os/cosmic-text.git",
+   "upstream": "https://github.com/pop-os/cosmic-text.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "f1a3461f3e8df67d2bbcfafb8bc61dc7aee5b2a6",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "text shaping/layout"
+  },
+  {
+   "group": "rust",
+   "name": "crossterm",
+   "path": "upstream/rust/crossterm",
+   "url": "https://github.com/crossterm-rs/crossterm.git",
+   "upstream": "https://github.com/crossterm-rs/crossterm.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "f39f7d886ea6819bfbf832e55f6ab58f0bd7d0a8",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "terminal backend"
+  },
+  {
+   "group": "rust",
+   "name": "cxx",
+   "path": "upstream/rust/cxx",
+   "url": "https://github.com/dtolnay/cxx.git",
+   "upstream": "https://github.com/dtolnay/cxx.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "598ccd932ffb9f758b359177ab3a2ba67aa7e021",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "Rust<->C++ bridge"
+  },
+  {
+   "group": "rust",
+   "name": "egui",
+   "path": "upstream/rust/egui",
+   "url": "https://github.com/emilk/egui.git",
+   "upstream": "https://github.com/emilk/egui.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "bf5ac0dac137af9a4861611f3d2a77ad531f50e3",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "immediate-mode GUI (includes eframe)"
+  },
+  {
+   "group": "rust",
+   "name": "egui-notify",
+   "path": "upstream/rust/egui-notify",
+   "url": "https://github.com/ItsEthra/egui-notify.git",
+   "upstream": "https://github.com/ItsEthra/egui-notify.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "18ac220a5157576de9fc5ddae78bb2eae85a8a59",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "egui toasts"
+  },
+  {
+   "group": "rust",
+   "name": "egui_dock",
+   "path": "upstream/rust/egui_dock",
+   "url": "https://github.com/Adanos020/egui_dock.git",
+   "upstream": "https://github.com/Adanos020/egui_dock.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "cdcdb359af4b74f8cc7921091db7217f0759e4f7",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "egui docking"
+  },
+  {
+   "group": "rust",
+   "name": "egui_plot",
+   "path": "upstream/rust/egui_plot",
+   "url": "https://github.com/emilk/egui_plot.git",
+   "upstream": "https://github.com/emilk/egui_plot.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "d95a746602a290e48d60a70a63075cc73793f580",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "egui plotting"
+  },
+  {
+   "group": "rust",
+   "name": "egui_tiles",
+   "path": "upstream/rust/egui_tiles",
+   "url": "https://github.com/rerun-io/egui_tiles.git",
+   "upstream": "https://github.com/rerun-io/egui_tiles.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "a319ff968b35c7bfaafff662669df3f99ba14499",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "egui tiling layout"
+  },
+  {
+   "group": "rust",
+   "name": "femtovg",
+   "path": "upstream/rust/femtovg",
+   "url": "https://github.com/femtovg/femtovg.git",
+   "upstream": "https://github.com/femtovg/femtovg.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "1bca261ceb0731a3c167c4f29bfb5dc41bf4ff3e",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "canvas-style 2D renderer"
+  },
+  {
+   "group": "rust",
+   "name": "glutin",
+   "path": "upstream/rust/glutin",
+   "url": "https://github.com/rust-windowing/glutin.git",
+   "upstream": "https://github.com/rust-windowing/glutin.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "6409c8319e1c2eccc47f95e98a2941b5aab772eb",
+   "license": "Apache-2.0",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "OpenGL context creation"
+  },
+  {
+   "group": "rust",
+   "name": "glyphon",
+   "path": "upstream/rust/glyphon",
+   "url": "https://github.com/grovesNL/glyphon.git",
+   "upstream": "https://github.com/grovesNL/glyphon.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "49dc8f7bafa8091f4d71521fd62ee6f647b556f5",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT",
+    "LICENSE-ZLIB"
+   ],
+   "role": "wgpu text renderer"
+  },
+  {
+   "group": "rust",
+   "name": "iced",
+   "path": "upstream/rust/iced",
+   "url": "https://github.com/iced-rs/iced.git",
+   "upstream": "https://github.com/iced-rs/iced.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "cd04b74ca7073766f654535d6e72c452ef749d07",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Elm-style GUI toolkit"
+  },
+  {
+   "group": "rust",
+   "name": "libcosmic",
+   "path": "upstream/rust/libcosmic",
+   "url": "https://github.com/pop-os/libcosmic.git",
+   "upstream": "https://github.com/pop-os/libcosmic.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "430f3d48a97d8779f9c1985473912e594ccca1ae",
+   "license": "MPL-2.0",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "COSMIC widget toolkit (iced-based)"
+  },
+  {
+   "group": "rust",
+   "name": "lyon",
+   "path": "upstream/rust/lyon",
+   "url": "https://github.com/nical/lyon.git",
+   "upstream": "https://github.com/nical/lyon.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "3c1f0053e2cd71e07256e973fe0e095f51d31582",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "path tessellation"
+  },
+  {
+   "group": "rust",
+   "name": "parley",
+   "path": "upstream/rust/parley",
+   "url": "https://github.com/linebender/parley.git",
+   "upstream": "https://github.com/linebender/parley.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "2133d78a55de40f0d93a303240ba017413855663",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "rich text layout (includes fontique)"
+  },
+  {
+   "group": "rust",
+   "name": "pyo3",
+   "path": "upstream/rust/pyo3",
+   "url": "https://github.com/PyO3/pyo3.git",
+   "upstream": "https://github.com/PyO3/pyo3.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "fda3c5846d30042c9352885f415435c06f2e4985",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "Rust<->Python bridge"
+  },
+  {
+   "group": "rust",
+   "name": "ratatui",
+   "path": "upstream/rust/ratatui",
+   "url": "https://github.com/ratatui/ratatui.git",
+   "upstream": "https://github.com/ratatui/ratatui.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "490c9a7ec718ac6909406b355834a7fa079b16d5",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "TUI framework"
+  },
+  {
+   "group": "rust",
+   "name": "raw-window-handle",
+   "path": "upstream/rust/raw-window-handle",
+   "url": "https://github.com/rust-windowing/raw-window-handle.git",
+   "upstream": "https://github.com/rust-windowing/raw-window-handle.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "1b859486d7bb9dffd4505c6663da7e2afa78732a",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE.md",
+    "LICENSE-MIT.md",
+    "LICENSE-ZLIB.md"
+   ],
+   "role": "window handle interop"
+  },
+  {
+   "group": "rust",
+   "name": "resvg",
+   "path": "upstream/rust/resvg",
+   "url": "https://github.com/linebender/resvg.git",
+   "upstream": "https://github.com/linebender/resvg.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "66ee0dc7d787d7e0b0ab3085b7849f78838cf2ba",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "SVG renderer"
+  },
+  {
+   "group": "rust",
+   "name": "slint",
+   "path": "upstream/rust/slint",
+   "url": "https://github.com/slint-ui/slint.git",
+   "upstream": "https://github.com/slint-ui/slint.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "8be16937037c49ed2d7262a497399e704f65adab",
+   "license": "GPL-3.0-only OR LicenseRef-Slint-Royalty-free-2.0 OR LicenseRef-Slint-Software-3.0",
+   "license_files": [
+    "LICENSE.md",
+    "LICENSES/"
+   ],
+   "role": "declarative UI toolkit"
+  },
+  {
+   "group": "rust",
+   "name": "smithay",
+   "path": "upstream/rust/smithay",
+   "url": "https://github.com/Smithay/smithay.git",
+   "upstream": "https://github.com/Smithay/smithay.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "24647fc8d00131eb7f388efed26e35ea316b0018",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE.txt"
+   ],
+   "role": "Wayland compositor library"
+  },
+  {
+   "group": "rust",
+   "name": "softbuffer",
+   "path": "upstream/rust/softbuffer",
+   "url": "https://github.com/rust-windowing/softbuffer.git",
+   "upstream": "https://github.com/rust-windowing/softbuffer.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "9a7c9caf4ac29a8ae361d68c9a5babb97e36dc70",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "CPU framebuffer presentation"
+  },
+  {
+   "group": "rust",
+   "name": "taffy",
+   "path": "upstream/rust/taffy",
+   "url": "https://github.com/DioxusLabs/taffy.git",
+   "upstream": "https://github.com/DioxusLabs/taffy.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "802e497b69689e1c93be2d16e9d53a973971bcb2",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "flexbox/grid layout engine"
+  },
+  {
+   "group": "rust",
+   "name": "tiny-skia",
+   "path": "upstream/rust/tiny-skia",
+   "url": "https://github.com/linebender/tiny-skia.git",
+   "upstream": "https://github.com/linebender/tiny-skia.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "5d4754777746eef0828be166896eaf482c49f8f2",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "CPU 2D rasterizer"
+  },
+  {
+   "group": "rust",
+   "name": "vello",
+   "path": "upstream/rust/vello",
+   "url": "https://github.com/linebender/vello.git",
+   "upstream": "https://github.com/linebender/vello.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "65338c258f091883c6ab99b4e9b7d2b47caafb4a",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+   ],
+   "role": "GPU 2D vector renderer"
+  },
+  {
+   "group": "rust",
+   "name": "wgpu",
+   "path": "upstream/rust/wgpu",
+   "url": "https://github.com/aphrody-labs/wgpu.git",
+   "upstream": "https://github.com/gfx-rs/wgpu.git",
+   "fork": "https://github.com/aphrody-labs/wgpu.git",
+   "branch": "trunk",
+   "commit": "60036cdc0ad979c96ec8277df41ec35b098502f6",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "LICENSE.APACHE",
+    "LICENSE.MIT"
+   ],
+   "role": "WebGPU graphics API (includes naga)"
+  },
+  {
+   "group": "rust",
+   "name": "windows-rs",
+   "path": "upstream/rust/windows-rs",
+   "url": "https://github.com/microsoft/windows-rs.git",
+   "upstream": "https://github.com/microsoft/windows-rs.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "0496ec19116f1dac690daf31fcb96769118d9bac",
+   "license": "Apache-2.0 OR MIT",
+   "license_files": [
+    "license-apache-2.0",
+    "license-mit"
+   ],
+   "role": "Rust Win32/WinRT bindings"
+  },
+  {
+   "group": "rust",
+   "name": "winit",
+   "path": "upstream/rust/winit",
+   "url": "https://github.com/aphrody-labs/winit.git",
+   "upstream": "https://github.com/rust-windowing/winit.git",
+   "fork": "https://github.com/aphrody-labs/winit.git",
+   "branch": "master",
+   "commit": "f0a83481c233c714d061356305f89bace0106f39",
+   "license": "Apache-2.0",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "windowing/event loop"
+  },
+  {
+   "group": "rust",
+   "name": "xilem",
+   "path": "upstream/rust/xilem",
+   "url": "https://github.com/linebender/xilem.git",
+   "upstream": "https://github.com/linebender/xilem.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "271a27a6d4a930f7878d404f9014e3c50a3a9b88",
+   "license": "Apache-2.0",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "reactive UI (includes masonry)"
+  },
+  {
+   "group": "rust",
+   "name": "zbus",
+   "path": "upstream/rust/zbus",
+   "url": "https://github.com/dbus2/zbus.git",
+   "upstream": "https://github.com/dbus2/zbus.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "13ebbbe5856c9851791a967574888c6e237478a2",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE",
+    "LICENSE-MIT"
+   ],
+   "role": "D-Bus (portals, a11y bus)"
+  },
+  {
+   "group": "wasm",
+   "name": "container2wasm",
+   "path": "upstream/wasm/container2wasm",
+   "url": "https://github.com/ktock/container2wasm.git",
+   "upstream": "https://github.com/ktock/container2wasm.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "3f0f9be4d5ee201ea1a12f9700e6e3ef52c8b345",
+   "license": "Apache-2.0",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Convert containers to WASM images"
+  },
+  {
+   "group": "wasm",
+   "name": "v86",
+   "path": "upstream/wasm/v86",
+   "url": "https://github.com/copy/v86.git",
+   "upstream": "https://github.com/copy/v86.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "cc37f35c43bf14865d74ad76879ecf9410f69eb1",
+   "license": "BSD-2-Clause",
+   "license_files": [
+    "LICENSE",
+    "LICENSE.MIT"
+   ],
+   "role": "x86 emulator in WASM/JS"
+  },
+  {
+   "group": "wasm",
+   "name": "emscripten",
+   "path": "upstream/wasm/emscripten",
+   "url": "https://github.com/emscripten-core/emscripten.git",
+   "upstream": "https://github.com/emscripten-core/emscripten.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "cc1b638f4232e5d965400042d6ead56c73d1daba",
+   "license": "MIT OR NCSA",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "C/C++ to WebAssembly toolchain"
+  },
+  {
+   "group": "wasm",
+   "name": "wasi-sdk",
+   "path": "upstream/wasm/wasi-sdk",
+   "url": "https://github.com/WebAssembly/wasi-sdk.git",
+   "upstream": "https://github.com/WebAssembly/wasi-sdk.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "2b65040ed01044c978468e545473cb3c1b69e097",
+   "license": "Apache-2.0 WITH LLVM-exception",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "WASI clang toolchain distribution"
+  },
+  {
+   "group": "wayland",
+   "name": "wayland",
+   "path": "upstream/wayland/wayland",
+   "url": "https://gitlab.freedesktop.org/wayland/wayland.git",
+   "upstream": "https://gitlab.freedesktop.org/wayland/wayland.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "93c04ad3670633aea6f2435059378b75843b8e70",
+   "license": "MIT",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "Wayland core protocol and libwayland"
+  },
+  {
+   "group": "wayland",
+   "name": "wayland-protocols",
+   "path": "upstream/wayland/wayland-protocols",
+   "url": "https://gitlab.freedesktop.org/wayland/wayland-protocols.git",
+   "upstream": "https://gitlab.freedesktop.org/wayland/wayland-protocols.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "b9edf66597586c914b5b1ff3d964d7ed201adab9",
+   "license": "MIT",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "Wayland extension protocols"
+  },
+  {
+   "group": "wayland",
+   "name": "libinput",
+   "path": "upstream/wayland/libinput",
+   "url": "https://gitlab.freedesktop.org/libinput/libinput.git",
+   "upstream": "https://gitlab.freedesktop.org/libinput/libinput.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "41da55ecc08bb3769a737e8fbae0f34b71792a67",
+   "license": "MIT",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "Input device handling library"
+  },
+  {
+   "group": "wayland",
+   "name": "libxkbcommon",
+   "path": "upstream/wayland/libxkbcommon",
+   "url": "https://github.com/xkbcommon/libxkbcommon.git",
+   "upstream": "https://github.com/xkbcommon/libxkbcommon.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "b2de7de9fb253389f67eb3409907b03588004907",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Keyboard keymap handling library"
+  },
+  {
+   "group": "wayland",
+   "name": "wlroots",
+   "path": "upstream/wayland/wlroots",
+   "url": "https://gitlab.freedesktop.org/wlroots/wlroots.git",
+   "upstream": "https://gitlab.freedesktop.org/wlroots/wlroots.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "f9d2520f90e1026152ecb3178a7d390621fcee03",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Modular Wayland compositor library"
+  },
+  {
+   "group": "wayland",
+   "name": "xwayland-satellite",
+   "path": "upstream/wayland/xwayland-satellite",
+   "url": "https://github.com/Supreeeme/xwayland-satellite.git",
+   "upstream": "https://github.com/Supreeeme/xwayland-satellite.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "e54e34c11758696240182549fb17d58473f8a3d4",
+   "license": "MPL-2.0",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Rootless Xwayland integration for compositors"
+  },
+  {
+   "group": "wayland",
+   "name": "hyprland",
+   "path": "upstream/wayland/hyprland",
+   "url": "https://github.com/hyprwm/Hyprland.git",
+   "upstream": "https://github.com/hyprwm/Hyprland.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "390f8f8297911620d5dcb226520ba0cf21e43479",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Hyprland dynamic tiling compositor"
+  },
+  {
+   "group": "wayland",
+   "name": "aquamarine",
+   "path": "upstream/wayland/aquamarine",
+   "url": "https://github.com/hyprwm/aquamarine.git",
+   "upstream": "https://github.com/hyprwm/aquamarine.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "163b138cfb22873de1e1bf253d57bf03154d1acd",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Hyprland rendering/backend library"
+  },
+  {
+   "group": "wayland",
+   "name": "hyprutils",
+   "path": "upstream/wayland/hyprutils",
+   "url": "https://github.com/hyprwm/hyprutils.git",
+   "upstream": "https://github.com/hyprwm/hyprutils.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "7e1f69209cd910615d0573a93fa970408f643539",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Hyprland utility library"
+  },
+  {
+   "group": "wayland",
+   "name": "hyprlang",
+   "path": "upstream/wayland/hyprlang",
+   "url": "https://github.com/hyprwm/hyprlang.git",
+   "upstream": "https://github.com/hyprwm/hyprlang.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "9508458be316a0d70d37ebed1ab725ccd10411ff",
+   "license": "LGPL-3.0-only",
+   "license_files": [
+    "COPYRIGHT",
+    "LICENSE"
+   ],
+   "role": "Hyprland configuration language"
+  },
+  {
+   "group": "wayland",
+   "name": "hyprcursor",
+   "path": "upstream/wayland/hyprcursor",
+   "url": "https://github.com/hyprwm/hyprcursor.git",
+   "upstream": "https://github.com/hyprwm/hyprcursor.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "e4ed7c08123df5af460a0a70961380cbfb872f76",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Hyprland cursor theme format"
+  },
+  {
+   "group": "wayland",
+   "name": "hyprgraphics",
+   "path": "upstream/wayland/hyprgraphics",
+   "url": "https://github.com/hyprwm/hyprgraphics.git",
+   "upstream": "https://github.com/hyprwm/hyprgraphics.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "80c7d00f2236732853e390019ff8d79d17fa3612",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Hyprland graphics/image utilities"
+  },
+  {
+   "group": "wayland",
+   "name": "hyprwayland-scanner",
+   "path": "upstream/wayland/hyprwayland-scanner",
+   "url": "https://github.com/hyprwm/hyprwayland-scanner.git",
+   "upstream": "https://github.com/hyprwm/hyprwayland-scanner.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "62e62c1ca23da17612c6890d4ad2064f575643db",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Hyprland C++ Wayland protocol scanner"
+  },
+  {
+   "group": "wayland",
+   "name": "hyprland-protocols",
+   "path": "upstream/wayland/hyprland-protocols",
+   "url": "https://github.com/hyprwm/hyprland-protocols.git",
+   "upstream": "https://github.com/hyprwm/hyprland-protocols.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "cd1aba6bd78775825eb230b3a4274c48b6705eb7",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Hyprland Wayland protocol extensions"
+  },
+  {
+   "group": "wayland",
+   "name": "xdg-desktop-portal-hyprland",
+   "path": "upstream/wayland/xdg-desktop-portal-hyprland",
+   "url": "https://github.com/hyprwm/xdg-desktop-portal-hyprland.git",
+   "upstream": "https://github.com/hyprwm/xdg-desktop-portal-hyprland.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "167adef947a6067d1b90317daa0c6625641b27fb",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "XDG desktop portal backend for Hyprland"
+  },
+  {
+   "group": "wayland",
+   "name": "hyprlock",
+   "path": "upstream/wayland/hyprlock",
+   "url": "https://github.com/hyprwm/hyprlock.git",
+   "upstream": "https://github.com/hyprwm/hyprlock.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "0332e40b8e56404f11cd79f859f208a4b9de8714",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Hyprland screen locker"
+  },
+  {
+   "group": "wayland",
+   "name": "hypridle",
+   "path": "upstream/wayland/hypridle",
+   "url": "https://github.com/hyprwm/hypridle.git",
+   "upstream": "https://github.com/hyprwm/hypridle.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "aa958ed7ad4863860b93ecd7189419e193bfae2c",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Hyprland idle daemon"
+  },
+  {
+   "group": "wayland",
+   "name": "hyprpaper",
+   "path": "upstream/wayland/hyprpaper",
+   "url": "https://github.com/hyprwm/hyprpaper.git",
+   "upstream": "https://github.com/hyprwm/hyprpaper.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "39029bdfda857a5ea60340a427681893d12d4892",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Hyprland wallpaper utility"
+  },
+  {
+   "group": "wayland",
+   "name": "waybar",
+   "path": "upstream/wayland/waybar",
+   "url": "https://github.com/Alexays/Waybar.git",
+   "upstream": "https://github.com/Alexays/Waybar.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "c15ec02ede4343592a59eb5c2ff4443c9c045f7c",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Wayland status bar"
+  },
+  {
+   "group": "wayland",
+   "name": "greenfield",
+   "path": "upstream/wayland/greenfield",
+   "url": "https://github.com/udevbe/greenfield.git",
+   "upstream": "https://github.com/udevbe/greenfield.git",
+   "fork": null,
+   "branch": "master",
+   "commit": "6c578f4db7ec027eb1d8a5f7ec6e09f7646dbb57",
+   "license": "AGPL-3.0-only",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Browser/WASM Wayland compositor"
+  },
+  {
+   "group": "windows",
+   "name": "msys2-runtime",
+   "path": "upstream/windows/msys2-runtime",
+   "url": "https://github.com/aphrody-labs/msys2-runtime.git",
+   "upstream": "https://github.com/msys2/msys2-runtime.git",
+   "fork": "https://github.com/aphrody-labs/msys2-runtime.git",
+   "branch": "msys2-3.6.10",
+   "commit": "3ea87a506e64e841dc0b8ee50ed61999c8fed26c",
+   "license": "GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "license_files": [
+    "COPYING",
+    "COPYING.LIB",
+    "COPYING.LIBGLOSS",
+    "COPYING.NEWLIB",
+    "COPYING3",
+    "COPYING3.LIB"
+   ],
+   "role": "MSYS2 POSIX runtime (Cygwin fork) for Windows"
+  },
+  {
+   "group": "windows",
+   "name": "MSYS2-packages",
+   "path": "upstream/windows/MSYS2-packages",
+   "url": "https://github.com/aphrody-labs/MSYS2-packages.git",
+   "upstream": "https://github.com/msys2/MSYS2-packages.git",
+   "fork": "https://github.com/aphrody-labs/MSYS2-packages.git",
+   "branch": "master",
+   "commit": "9e0da9cbaf3423eb669ec36ea029fbffa82c4948",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "MSYS2 environment package recipes"
+  },
+  {
+   "group": "windows",
+   "name": "MINGW-packages",
+   "path": "upstream/windows/MINGW-packages",
+   "url": "https://github.com/aphrody-labs/MINGW-packages.git",
+   "upstream": "https://github.com/msys2/MINGW-packages.git",
+   "fork": "https://github.com/aphrody-labs/MINGW-packages.git",
+   "branch": "master",
+   "commit": "a70671f323aef4bf735c271ca9f96f193ef79fb3",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "MinGW/UCRT/Clang native Windows package recipes (GTK, Qt, Mesa, etc.)"
+  },
+  {
+   "group": "windows",
+   "name": "msys2-installer",
+   "path": "upstream/windows/msys2-installer",
+   "url": "https://github.com/aphrody-labs/msys2-installer.git",
+   "upstream": "https://github.com/msys2/msys2-installer.git",
+   "fork": "https://github.com/aphrody-labs/msys2-installer.git",
+   "branch": "main",
+   "commit": "cab3ac77dd72651a5dcfe16cb327abc2fa529121",
+   "license": "BSD-3-Clause",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "MSYS2 installer and base image"
+  },
+  {
+   "group": "windows",
+   "name": "msys2-pacman",
+   "path": "upstream/windows/msys2-pacman",
+   "url": "https://github.com/msys2/msys2-pacman.git",
+   "upstream": "https://github.com/msys2/msys2-pacman.git",
+   "fork": null,
+   "branch": "msys2-v6.1.0",
+   "commit": "612777d1e6f196517c1db62454e952ddad14b260",
+   "license": "GPL-2.0-or-later",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "MSYS2 fork of pacman/libalpm for Windows"
+  },
+  {
+   "group": "windows",
+   "name": "msys2-keyring",
+   "path": "upstream/windows/msys2-keyring",
+   "url": "https://github.com/msys2/msys2-keyring.git",
+   "upstream": "https://github.com/msys2/msys2-keyring.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "5d249077a0cfeec9dbf51515e5e01da413d28859",
+   "license": "NOASSERTION",
+   "license_files": [],
+   "role": "MSYS2 pacman signing keyring"
+  },
+  {
+   "group": "windows",
+   "name": "msys2-autobuild",
+   "path": "upstream/windows/msys2-autobuild",
+   "url": "https://github.com/msys2/msys2-autobuild.git",
+   "upstream": "https://github.com/msys2/msys2-autobuild.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "92a6e1a11000c15776ed10f96451ffb35e30f07a",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "MSYS2 package build automation"
+  },
+  {
+   "group": "windows",
+   "name": "setup-msys2",
+   "path": "upstream/windows/setup-msys2",
+   "url": "https://github.com/msys2/setup-msys2.git",
+   "upstream": "https://github.com/msys2/setup-msys2.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "452bb7dc9a4f5deb681978c9ac2b2b19c2c24f85",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "CI action provisioning MSYS2"
+  },
+  {
+   "group": "windows",
+   "name": "msys2-devtools",
+   "path": "upstream/windows/msys2-devtools",
+   "url": "https://github.com/msys2/msys2-devtools.git",
+   "upstream": "https://github.com/msys2/msys2-devtools.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "e12728f1d0b8f8b21d7694a7b8c0bb2463cc3a64",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "MSYS2 repository maintenance tools"
+  },
+  {
+   "group": "windows",
+   "name": "win32metadata",
+   "path": "upstream/windows/win32metadata",
+   "url": "https://github.com/microsoft/win32metadata.git",
+   "upstream": "https://github.com/microsoft/win32metadata.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "2f767671802301cf043c717d66bf004ed7863487",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE",
+    "licenses"
+   ],
+   "role": "Win32 API metadata (winmd) for projections"
+  },
+  {
+   "group": "windows",
+   "name": "WindowsAppSDK",
+   "path": "upstream/windows/WindowsAppSDK",
+   "url": "https://github.com/microsoft/WindowsAppSDK.git",
+   "upstream": "https://github.com/microsoft/WindowsAppSDK.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "c2b0c88be305b58c82a148164c98c4491c0e2145",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE"
+   ],
+   "role": "Windows App SDK runtime and APIs"
+  },
+  {
+   "group": "windows",
+   "name": "microsoft-ui-xaml",
+   "path": "upstream/windows/microsoft-ui-xaml",
+   "url": "https://github.com/microsoft/microsoft-ui-xaml.git",
+   "upstream": "https://github.com/microsoft/microsoft-ui-xaml.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "f980ab26e378db4afe4264c4f00c5bf6cc11ec34",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE",
+    "NOTICE.md"
+   ],
+   "role": "WinUI 3 XAML UI framework"
+  },
+  {
+   "group": "windows",
+   "name": "gvsbuild",
+   "path": "upstream/windows/gvsbuild",
+   "url": "https://github.com/wingtk/gvsbuild.git",
+   "upstream": "https://github.com/wingtk/gvsbuild.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "5d51eb1d114a00424e19bf198d27d22c066823e8",
+   "license": "GPL-2.0-only",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "GTK stack build/packaging for MSVC on Windows"
+  },
+  {
+   "group": "windows",
+   "name": "wslg",
+   "path": "upstream/windows/wslg",
+   "url": "https://github.com/microsoft/wslg.git",
+   "upstream": "https://github.com/microsoft/wslg.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "6942bb534b537302a7a22617261d9274db3cfa37",
+   "license": "MIT",
+   "license_files": [
+    "LICENSE",
+    "NOTICE-mesa.txt"
+   ],
+   "role": "WSLg reference: Wayland/X11 GUI on Windows via RDP (design reference only)"
+  },
+  {
+   "group": "windows",
+   "name": "weston",
+   "path": "upstream/windows/weston",
+   "url": "https://gitlab.freedesktop.org/wayland/weston.git",
+   "upstream": "https://gitlab.freedesktop.org/wayland/weston.git",
+   "fork": null,
+   "branch": "main",
+   "commit": "2b86026e20ae29b38cf1a5c7593041e557f69658",
+   "license": "MIT",
+   "license_files": [
+    "COPYING"
+   ],
+   "role": "Wayland reference compositor used by WSLg"
+  }
+ ]
+}

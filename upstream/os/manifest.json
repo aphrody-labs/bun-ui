@@ -1,0 +1,273 @@
+[
+  {
+    "group": "os",
+    "name": "omarchy",
+    "path": "upstream/os/omarchy",
+    "url": "https://github.com/aphrody-labs/omarchy.git",
+    "upstream": "https://github.com/basecamp/omarchy.git",
+    "fork": "aphrody-labs/omarchy",
+    "branch": "quattro",
+    "commit": "51bfd1dbaa1b5f790e19623faf2745945d40c796",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Omarchy Arch/Hyprland desktop configuration",
+    "size_mb": 382
+  },
+  {
+    "group": "os",
+    "name": "omarchy-pkgs",
+    "path": "upstream/os/omarchy-pkgs",
+    "url": "https://github.com/aphrody-labs/omarchy-pkgs.git",
+    "upstream": "https://github.com/omacom/omarchy-pkgs.git",
+    "fork": "aphrody-labs/omarchy-pkgs",
+    "branch": "master",
+    "commit": "a97afe08808ad81290792e9f9823c761be3a5f86",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Omarchy package repository PKGBUILDs",
+    "size_mb": 37
+  },
+  {
+    "group": "os",
+    "name": "cachyos-pkgbuilds",
+    "path": "upstream/os/cachyos-pkgbuilds",
+    "url": "https://github.com/aphrody-labs/cachyos-pkgbuilds.git",
+    "upstream": "https://github.com/CachyOS/CachyOS-PKGBUILDS.git",
+    "fork": "aphrody-labs/cachyos-pkgbuilds",
+    "branch": "master",
+    "commit": "a2e6c4392d397bed2df7134200dda558f2452af6",
+    "license": "GPL-3.0-or-later",
+    "license_files": [],
+    "role": "CachyOS package PKGBUILDs",
+    "size_mb": 12
+  },
+  {
+    "group": "os",
+    "name": "linux-cachyos",
+    "path": "upstream/os/linux-cachyos",
+    "url": "https://github.com/aphrody-labs/linux-cachyos.git",
+    "upstream": "https://github.com/CachyOS/linux-cachyos.git",
+    "fork": "aphrody-labs/linux-cachyos",
+    "branch": "master",
+    "commit": "5a14cc870dbe958da0fe3fff96d0df6561b8b064",
+    "license": "GPL-3.0-only",
+    "license_files": [
+      "LICENSE.md"
+    ],
+    "role": "CachyOS kernel PKGBUILDs",
+    "size_mb": 8
+  },
+  {
+    "group": "os",
+    "name": "cachyos-settings",
+    "path": "upstream/os/cachyos-settings",
+    "url": "https://github.com/CachyOS/CachyOS-Settings.git",
+    "upstream": "https://github.com/CachyOS/CachyOS-Settings.git",
+    "fork": null,
+    "branch": "master",
+    "commit": "f79b237defab24c45c1d49ad570abd9d3dc03609",
+    "license": "GPL-3.0-only",
+    "license_files": [
+      "LICENSE.md"
+    ],
+    "role": "CachyOS system tuning settings",
+    "size_mb": 1
+  },
+  {
+    "group": "os",
+    "name": "cachyos-kernel-manager",
+    "path": "upstream/os/cachyos-kernel-manager",
+    "url": "https://github.com/CachyOS/kernel-manager.git",
+    "upstream": "https://github.com/CachyOS/kernel-manager.git",
+    "fork": null,
+    "branch": "develop",
+    "commit": "6b4a373e6a4e7295a0803034e597c4f2a055a411",
+    "license": "GPL-3.0-only",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "CachyOS kernel manager GUI",
+    "size_mb": 2
+  },
+  {
+    "group": "os",
+    "name": "proton-cachyos",
+    "path": "upstream/os/proton-cachyos",
+    "url": "https://github.com/aphrody-labs/proton-cachyos.git",
+    "upstream": "https://github.com/CachyOS/proton-cachyos.git",
+    "fork": "aphrody-labs/proton-cachyos",
+    "branch": "cachyos_main",
+    "commit": "c75a016add0e855ff571943c86e2830f13e1b59d",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "LICENSE",
+      "LICENSE.proton"
+    ],
+    "role": "CachyOS Proton build",
+    "size_mb": 2
+  },
+  {
+    "group": "os",
+    "name": "bazzite",
+    "path": "upstream/os/bazzite",
+    "url": "https://github.com/ublue-os/bazzite.git",
+    "upstream": "https://github.com/ublue-os/bazzite.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "e1f5c7340db7ec9184374bc000e9385b31eacc8e",
+    "license": "Apache-2.0",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Bazzite gaming OS image (Universal Blue)",
+    "size_mb": 233
+  },
+  {
+    "group": "os",
+    "name": "ublue-main",
+    "path": "upstream/os/ublue-main",
+    "url": "https://github.com/ublue-os/main.git",
+    "upstream": "https://github.com/ublue-os/main.git",
+    "fork": null,
+    "branch": "main",
+    "commit": "e7bec503dcfae15e7bbc82756396795fca33752f",
+    "license": "Apache-2.0",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Universal Blue base images",
+    "size_mb": 3
+  },
+  {
+    "group": "os",
+    "name": "gamescope",
+    "path": "upstream/os/gamescope",
+    "url": "https://github.com/aphrody-labs/gamescope.git",
+    "upstream": "https://github.com/ValveSoftware/gamescope.git",
+    "fork": "aphrody-labs/gamescope",
+    "branch": "master",
+    "commit": "2b5cf191d1047d6895516a834de8a72ac1c342f3",
+    "license": "BSD-2-Clause",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Valve micro-compositor for gaming sessions",
+    "size_mb": 9
+  },
+  {
+    "group": "os",
+    "name": "mangohud",
+    "path": "upstream/os/mangohud",
+    "url": "https://github.com/flightlessmango/MangoHud.git",
+    "upstream": "https://github.com/flightlessmango/MangoHud.git",
+    "fork": null,
+    "branch": "master",
+    "commit": "a68858a15456cc24a08075e20a8c4e40367b2dbd",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Vulkan/OpenGL performance overlay",
+    "size_mb": 36
+  },
+  {
+    "group": "os",
+    "name": "gamescope-session",
+    "path": "upstream/os/gamescope-session",
+    "url": "https://github.com/aphrody-labs/chimeraos-gamescope-session.git",
+    "upstream": "https://github.com/ChimeraOS/gamescope-session.git",
+    "fork": "aphrody-labs/chimeraos-gamescope-session",
+    "branch": "main",
+    "commit": "73d2da84ace7f41006a0f85bd2fdb19ef593a464",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "ChimeraOS gamescope session framework",
+    "size_mb": 1
+  },
+  {
+    "group": "os",
+    "name": "gamescope-session-steam",
+    "path": "upstream/os/gamescope-session-steam",
+    "url": "https://github.com/aphrody-labs/chimeraos-gamescope-session-steam.git",
+    "upstream": "https://github.com/ChimeraOS/gamescope-session-steam.git",
+    "fork": "aphrody-labs/chimeraos-gamescope-session-steam",
+    "branch": "main",
+    "commit": "1a3fdb7fa15a4bba7204bef69702b7a10a297828",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "ChimeraOS Steam gamescope session",
+    "size_mb": 1
+  },
+  {
+    "group": "os",
+    "name": "pacman",
+    "path": "upstream/os/pacman",
+    "url": "https://github.com/aphrody-labs/pacman.git",
+    "upstream": "https://gitlab.archlinux.org/pacman/pacman.git",
+    "fork": "aphrody-labs/pacman",
+    "branch": "master",
+    "commit": "45c4eef61de33bcdf3efcc2e97dc5eefb29e97b4",
+    "license": "GPL-2.0-or-later",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "Arch package manager and libalpm",
+    "size_mb": 18
+  },
+  {
+    "group": "os",
+    "name": "archiso",
+    "path": "upstream/os/archiso",
+    "url": "https://gitlab.archlinux.org/archlinux/archiso.git",
+    "upstream": "https://gitlab.archlinux.org/archlinux/archiso.git",
+    "fork": null,
+    "branch": "master",
+    "commit": "723da192226e1c9d5def9168f13332793c82a85e",
+    "license": "GPL-3.0-or-later",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Arch ISO image builder",
+    "size_mb": 3
+  },
+  {
+    "group": "os",
+    "name": "devtools",
+    "path": "upstream/os/devtools",
+    "url": "https://gitlab.archlinux.org/archlinux/devtools.git",
+    "upstream": "https://gitlab.archlinux.org/archlinux/devtools.git",
+    "fork": null,
+    "branch": "master",
+    "commit": "2d3116511f02bb4ff3fbed31342909719e4a4db6",
+    "license": "GPL-3.0-or-later",
+    "license_files": [
+      "LICENSE"
+    ],
+    "role": "Arch packaging development tools",
+    "size_mb": 3
+  },
+  {
+    "group": "os",
+    "name": "arch-install-scripts",
+    "path": "upstream/os/arch-install-scripts",
+    "url": "https://gitlab.archlinux.org/archlinux/arch-install-scripts.git",
+    "upstream": "https://gitlab.archlinux.org/archlinux/arch-install-scripts.git",
+    "fork": null,
+    "branch": "master",
+    "commit": "9ceab1792f3301826c719be428e40810985bd897",
+    "license": "GPL-2.0-only",
+    "license_files": [
+      "COPYING"
+    ],
+    "role": "pacstrap/arch-chroot/genfstab",
+    "size_mb": 1
+  }
+]

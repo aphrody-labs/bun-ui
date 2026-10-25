@@ -1,0 +1,833 @@
+[
+ {
+  "group": "cosmic",
+  "name": "apt-cmd",
+  "path": "upstream/cosmic/apt-cmd",
+  "url": "https://github.com/pop-os/apt-cmd.git",
+  "upstream": null,
+  "branch": "HEAD",
+  "commit": "HEAD",
+  "license_files": []
+ },
+ {
+  "group": "cosmic",
+  "name": "async-fetcher",
+  "path": "upstream/cosmic/async-fetcher",
+  "url": "https://github.com/pop-os/async-fetcher.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "4c21208cfa9c3710f72da4fbc50f8ed9cdce7b9b",
+  "license_files": []
+ },
+ {
+  "group": "cosmic",
+  "name": "buildchain",
+  "path": "upstream/cosmic/buildchain",
+  "url": "https://github.com/pop-os/buildchain.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "bccae567227e166921cc8f58a5372e3bb0377716",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-app-library",
+  "path": "upstream/cosmic/cosmic-app-library",
+  "url": "https://github.com/pop-os/cosmic-app-library.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "3651caff79bcf36f7c16ba5ed4f41de530c7b1a7",
+  "license_files": [
+   "LICENSE.md"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-app-template",
+  "path": "upstream/cosmic/cosmic-app-template",
+  "url": "https://github.com/pop-os/cosmic-app-template.git",
+  "upstream": null,
+  "branch": "main",
+  "commit": "97ff759e658922d7f02e708b10cfda421352b100",
+  "license_files": []
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-applet-template",
+  "path": "upstream/cosmic/cosmic-applet-template",
+  "url": "https://github.com/pop-os/cosmic-applet-template.git",
+  "upstream": null,
+  "branch": "main",
+  "commit": "58f506fd800724fd64e1056f36a745800a1a6d52",
+  "license_files": []
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-applets",
+  "path": "upstream/cosmic/cosmic-applets",
+  "url": "https://github.com/pop-os/cosmic-applets.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "dc252e34fd368a63981633075194e52b3f794f9a",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-bg",
+  "path": "upstream/cosmic/cosmic-bg",
+  "url": "https://github.com/pop-os/cosmic-bg.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "9520e16758693bc2f6845d52680f236d548edda2",
+  "license_files": [
+   "LICENSE.md"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-edit",
+  "path": "upstream/cosmic/cosmic-edit",
+  "url": "https://github.com/pop-os/cosmic-edit.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "4ac1cc84f784d4f89327f3d3459af2633ceb4f12",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-files",
+  "path": "upstream/cosmic/cosmic-files",
+  "url": "https://github.com/pop-os/cosmic-files.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "4efe802ede04b4e56d55727c54ab40d4e8777f4b",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-greeter",
+  "path": "upstream/cosmic/cosmic-greeter",
+  "url": "https://github.com/pop-os/cosmic-greeter.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "b7b59d487ecdbe97b7e317cc57b8e21015072f29",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-idle",
+  "path": "upstream/cosmic/cosmic-idle",
+  "url": "https://github.com/pop-os/cosmic-idle.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "6d6f07af60bb307882cdcbd0bda0a6fc76bd0df3",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-initial-setup",
+  "path": "upstream/cosmic/cosmic-initial-setup",
+  "url": "https://github.com/pop-os/cosmic-initial-setup.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "653a4db1841e70ef8e36d3c6f0a14b7fce335697",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-launcher",
+  "path": "upstream/cosmic/cosmic-launcher",
+  "url": "https://github.com/pop-os/cosmic-launcher.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "b6c2ed7d1224a94568b083162ea6b79409ef111b",
+  "license_files": [
+   "LICENSE.md"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-mime-apps",
+  "path": "upstream/cosmic/cosmic-mime-apps",
+  "url": "https://github.com/pop-os/cosmic-mime-apps.git",
+  "upstream": null,
+  "branch": "main",
+  "commit": "8fc81e8857e46c018ea21ab985aaf30ac853c007",
+  "license_files": [
+   "LICENSE.md"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-monitor",
+  "path": "upstream/cosmic/cosmic-monitor",
+  "url": "https://github.com/pop-os/cosmic-monitor.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "d79ff440dfa899ea6e9a3019dcfd9f9e8a44448d",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-notifications",
+  "path": "upstream/cosmic/cosmic-notifications",
+  "url": "https://github.com/pop-os/cosmic-notifications.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "382927dc48964f3b098429ad6b836cc4b7e7ecf2",
+  "license_files": [
+   "LICENSE.md"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-osd",
+  "path": "upstream/cosmic/cosmic-osd",
+  "url": "https://github.com/pop-os/cosmic-osd.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "4f96e98981712f02b98f704a6f19c4c6a58b378b",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-osk",
+  "path": "upstream/cosmic/cosmic-osk",
+  "url": "https://github.com/pop-os/cosmic-osk.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "6b146a2b0a23d88ae84223ad06c6813bda5a9386",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-panel",
+  "path": "upstream/cosmic/cosmic-panel",
+  "url": "https://github.com/pop-os/cosmic-panel.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "ca20ce3185b3b4404f429d59d429c40b58a2ddef",
+  "license_files": [
+   "LICENSE.md"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-player",
+  "path": "upstream/cosmic/cosmic-player",
+  "url": "https://github.com/pop-os/cosmic-player.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "34a41f247a37eb681dd5c27c832e2d1f3c1dc1e4",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-protocols",
+  "path": "upstream/cosmic/cosmic-protocols",
+  "url": "https://github.com/pop-os/cosmic-protocols.git",
+  "upstream": null,
+  "branch": "main",
+  "commit": "c0cff4db14c37ed954983158e4055aa94c7741d9",
+  "license_files": []
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-randr",
+  "path": "upstream/cosmic/cosmic-randr",
+  "url": "https://github.com/pop-os/cosmic-randr.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "f1a97655c97e8799bf4a37a8f5103a8ab5e5068d",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-reader",
+  "path": "upstream/cosmic/cosmic-reader",
+  "url": "https://github.com/pop-os/cosmic-reader.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "208c76f08199c19629efed630ca78aea2149a6e9",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-session",
+  "path": "upstream/cosmic/cosmic-session",
+  "url": "https://github.com/pop-os/cosmic-session.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "4b0a0a24e98b9e755b6a7146e4cb29539cacda0a",
+  "license_files": [
+   "LICENSE.md"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-settings-daemon",
+  "path": "upstream/cosmic/cosmic-settings-daemon",
+  "url": "https://github.com/pop-os/cosmic-settings-daemon.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "655b14fb9572dd7f7231ec6c343c63984e99741a",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-store",
+  "path": "upstream/cosmic/cosmic-store",
+  "url": "https://github.com/pop-os/cosmic-store.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "5b9bbeddb02d5a783299fb8c809fca0edb302c89",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-term",
+  "path": "upstream/cosmic/cosmic-term",
+  "url": "https://github.com/pop-os/cosmic-term.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "a5e1bb5eba2083ff6f4b3110706be7060e306270",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-time",
+  "path": "upstream/cosmic/cosmic-time",
+  "url": "https://github.com/pop-os/cosmic-time.git",
+  "upstream": null,
+  "branch": "main",
+  "commit": "257aecae2aa4073e96e7ebf24c6c0d4698c85dda",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-viewer",
+  "path": "upstream/cosmic/cosmic-viewer",
+  "url": "https://github.com/pop-os/cosmic-viewer.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "300210f1c7d86ba14a43602e40dd5fe1deb16703",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "cosmic-workspaces-epoch",
+  "path": "upstream/cosmic/cosmic-workspaces-epoch",
+  "url": "https://github.com/pop-os/cosmic-workspaces-epoch.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "cb953ea0e6fb45ac8f62f9c52f1347c971388e03",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "dbus-settings-bindings",
+  "path": "upstream/cosmic/dbus-settings-bindings",
+  "url": "https://github.com/pop-os/dbus-settings-bindings.git",
+  "upstream": null,
+  "branch": "main",
+  "commit": "eed01dd3609e90e3c8cd043656734c500956c793",
+  "license_files": [
+   "LICENSE.md"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "deb-control",
+  "path": "upstream/cosmic/deb-control",
+  "url": "https://github.com/pop-os/deb-control.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "f92a25a7c081099e1865f12344ab6824ee58435b",
+  "license_files": [
+   "LICENSE-APACHE",
+   "LICENSE-MIT"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "debrepbuild",
+  "path": "upstream/cosmic/debrepbuild",
+  "url": "https://github.com/pop-os/debrepbuild.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "6ea438993430dddb7bf6acf91ecd3352ead06641",
+  "license_files": []
+ },
+ {
+  "group": "cosmic",
+  "name": "distinst-v2",
+  "path": "upstream/cosmic/distinst-v2",
+  "url": "https://github.com/pop-os/distinst-v2.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "0bd5c03602f416e845e7e09599e4594ab9f344d4",
+  "license_files": [
+   "COPYING"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "distinst",
+  "path": "upstream/cosmic/distinst",
+  "url": "https://github.com/pop-os/distinst.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "282dfc441ee608e963930d0ce01f04b672ca4f71",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "firmware-manager",
+  "path": "upstream/cosmic/firmware-manager",
+  "url": "https://github.com/pop-os/firmware-manager.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "a45bdc7ba6fe5a9ae640ebe72d81641eec4a8003",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "freedesktop-desktop-entry",
+  "path": "upstream/cosmic/freedesktop-desktop-entry",
+  "url": "https://github.com/pop-os/freedesktop-desktop-entry.git",
+  "upstream": null,
+  "branch": "main",
+  "commit": "19765f334a741f1182fa0f8b0da92b7685050b08",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "freedesktop-icons",
+  "path": "upstream/cosmic/freedesktop-icons",
+  "url": "https://github.com/pop-os/freedesktop-icons.git",
+  "upstream": null,
+  "branch": "main",
+  "commit": "ab4c57b8e416c6af9297cb04d101889896fd9a92",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "glyphon-pop",
+  "path": "upstream/cosmic/glyphon-pop",
+  "url": "https://github.com/pop-os/glyphon.git",
+  "upstream": null,
+  "branch": "main",
+  "commit": "a8e04730a155bc2dbc5cbcb402281645a3f4ca36",
+  "license_files": [
+   "LICENSE-APACHE",
+   "LICENSE-MIT",
+   "LICENSE-ZLIB"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "greetd-pop",
+  "path": "upstream/cosmic/greetd-pop",
+  "url": "https://github.com/pop-os/greetd.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "0262c421d9e453fe90a96917a182a7077547e024",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "iced-pop",
+  "path": "upstream/cosmic/iced-pop",
+  "url": "https://github.com/pop-os/iced.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "229186b5180b6217d93866c912e6373ac378b231",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "inputplumber-zbus",
+  "path": "upstream/cosmic/inputplumber-zbus",
+  "url": "https://github.com/pop-os/inputplumber-zbus.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "6317e9cd3b4cc3e74e0e04b2515aa89c61895112",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "inputplumber",
+  "path": "upstream/cosmic/inputplumber",
+  "url": "https://github.com/pop-os/inputplumber.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "185ef95218c0e1348034660c89fdabe620f1dd68",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "just-pop",
+  "path": "upstream/cosmic/just-pop",
+  "url": "https://github.com/pop-os/just.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "dd64d0bc636b1f2a9d3bb2e440a8d23361b4ee7f",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "keyboard-configurator",
+  "path": "upstream/cosmic/keyboard-configurator",
+  "url": "https://github.com/pop-os/keyboard-configurator.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "676cdc6bba54110b8275652a6695b34900861dc7",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "launch-pad",
+  "path": "upstream/cosmic/launch-pad",
+  "url": "https://github.com/pop-os/launch-pad.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "5b516ee6a012b5ad4a5acc0cf51b4472fc6733af",
+  "license_files": [
+   "LICENSE.md"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "launcher",
+  "path": "upstream/cosmic/launcher",
+  "url": "https://github.com/pop-os/launcher.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "86c2639ba82f4d846c801abe84fcea8ae8e7d716",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "os-release",
+  "path": "upstream/cosmic/os-release",
+  "url": "https://github.com/pop-os/os-release.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "5d42b3083a070c0f132ee9a561f5a78bb90541c5",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "packagekit-zbus",
+  "path": "upstream/cosmic/packagekit-zbus",
+  "url": "https://github.com/pop-os/packagekit-zbus.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "ad88d9bb0ca0174cba41d90af0f8f3538f57d5ac",
+  "license_files": [
+   "LICENSE-APACHE",
+   "LICENSE-MIT"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "partition-identity",
+  "path": "upstream/cosmic/partition-identity",
+  "url": "https://github.com/pop-os/partition-identity.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "3f77024918a19dd1ff531b52f78be50bba623945",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "pop",
+  "path": "upstream/cosmic/pop",
+  "url": "https://github.com/pop-os/pop.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "b863879b23d5de073f0fdd349c290b7e340e84a7",
+  "license_files": []
+ },
+ {
+  "group": "cosmic",
+  "name": "poparazzi",
+  "path": "upstream/cosmic/poparazzi",
+  "url": "https://github.com/pop-os/poparazzi.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "a9e2c12933857c8ab71e8f1bf95d3dffd5b8073c",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "popsicle",
+  "path": "upstream/cosmic/popsicle",
+  "url": "https://github.com/pop-os/popsicle.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "924f78ce132fe994a62e31c91a1a4bc1bcb0cf2f",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "proc-mounts",
+  "path": "upstream/cosmic/proc-mounts",
+  "url": "https://github.com/pop-os/proc-mounts.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "2eca05a2b8bd27c993bc22c9742263547e1dbc72",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "recently-used-xbel",
+  "path": "upstream/cosmic/recently-used-xbel",
+  "url": "https://github.com/pop-os/recently-used-xbel.git",
+  "upstream": null,
+  "branch": "main",
+  "commit": "fe32c16fe7d241ac35d1104d6df0e9ab8a979b82",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "rust-bindgen-cli-pop",
+  "path": "upstream/cosmic/rust-bindgen-cli-pop",
+  "url": "https://github.com/pop-os/rust-bindgen-cli.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "378a924ce4784d444cfe5c416b0ae224eb1dd1df",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "softbuffer-pop",
+  "path": "upstream/cosmic/softbuffer-pop",
+  "url": "https://github.com/pop-os/softbuffer.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "81883e7b940891f6d5d78061e85b913b3ca3f20d",
+  "license_files": [
+   "LICENSE-APACHE",
+   "LICENSE-MIT"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "support-panel",
+  "path": "upstream/cosmic/support-panel",
+  "url": "https://github.com/pop-os/support-panel.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "dab69fe2cac32306fc8ada0b68fd0958235e8410",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "sys-mount",
+  "path": "upstream/cosmic/sys-mount",
+  "url": "https://github.com/pop-os/sys-mount.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "edea4924caf0779298f61fe52fbc5371fa87d282",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "system76-firmware",
+  "path": "upstream/cosmic/system76-firmware",
+  "url": "https://github.com/pop-os/system76-firmware.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "b3395aedf35aa3616bf96d5172dabecb6be4dabe",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "system76-oled",
+  "path": "upstream/cosmic/system76-oled",
+  "url": "https://github.com/pop-os/system76-oled.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "98f778def254cf4bbc590060460a69f3e9763c02",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "system76-power",
+  "path": "upstream/cosmic/system76-power",
+  "url": "https://github.com/pop-os/system76-power.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "9a334723fbc96b993bcbe9ade1914224f8170bf7",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "system76-scheduler",
+  "path": "upstream/cosmic/system76-scheduler",
+  "url": "https://github.com/pop-os/system76-scheduler.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "8651bbf74bcfc8a46443b30199b380e12defa97e",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "tensorman",
+  "path": "upstream/cosmic/tensorman",
+  "url": "https://github.com/pop-os/tensorman.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "24fa3b2bb06a29708162ee474a733e9a227b1778",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "upgrade",
+  "path": "upstream/cosmic/upgrade",
+  "url": "https://github.com/pop-os/upgrade.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "4ee68cfd636630565bd194c1643f2c9973f72e3e",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "winit-pop",
+  "path": "upstream/cosmic/winit-pop",
+  "url": "https://github.com/pop-os/winit.git",
+  "upstream": null,
+  "branch": "winit-0.29",
+  "commit": "bdc66109acc85c912264c9e4b864520345bdb45f",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "xdg-desktop-portal-cosmic",
+  "path": "upstream/cosmic/xdg-desktop-portal-cosmic",
+  "url": "https://github.com/pop-os/xdg-desktop-portal-cosmic.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "f448ddfb296bf7bb23517b24b2f532559a334a1c",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "xdgen",
+  "path": "upstream/cosmic/xdgen",
+  "url": "https://github.com/pop-os/xdgen.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "7334c0ec54a465583d9095fda597305cf5ae8a31",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "cosmic",
+  "name": "xkb-data",
+  "path": "upstream/cosmic/xkb-data",
+  "url": "https://github.com/pop-os/xkb-data.git",
+  "upstream": null,
+  "branch": "main",
+  "commit": "85bfc7641069864a684e65ed253d4b6f274f2d6c",
+  "license_files": [
+   "LICENSE"
+  ]
+ }
+]

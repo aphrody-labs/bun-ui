@@ -1,0 +1,39 @@
+[
+ {
+  "group": "qt",
+  "name": "cxx-qt",
+  "path": "upstream/qt/cxx-qt",
+  "url": "https://github.com/KDAB/cxx-qt.git",
+  "upstream": null,
+  "branch": "main",
+  "commit": "3c288df83135c9986757fe65953e3fa2c7b10dec",
+  "license_files": [
+   "LICENSES"
+  ]
+ },
+ {
+  "group": "qt",
+  "name": "qmetaobject-rs",
+  "path": "upstream/qt/qmetaobject-rs",
+  "url": "https://github.com/woboq/qmetaobject-rs.git",
+  "upstream": null,
+  "branch": "master",
+  "commit": "1f4d09a0787daa1a97e17bd12b8d1d4e9d8c70c8",
+  "license_files": [
+   "LICENSE"
+  ]
+ },
+ {
+  "group": "qt",
+  "name": "qt5",
+  "path": "upstream/qt/qt5",
+  "url": "https://code.qt.io/qt/qt5.git",
+  "upstream": null,
+  "branch": "dev",
+  "commit": "a7a102f801ab6b9ef67a017e28d9b57e52ed4d15",
+  "license_files": [
+   "LICENSE.md",
+   "LICENSES"
+  ]
+ }
+]

@@ -1,0 +1,1016 @@
+[submodule "upstream/gnome/gtk"]
+	path = upstream/gnome/gtk
+	url = https://gitlab.gnome.org/GNOME/gtk.git
+	branch = main
+[submodule "upstream/gnome/glib"]
+	path = upstream/gnome/glib
+	url = https://gitlab.gnome.org/GNOME/glib.git
+	branch = main
+[submodule "upstream/gnome/gobject-introspection"]
+	path = upstream/gnome/gobject-introspection
+	url = https://gitlab.gnome.org/GNOME/gobject-introspection.git
+	branch = main
+[submodule "upstream/gnome/pango"]
+	path = upstream/gnome/pango
+	url = https://gitlab.gnome.org/GNOME/pango.git
+	branch = main
+[submodule "upstream/gnome/cairo"]
+	path = upstream/gnome/cairo
+	url = https://gitlab.freedesktop.org/cairo/cairo.git
+	branch = master
+[submodule "upstream/gnome/harfbuzz"]
+	path = upstream/gnome/harfbuzz
+	url = https://github.com/harfbuzz/harfbuzz.git
+	branch = main
+[submodule "upstream/gnome/graphene"]
+	path = upstream/gnome/graphene
+	url = https://github.com/ebassi/graphene.git
+	branch = master
+[submodule "upstream/gnome/gdk-pixbuf"]
+	path = upstream/gnome/gdk-pixbuf
+	url = https://gitlab.gnome.org/GNOME/gdk-pixbuf.git
+	branch = master
+[submodule "upstream/gnome/libadwaita"]
+	path = upstream/gnome/libadwaita
+	url = https://gitlab.gnome.org/GNOME/libadwaita.git
+	branch = main
+[submodule "upstream/gnome/gtksourceview"]
+	path = upstream/gnome/gtksourceview
+	url = https://gitlab.gnome.org/GNOME/gtksourceview.git
+	branch = master
+[submodule "upstream/gnome/vte"]
+	path = upstream/gnome/vte
+	url = https://gitlab.gnome.org/GNOME/vte.git
+	branch = master
+[submodule "upstream/gnome/libpanel"]
+	path = upstream/gnome/libpanel
+	url = https://gitlab.gnome.org/GNOME/libpanel.git
+	branch = main
+[submodule "upstream/gnome/gnome-shell"]
+	path = upstream/gnome/gnome-shell
+	url = https://gitlab.gnome.org/GNOME/gnome-shell.git
+	branch = main
+[submodule "upstream/gnome/mutter"]
+	path = upstream/gnome/mutter
+	url = https://gitlab.gnome.org/GNOME/mutter.git
+	branch = main
+[submodule "upstream/gnome/gnome-session"]
+	path = upstream/gnome/gnome-session
+	url = https://gitlab.gnome.org/GNOME/gnome-session.git
+	branch = main
+[submodule "upstream/gnome/gnome-settings-daemon"]
+	path = upstream/gnome/gnome-settings-daemon
+	url = https://gitlab.gnome.org/GNOME/gnome-settings-daemon.git
+	branch = main
+[submodule "upstream/gnome/gsettings-desktop-schemas"]
+	path = upstream/gnome/gsettings-desktop-schemas
+	url = https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas.git
+	branch = main
+[submodule "upstream/gnome/gnome-control-center"]
+	path = upstream/gnome/gnome-control-center
+	url = https://gitlab.gnome.org/GNOME/gnome-control-center.git
+	branch = main
+[submodule "upstream/gnome/adwaita-icon-theme"]
+	path = upstream/gnome/adwaita-icon-theme
+	url = https://gitlab.gnome.org/GNOME/adwaita-icon-theme.git
+	branch = master
+[submodule "upstream/gnome/gnome-themes-extra"]
+	path = upstream/gnome/gnome-themes-extra
+	url = https://gitlab.gnome.org/GNOME/gnome-themes-extra.git
+	branch = master
+[submodule "upstream/gnome/xdg-desktop-portal-gnome"]
+	path = upstream/gnome/xdg-desktop-portal-gnome
+	url = https://gitlab.gnome.org/GNOME/xdg-desktop-portal-gnome.git
+	branch = main
+[submodule "upstream/gnome/libsoup"]
+	path = upstream/gnome/libsoup
+	url = https://gitlab.gnome.org/GNOME/libsoup.git
+	branch = master
+[submodule "upstream/gnome/blueprint-compiler"]
+	path = upstream/gnome/blueprint-compiler
+	url = https://gitlab.gnome.org/GNOME/blueprint-compiler.git
+	branch = main
+[submodule "upstream/gnome/gnome-build-meta"]
+	path = upstream/gnome/gnome-build-meta
+	url = https://gitlab.gnome.org/GNOME/gnome-build-meta.git
+	branch = master
+[submodule "upstream/gnome/meson"]
+	path = upstream/gnome/meson
+	url = https://github.com/mesonbuild/meson.git
+	branch = master
+[submodule "upstream/gnome/ninja"]
+	path = upstream/gnome/ninja
+	url = https://github.com/ninja-build/ninja.git
+	branch = master
+[submodule "upstream/gnome/gtk4-rs"]
+	path = upstream/gnome/gtk4-rs
+	url = https://github.com/gtk-rs/gtk4-rs.git
+	branch = main
+[submodule "upstream/gnome/gtk-rs-core"]
+	path = upstream/gnome/gtk-rs-core
+	url = https://github.com/gtk-rs/gtk-rs-core.git
+	branch = main
+[submodule "upstream/gnome/relm4"]
+	path = upstream/gnome/relm4
+	url = https://github.com/Relm4/Relm4.git
+	branch = main
+[submodule "upstream/gnome/libadwaita-rs"]
+	path = upstream/gnome/libadwaita-rs
+	url = https://gitlab.gnome.org/World/Rust/libadwaita-rs.git
+	branch = master
+[submodule "upstream/gnome/gir"]
+	path = upstream/gnome/gir
+	url = https://github.com/gtk-rs/gir.git
+	branch = main
+[submodule "upstream/gnome/gnome-builder"]
+	path = upstream/gnome/gnome-builder
+	url = https://gitlab.gnome.org/GNOME/gnome-builder.git
+	branch = main
+[submodule "upstream/rust/accesskit"]
+	path = upstream/rust/accesskit
+	url = https://github.com/AccessKit/accesskit.git
+	branch = main
+[submodule "upstream/rust/bevy"]
+	path = upstream/rust/bevy
+	url = https://github.com/aphrody-labs/bevy.git
+	branch = main
+[submodule "upstream/rust/bevy-inspector-egui"]
+	path = upstream/rust/bevy-inspector-egui
+	url = https://github.com/jakobhellermann/bevy-inspector-egui.git
+	branch = main
+[submodule "upstream/rust/bevy_cosmic_edit"]
+	path = upstream/rust/bevy_cosmic_edit
+	url = https://github.com/Dimchikkk/bevy_cosmic_edit.git
+	branch = main
+[submodule "upstream/rust/bevy_egui"]
+	path = upstream/rust/bevy_egui
+	url = https://github.com/vladbat00/bevy_egui.git
+	branch = main
+[submodule "upstream/rust/bevy_lunex"]
+	path = upstream/rust/bevy_lunex
+	url = https://github.com/bytestring-net/bevy_lunex.git
+	branch = main
+[submodule "upstream/rust/clap"]
+	path = upstream/rust/clap
+	url = https://github.com/clap-rs/clap.git
+	branch = main
+[submodule "upstream/rust/cosmic-comp"]
+	path = upstream/rust/cosmic-comp
+	url = https://github.com/pop-os/cosmic-comp.git
+	branch = master
+[submodule "upstream/rust/cosmic-epoch"]
+	path = upstream/rust/cosmic-epoch
+	url = https://github.com/aphrody-labs/cosmic-epoch.git
+	branch = master
+[submodule "upstream/rust/cosmic-settings"]
+	path = upstream/rust/cosmic-settings
+	url = https://github.com/pop-os/cosmic-settings.git
+	branch = master
+[submodule "upstream/rust/cosmic-text"]
+	path = upstream/rust/cosmic-text
+	url = https://github.com/pop-os/cosmic-text.git
+	branch = main
+[submodule "upstream/rust/crossterm"]
+	path = upstream/rust/crossterm
+	url = https://github.com/crossterm-rs/crossterm.git
+	branch = master
+[submodule "upstream/rust/cxx"]
+	path = upstream/rust/cxx
+	url = https://github.com/dtolnay/cxx.git
+	branch = master
+[submodule "upstream/rust/egui"]
+	path = upstream/rust/egui
+	url = https://github.com/emilk/egui.git
+	branch = main
+[submodule "upstream/rust/egui-notify"]
+	path = upstream/rust/egui-notify
+	url = https://github.com/ItsEthra/egui-notify.git
+	branch = master
+[submodule "upstream/rust/egui_dock"]
+	path = upstream/rust/egui_dock
+	url = https://github.com/Adanos020/egui_dock.git
+	branch = main
+[submodule "upstream/rust/egui_plot"]
+	path = upstream/rust/egui_plot
+	url = https://github.com/emilk/egui_plot.git
+	branch = main
+[submodule "upstream/rust/egui_tiles"]
+	path = upstream/rust/egui_tiles
+	url = https://github.com/rerun-io/egui_tiles.git
+	branch = main
+[submodule "upstream/rust/femtovg"]
+	path = upstream/rust/femtovg
+	url = https://github.com/femtovg/femtovg.git
+	branch = master
+[submodule "upstream/rust/glutin"]
+	path = upstream/rust/glutin
+	url = https://github.com/rust-windowing/glutin.git
+	branch = master
+[submodule "upstream/rust/glyphon"]
+	path = upstream/rust/glyphon
+	url = https://github.com/grovesNL/glyphon.git
+	branch = main
+[submodule "upstream/rust/iced"]
+	path = upstream/rust/iced
+	url = https://github.com/iced-rs/iced.git
+	branch = master
+[submodule "upstream/rust/libcosmic"]
+	path = upstream/rust/libcosmic
+	url = https://github.com/pop-os/libcosmic.git
+	branch = master
+[submodule "upstream/rust/lyon"]
+	path = upstream/rust/lyon
+	url = https://github.com/nical/lyon.git
+	branch = main
+[submodule "upstream/rust/parley"]
+	path = upstream/rust/parley
+	url = https://github.com/linebender/parley.git
+	branch = main
+[submodule "upstream/rust/pyo3"]
+	path = upstream/rust/pyo3
+	url = https://github.com/PyO3/pyo3.git
+	branch = main
+[submodule "upstream/rust/ratatui"]
+	path = upstream/rust/ratatui
+	url = https://github.com/ratatui/ratatui.git
+	branch = main
+[submodule "upstream/rust/raw-window-handle"]
+	path = upstream/rust/raw-window-handle
+	url = https://github.com/rust-windowing/raw-window-handle.git
+	branch = master
+[submodule "upstream/rust/resvg"]
+	path = upstream/rust/resvg
+	url = https://github.com/linebender/resvg.git
+	branch = main
+[submodule "upstream/rust/slint"]
+	path = upstream/rust/slint
+	url = https://github.com/slint-ui/slint.git
+	branch = master
+[submodule "upstream/rust/smithay"]
+	path = upstream/rust/smithay
+	url = https://github.com/Smithay/smithay.git
+	branch = master
+[submodule "upstream/rust/softbuffer"]
+	path = upstream/rust/softbuffer
+	url = https://github.com/rust-windowing/softbuffer.git
+	branch = master
+[submodule "upstream/rust/taffy"]
+	path = upstream/rust/taffy
+	url = https://github.com/DioxusLabs/taffy.git
+	branch = main
+[submodule "upstream/rust/tiny-skia"]
+	path = upstream/rust/tiny-skia
+	url = https://github.com/linebender/tiny-skia.git
+	branch = main
+[submodule "upstream/rust/vello"]
+	path = upstream/rust/vello
+	url = https://github.com/linebender/vello.git
+	branch = main
+[submodule "upstream/rust/wgpu"]
+	path = upstream/rust/wgpu
+	url = https://github.com/aphrody-labs/wgpu.git
+	branch = trunk
+[submodule "upstream/rust/windows-rs"]
+	path = upstream/rust/windows-rs
+	url = https://github.com/microsoft/windows-rs.git
+	branch = master
+[submodule "upstream/rust/winit"]
+	path = upstream/rust/winit
+	url = https://github.com/aphrody-labs/winit.git
+	branch = master
+[submodule "upstream/rust/xilem"]
+	path = upstream/rust/xilem
+	url = https://github.com/linebender/xilem.git
+	branch = main
+[submodule "upstream/rust/zbus"]
+	path = upstream/rust/zbus
+	url = https://github.com/dbus2/zbus.git
+	branch = main
+[submodule "upstream/wayland/wayland"]
+	path = upstream/wayland/wayland
+	url = https://gitlab.freedesktop.org/wayland/wayland.git
+	branch = main
+[submodule "upstream/wayland/wayland-protocols"]
+	path = upstream/wayland/wayland-protocols
+	url = https://gitlab.freedesktop.org/wayland/wayland-protocols.git
+	branch = main
+[submodule "upstream/wayland/libinput"]
+	path = upstream/wayland/libinput
+	url = https://gitlab.freedesktop.org/libinput/libinput.git
+	branch = main
+[submodule "upstream/wayland/libxkbcommon"]
+	path = upstream/wayland/libxkbcommon
+	url = https://github.com/xkbcommon/libxkbcommon.git
+	branch = master
+[submodule "upstream/wayland/wlroots"]
+	path = upstream/wayland/wlroots
+	url = https://gitlab.freedesktop.org/wlroots/wlroots.git
+	branch = master
+[submodule "upstream/wayland/xwayland-satellite"]
+	path = upstream/wayland/xwayland-satellite
+	url = https://github.com/Supreeeme/xwayland-satellite.git
+	branch = main
+[submodule "upstream/wayland/hyprland"]
+	path = upstream/wayland/hyprland
+	url = https://github.com/hyprwm/Hyprland.git
+	branch = main
+[submodule "upstream/wayland/aquamarine"]
+	path = upstream/wayland/aquamarine
+	url = https://github.com/hyprwm/aquamarine.git
+	branch = main
+[submodule "upstream/wayland/hyprutils"]
+	path = upstream/wayland/hyprutils
+	url = https://github.com/hyprwm/hyprutils.git
+	branch = main
+[submodule "upstream/wayland/hyprlang"]
+	path = upstream/wayland/hyprlang
+	url = https://github.com/hyprwm/hyprlang.git
+	branch = main
+[submodule "upstream/wayland/hyprcursor"]
+	path = upstream/wayland/hyprcursor
+	url = https://github.com/hyprwm/hyprcursor.git
+	branch = main
+[submodule "upstream/wayland/hyprgraphics"]
+	path = upstream/wayland/hyprgraphics
+	url = https://github.com/hyprwm/hyprgraphics.git
+	branch = main
+[submodule "upstream/wayland/hyprwayland-scanner"]
+	path = upstream/wayland/hyprwayland-scanner
+	url = https://github.com/hyprwm/hyprwayland-scanner.git
+	branch = main
+[submodule "upstream/wayland/hyprland-protocols"]
+	path = upstream/wayland/hyprland-protocols
+	url = https://github.com/hyprwm/hyprland-protocols.git
+	branch = main
+[submodule "upstream/wayland/xdg-desktop-portal-hyprland"]
+	path = upstream/wayland/xdg-desktop-portal-hyprland
+	url = https://github.com/hyprwm/xdg-desktop-portal-hyprland.git
+	branch = master
+[submodule "upstream/wayland/hyprlock"]
+	path = upstream/wayland/hyprlock
+	url = https://github.com/hyprwm/hyprlock.git
+	branch = main
+[submodule "upstream/wayland/hypridle"]
+	path = upstream/wayland/hypridle
+	url = https://github.com/hyprwm/hypridle.git
+	branch = main
+[submodule "upstream/wayland/hyprpaper"]
+	path = upstream/wayland/hyprpaper
+	url = https://github.com/hyprwm/hyprpaper.git
+	branch = main
+[submodule "upstream/wayland/waybar"]
+	path = upstream/wayland/waybar
+	url = https://github.com/Alexays/Waybar.git
+	branch = master
+[submodule "upstream/wayland/greenfield"]
+	path = upstream/wayland/greenfield
+	url = https://github.com/udevbe/greenfield.git
+	branch = master
+[submodule "upstream/os/omarchy"]
+	path = upstream/os/omarchy
+	url = https://github.com/aphrody-labs/omarchy.git
+	branch = quattro
+[submodule "upstream/os/omarchy-pkgs"]
+	path = upstream/os/omarchy-pkgs
+	url = https://github.com/aphrody-labs/omarchy-pkgs.git
+	branch = master
+[submodule "upstream/os/cachyos-pkgbuilds"]
+	path = upstream/os/cachyos-pkgbuilds
+	url = https://github.com/aphrody-labs/cachyos-pkgbuilds.git
+	branch = master
+[submodule "upstream/os/linux-cachyos"]
+	path = upstream/os/linux-cachyos
+	url = https://github.com/aphrody-labs/linux-cachyos.git
+	branch = master
+[submodule "upstream/os/cachyos-settings"]
+	path = upstream/os/cachyos-settings
+	url = https://github.com/CachyOS/CachyOS-Settings.git
+	branch = master
+[submodule "upstream/os/cachyos-kernel-manager"]
+	path = upstream/os/cachyos-kernel-manager
+	url = https://github.com/CachyOS/kernel-manager.git
+	branch = develop
+[submodule "upstream/os/proton-cachyos"]
+	path = upstream/os/proton-cachyos
+	url = https://github.com/aphrody-labs/proton-cachyos.git
+	branch = cachyos_main
+[submodule "upstream/os/bazzite"]
+	path = upstream/os/bazzite
+	url = https://github.com/ublue-os/bazzite.git
+	branch = main
+[submodule "upstream/os/ublue-main"]
+	path = upstream/os/ublue-main
+	url = https://github.com/ublue-os/main.git
+	branch = main
+[submodule "upstream/os/gamescope"]
+	path = upstream/os/gamescope
+	url = https://github.com/aphrody-labs/gamescope.git
+	branch = master
+[submodule "upstream/os/mangohud"]
+	path = upstream/os/mangohud
+	url = https://github.com/flightlessmango/MangoHud.git
+	branch = master
+[submodule "upstream/os/gamescope-session"]
+	path = upstream/os/gamescope-session
+	url = https://github.com/aphrody-labs/chimeraos-gamescope-session.git
+	branch = main
+[submodule "upstream/os/gamescope-session-steam"]
+	path = upstream/os/gamescope-session-steam
+	url = https://github.com/aphrody-labs/chimeraos-gamescope-session-steam.git
+	branch = main
+[submodule "upstream/os/pacman"]
+	path = upstream/os/pacman
+	url = https://github.com/aphrody-labs/pacman.git
+	branch = master
+[submodule "upstream/os/archiso"]
+	path = upstream/os/archiso
+	url = https://gitlab.archlinux.org/archlinux/archiso.git
+	branch = master
+[submodule "upstream/os/devtools"]
+	path = upstream/os/devtools
+	url = https://gitlab.archlinux.org/archlinux/devtools.git
+	branch = master
+[submodule "upstream/os/arch-install-scripts"]
+	path = upstream/os/arch-install-scripts
+	url = https://gitlab.archlinux.org/archlinux/arch-install-scripts.git
+	branch = master
+[submodule "upstream/wasm/container2wasm"]
+	path = upstream/wasm/container2wasm
+	url = https://github.com/ktock/container2wasm.git
+	branch = main
+[submodule "upstream/wasm/v86"]
+	path = upstream/wasm/v86
+	url = https://github.com/copy/v86.git
+	branch = master
+[submodule "upstream/wasm/emscripten"]
+	path = upstream/wasm/emscripten
+	url = https://github.com/emscripten-core/emscripten.git
+	branch = main
+[submodule "upstream/wasm/wasi-sdk"]
+	path = upstream/wasm/wasi-sdk
+	url = https://github.com/WebAssembly/wasi-sdk.git
+	branch = main
+[submodule "upstream/windows/msys2-runtime"]
+	path = upstream/windows/msys2-runtime
+	url = https://github.com/aphrody-labs/msys2-runtime.git
+	branch = msys2-3.6.10
+[submodule "upstream/windows/MSYS2-packages"]
+	path = upstream/windows/MSYS2-packages
+	url = https://github.com/aphrody-labs/MSYS2-packages.git
+	branch = master
+[submodule "upstream/windows/MINGW-packages"]
+	path = upstream/windows/MINGW-packages
+	url = https://github.com/aphrody-labs/MINGW-packages.git
+	branch = master
+[submodule "upstream/windows/msys2-installer"]
+	path = upstream/windows/msys2-installer
+	url = https://github.com/aphrody-labs/msys2-installer.git
+	branch = main
+[submodule "upstream/windows/msys2-pacman"]
+	path = upstream/windows/msys2-pacman
+	url = https://github.com/msys2/msys2-pacman.git
+	branch = msys2-v6.1.0
+[submodule "upstream/windows/msys2-keyring"]
+	path = upstream/windows/msys2-keyring
+	url = https://github.com/msys2/msys2-keyring.git
+	branch = main
+[submodule "upstream/windows/msys2-autobuild"]
+	path = upstream/windows/msys2-autobuild
+	url = https://github.com/msys2/msys2-autobuild.git
+	branch = main
+[submodule "upstream/windows/setup-msys2"]
+	path = upstream/windows/setup-msys2
+	url = https://github.com/msys2/setup-msys2.git
+	branch = main
+[submodule "upstream/windows/msys2-devtools"]
+	path = upstream/windows/msys2-devtools
+	url = https://github.com/msys2/msys2-devtools.git
+	branch = main
+[submodule "upstream/windows/win32metadata"]
+	path = upstream/windows/win32metadata
+	url = https://github.com/microsoft/win32metadata.git
+	branch = main
+[submodule "upstream/windows/WindowsAppSDK"]
+	path = upstream/windows/WindowsAppSDK
+	url = https://github.com/microsoft/WindowsAppSDK.git
+	branch = main
+[submodule "upstream/windows/microsoft-ui-xaml"]
+	path = upstream/windows/microsoft-ui-xaml
+	url = https://github.com/microsoft/microsoft-ui-xaml.git
+	branch = main
+[submodule "upstream/windows/gvsbuild"]
+	path = upstream/windows/gvsbuild
+	url = https://github.com/wingtk/gvsbuild.git
+	branch = main
+[submodule "upstream/windows/wslg"]
+	path = upstream/windows/wslg
+	url = https://github.com/microsoft/wslg.git
+	branch = main
+[submodule "upstream/windows/weston"]
+	path = upstream/windows/weston
+	url = https://gitlab.freedesktop.org/wayland/weston.git
+	branch = main
+[submodule "upstream/cosmic/async-fetcher"]
+	path = upstream/cosmic/async-fetcher
+	url = https://github.com/pop-os/async-fetcher.git
+	branch = master
+[submodule "upstream/cosmic/buildchain"]
+	path = upstream/cosmic/buildchain
+	url = https://github.com/pop-os/buildchain.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-app-library"]
+	path = upstream/cosmic/cosmic-app-library
+	url = https://github.com/pop-os/cosmic-app-library.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-app-template"]
+	path = upstream/cosmic/cosmic-app-template
+	url = https://github.com/pop-os/cosmic-app-template.git
+	branch = main
+[submodule "upstream/cosmic/cosmic-applet-template"]
+	path = upstream/cosmic/cosmic-applet-template
+	url = https://github.com/pop-os/cosmic-applet-template.git
+	branch = main
+[submodule "upstream/cosmic/cosmic-applets"]
+	path = upstream/cosmic/cosmic-applets
+	url = https://github.com/pop-os/cosmic-applets.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-bg"]
+	path = upstream/cosmic/cosmic-bg
+	url = https://github.com/pop-os/cosmic-bg.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-edit"]
+	path = upstream/cosmic/cosmic-edit
+	url = https://github.com/pop-os/cosmic-edit.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-files"]
+	path = upstream/cosmic/cosmic-files
+	url = https://github.com/pop-os/cosmic-files.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-greeter"]
+	path = upstream/cosmic/cosmic-greeter
+	url = https://github.com/pop-os/cosmic-greeter.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-idle"]
+	path = upstream/cosmic/cosmic-idle
+	url = https://github.com/pop-os/cosmic-idle.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-initial-setup"]
+	path = upstream/cosmic/cosmic-initial-setup
+	url = https://github.com/pop-os/cosmic-initial-setup.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-launcher"]
+	path = upstream/cosmic/cosmic-launcher
+	url = https://github.com/pop-os/cosmic-launcher.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-mime-apps"]
+	path = upstream/cosmic/cosmic-mime-apps
+	url = https://github.com/pop-os/cosmic-mime-apps.git
+	branch = main
+[submodule "upstream/cosmic/cosmic-monitor"]
+	path = upstream/cosmic/cosmic-monitor
+	url = https://github.com/pop-os/cosmic-monitor.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-notifications"]
+	path = upstream/cosmic/cosmic-notifications
+	url = https://github.com/pop-os/cosmic-notifications.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-osd"]
+	path = upstream/cosmic/cosmic-osd
+	url = https://github.com/pop-os/cosmic-osd.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-osk"]
+	path = upstream/cosmic/cosmic-osk
+	url = https://github.com/pop-os/cosmic-osk.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-panel"]
+	path = upstream/cosmic/cosmic-panel
+	url = https://github.com/pop-os/cosmic-panel.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-player"]
+	path = upstream/cosmic/cosmic-player
+	url = https://github.com/pop-os/cosmic-player.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-protocols"]
+	path = upstream/cosmic/cosmic-protocols
+	url = https://github.com/pop-os/cosmic-protocols.git
+	branch = main
+[submodule "upstream/cosmic/cosmic-randr"]
+	path = upstream/cosmic/cosmic-randr
+	url = https://github.com/pop-os/cosmic-randr.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-reader"]
+	path = upstream/cosmic/cosmic-reader
+	url = https://github.com/pop-os/cosmic-reader.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-session"]
+	path = upstream/cosmic/cosmic-session
+	url = https://github.com/pop-os/cosmic-session.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-settings-daemon"]
+	path = upstream/cosmic/cosmic-settings-daemon
+	url = https://github.com/pop-os/cosmic-settings-daemon.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-store"]
+	path = upstream/cosmic/cosmic-store
+	url = https://github.com/pop-os/cosmic-store.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-term"]
+	path = upstream/cosmic/cosmic-term
+	url = https://github.com/pop-os/cosmic-term.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-time"]
+	path = upstream/cosmic/cosmic-time
+	url = https://github.com/pop-os/cosmic-time.git
+	branch = main
+[submodule "upstream/cosmic/cosmic-viewer"]
+	path = upstream/cosmic/cosmic-viewer
+	url = https://github.com/pop-os/cosmic-viewer.git
+	branch = master
+[submodule "upstream/cosmic/cosmic-workspaces-epoch"]
+	path = upstream/cosmic/cosmic-workspaces-epoch
+	url = https://github.com/pop-os/cosmic-workspaces-epoch.git
+	branch = master
+[submodule "upstream/cosmic/dbus-settings-bindings"]
+	path = upstream/cosmic/dbus-settings-bindings
+	url = https://github.com/pop-os/dbus-settings-bindings.git
+	branch = main
+[submodule "upstream/cosmic/deb-control"]
+	path = upstream/cosmic/deb-control
+	url = https://github.com/pop-os/deb-control.git
+	branch = master
+[submodule "upstream/cosmic/debrepbuild"]
+	path = upstream/cosmic/debrepbuild
+	url = https://github.com/pop-os/debrepbuild.git
+	branch = master
+[submodule "upstream/cosmic/distinst-v2"]
+	path = upstream/cosmic/distinst-v2
+	url = https://github.com/pop-os/distinst-v2.git
+	branch = master
+[submodule "upstream/cosmic/distinst"]
+	path = upstream/cosmic/distinst
+	url = https://github.com/pop-os/distinst.git
+	branch = master
+[submodule "upstream/cosmic/firmware-manager"]
+	path = upstream/cosmic/firmware-manager
+	url = https://github.com/pop-os/firmware-manager.git
+	branch = master
+[submodule "upstream/cosmic/freedesktop-desktop-entry"]
+	path = upstream/cosmic/freedesktop-desktop-entry
+	url = https://github.com/pop-os/freedesktop-desktop-entry.git
+	branch = main
+[submodule "upstream/cosmic/freedesktop-icons"]
+	path = upstream/cosmic/freedesktop-icons
+	url = https://github.com/pop-os/freedesktop-icons.git
+	branch = main
+[submodule "upstream/cosmic/glyphon-pop"]
+	path = upstream/cosmic/glyphon-pop
+	url = https://github.com/pop-os/glyphon.git
+	branch = main
+[submodule "upstream/cosmic/greetd-pop"]
+	path = upstream/cosmic/greetd-pop
+	url = https://github.com/pop-os/greetd.git
+	branch = master
+[submodule "upstream/cosmic/iced-pop"]
+	path = upstream/cosmic/iced-pop
+	url = https://github.com/pop-os/iced.git
+	branch = master
+[submodule "upstream/cosmic/inputplumber-zbus"]
+	path = upstream/cosmic/inputplumber-zbus
+	url = https://github.com/pop-os/inputplumber-zbus.git
+	branch = master
+[submodule "upstream/cosmic/inputplumber"]
+	path = upstream/cosmic/inputplumber
+	url = https://github.com/pop-os/inputplumber.git
+	branch = master
+[submodule "upstream/cosmic/just-pop"]
+	path = upstream/cosmic/just-pop
+	url = https://github.com/pop-os/just.git
+	branch = master
+[submodule "upstream/cosmic/keyboard-configurator"]
+	path = upstream/cosmic/keyboard-configurator
+	url = https://github.com/pop-os/keyboard-configurator.git
+	branch = master
+[submodule "upstream/cosmic/launch-pad"]
+	path = upstream/cosmic/launch-pad
+	url = https://github.com/pop-os/launch-pad.git
+	branch = master
+[submodule "upstream/cosmic/launcher"]
+	path = upstream/cosmic/launcher
+	url = https://github.com/pop-os/launcher.git
+	branch = master
+[submodule "upstream/cosmic/os-release"]
+	path = upstream/cosmic/os-release
+	url = https://github.com/pop-os/os-release.git
+	branch = master
+[submodule "upstream/cosmic/packagekit-zbus"]
+	path = upstream/cosmic/packagekit-zbus
+	url = https://github.com/pop-os/packagekit-zbus.git
+	branch = master
+[submodule "upstream/cosmic/partition-identity"]
+	path = upstream/cosmic/partition-identity
+	url = https://github.com/pop-os/partition-identity.git
+	branch = master
+[submodule "upstream/cosmic/pop"]
+	path = upstream/cosmic/pop
+	url = https://github.com/pop-os/pop.git
+	branch = master
+[submodule "upstream/cosmic/poparazzi"]
+	path = upstream/cosmic/poparazzi
+	url = https://github.com/pop-os/poparazzi.git
+	branch = master
+[submodule "upstream/cosmic/popsicle"]
+	path = upstream/cosmic/popsicle
+	url = https://github.com/pop-os/popsicle.git
+	branch = master
+[submodule "upstream/cosmic/proc-mounts"]
+	path = upstream/cosmic/proc-mounts
+	url = https://github.com/pop-os/proc-mounts.git
+	branch = master
+[submodule "upstream/cosmic/recently-used-xbel"]
+	path = upstream/cosmic/recently-used-xbel
+	url = https://github.com/pop-os/recently-used-xbel.git
+	branch = main
+[submodule "upstream/cosmic/rust-bindgen-cli-pop"]
+	path = upstream/cosmic/rust-bindgen-cli-pop
+	url = https://github.com/pop-os/rust-bindgen-cli.git
+	branch = master
+[submodule "upstream/cosmic/softbuffer-pop"]
+	path = upstream/cosmic/softbuffer-pop
+	url = https://github.com/pop-os/softbuffer.git
+	branch = master
+[submodule "upstream/cosmic/support-panel"]
+	path = upstream/cosmic/support-panel
+	url = https://github.com/pop-os/support-panel.git
+	branch = master
+[submodule "upstream/cosmic/sys-mount"]
+	path = upstream/cosmic/sys-mount
+	url = https://github.com/pop-os/sys-mount.git
+	branch = master
+[submodule "upstream/cosmic/system76-firmware"]
+	path = upstream/cosmic/system76-firmware
+	url = https://github.com/pop-os/system76-firmware.git
+	branch = master
+[submodule "upstream/cosmic/system76-oled"]
+	path = upstream/cosmic/system76-oled
+	url = https://github.com/pop-os/system76-oled.git
+	branch = master
+[submodule "upstream/cosmic/system76-power"]
+	path = upstream/cosmic/system76-power
+	url = https://github.com/pop-os/system76-power.git
+	branch = master
+[submodule "upstream/cosmic/system76-scheduler"]
+	path = upstream/cosmic/system76-scheduler
+	url = https://github.com/pop-os/system76-scheduler.git
+	branch = master
+[submodule "upstream/cosmic/tensorman"]
+	path = upstream/cosmic/tensorman
+	url = https://github.com/pop-os/tensorman.git
+	branch = master
+[submodule "upstream/cosmic/upgrade"]
+	path = upstream/cosmic/upgrade
+	url = https://github.com/pop-os/upgrade.git
+	branch = master
+[submodule "upstream/cosmic/winit-pop"]
+	path = upstream/cosmic/winit-pop
+	url = https://github.com/pop-os/winit.git
+	branch = winit-0.29
+[submodule "upstream/cosmic/xdg-desktop-portal-cosmic"]
+	path = upstream/cosmic/xdg-desktop-portal-cosmic
+	url = https://github.com/pop-os/xdg-desktop-portal-cosmic.git
+	branch = master
+[submodule "upstream/cosmic/xdgen"]
+	path = upstream/cosmic/xdgen
+	url = https://github.com/pop-os/xdgen.git
+	branch = master
+[submodule "upstream/cosmic/xkb-data"]
+	path = upstream/cosmic/xkb-data
+	url = https://github.com/pop-os/xkb-data.git
+	branch = main
+[submodule "upstream/qt/cxx-qt"]
+	path = upstream/qt/cxx-qt
+	url = https://github.com/KDAB/cxx-qt.git
+	branch = main
+[submodule "upstream/qt/qmetaobject-rs"]
+	path = upstream/qt/qmetaobject-rs
+	url = https://github.com/woboq/qmetaobject-rs.git
+	branch = master
+[submodule "upstream/qt/qt5"]
+	path = upstream/qt/qt5
+	url = https://code.qt.io/qt/qt5.git
+	branch = dev
+[submodule "upstream/kde/breeze-icons"]
+	path = upstream/kde/breeze-icons
+	url = https://invent.kde.org/frameworks/breeze-icons.git
+	branch = master
+[submodule "upstream/kde/breeze"]
+	path = upstream/kde/breeze
+	url = https://invent.kde.org/plasma/breeze.git
+	branch = master
+[submodule "upstream/kde/craft-blueprints-kde"]
+	path = upstream/kde/craft-blueprints-kde
+	url = https://invent.kde.org/packaging/craft-blueprints-kde.git
+	branch = master
+[submodule "upstream/kde/craft"]
+	path = upstream/kde/craft
+	url = https://invent.kde.org/packaging/craft.git
+	branch = master
+[submodule "upstream/kde/extra-cmake-modules"]
+	path = upstream/kde/extra-cmake-modules
+	url = https://invent.kde.org/frameworks/extra-cmake-modules.git
+	branch = master
+[submodule "upstream/kde/kconfig"]
+	path = upstream/kde/kconfig
+	url = https://invent.kde.org/frameworks/kconfig.git
+	branch = master
+[submodule "upstream/kde/kcoreaddons"]
+	path = upstream/kde/kcoreaddons
+	url = https://invent.kde.org/frameworks/kcoreaddons.git
+	branch = master
+[submodule "upstream/kde/kde-builder"]
+	path = upstream/kde/kde-builder
+	url = https://invent.kde.org/sdk/kde-builder.git
+	branch = master
+[submodule "upstream/kde/kdecoration"]
+	path = upstream/kde/kdecoration
+	url = https://invent.kde.org/plasma/kdecoration.git
+	branch = master
+[submodule "upstream/kde/ki18n"]
+	path = upstream/kde/ki18n
+	url = https://invent.kde.org/frameworks/ki18n.git
+	branch = master
+[submodule "upstream/kde/kiconthemes"]
+	path = upstream/kde/kiconthemes
+	url = https://invent.kde.org/frameworks/kiconthemes.git
+	branch = master
+[submodule "upstream/kde/kirigami"]
+	path = upstream/kde/kirigami
+	url = https://invent.kde.org/frameworks/kirigami.git
+	branch = master
+[submodule "upstream/kde/kwidgetsaddons"]
+	path = upstream/kde/kwidgetsaddons
+	url = https://invent.kde.org/frameworks/kwidgetsaddons.git
+	branch = master
+[submodule "upstream/kde/kwin"]
+	path = upstream/kde/kwin
+	url = https://invent.kde.org/plasma/kwin.git
+	branch = master
+[submodule "upstream/kde/layer-shell-qt"]
+	path = upstream/kde/layer-shell-qt
+	url = https://invent.kde.org/plasma/layer-shell-qt.git
+	branch = master
+[submodule "upstream/kde/libplasma"]
+	path = upstream/kde/libplasma
+	url = https://invent.kde.org/plasma/libplasma.git
+	branch = master
+[submodule "upstream/kde/plasma-desktop"]
+	path = upstream/kde/plasma-desktop
+	url = https://invent.kde.org/plasma/plasma-desktop.git
+	branch = master
+[submodule "upstream/kde/plasma-wayland-protocols"]
+	path = upstream/kde/plasma-wayland-protocols
+	url = https://invent.kde.org/libraries/plasma-wayland-protocols.git
+	branch = master
+[submodule "upstream/kde/plasma-workspace"]
+	path = upstream/kde/plasma-workspace
+	url = https://invent.kde.org/plasma/plasma-workspace.git
+	branch = master
+[submodule "upstream/kde/qqc2-desktop-style"]
+	path = upstream/kde/qqc2-desktop-style
+	url = https://invent.kde.org/frameworks/qqc2-desktop-style.git
+	branch = master
+[submodule "upstream/kde/repo-metadata"]
+	path = upstream/kde/repo-metadata
+	url = https://invent.kde.org/sysadmin/repo-metadata.git
+	branch = master
+[submodule "upstream/kde/union"]
+	path = upstream/kde/union
+	url = https://invent.kde.org/plasma/union.git
+	branch = master
+[submodule "upstream/desktop/mochi-desktop"]
+	path = upstream/desktop/mochi-desktop
+	url = https://github.com/miflow13/mochi-desktop
+	branch = main
+[submodule "upstream/desktop/linux-wallpaperengine"]
+	path = upstream/desktop/linux-wallpaperengine
+	url = https://github.com/Almamu/linux-wallpaperengine
+	branch = main
+[submodule "upstream/desktop/wallpaper-engine-kde-plugin"]
+	path = upstream/desktop/wallpaper-engine-kde-plugin
+	url = https://github.com/catsout/wallpaper-engine-kde-plugin
+	branch = main
+[submodule "upstream/desktop/awww"]
+	path = upstream/desktop/awww
+	url = https://codeberg.org/LGFae/awww
+	branch = main
+[submodule "upstream/desktop/mpvpaper"]
+	path = upstream/desktop/mpvpaper
+	url = https://github.com/GhostNaN/mpvpaper
+	branch = master
+[submodule "upstream/desktop/gslapper"]
+	path = upstream/desktop/gslapper
+	url = https://github.com/Nomadcxx/gSlapper
+	branch = master
+[submodule "upstream/desktop/waypaper"]
+	path = upstream/desktop/waypaper
+	url = https://github.com/anufrievroman/waypaper
+	branch = main
+[submodule "upstream/desktop/wpaperd"]
+	path = upstream/desktop/wpaperd
+	url = https://github.com/danyspin97/wpaperd
+	branch = main
+[submodule "upstream/desktop/komorebi"]
+	path = upstream/desktop/komorebi
+	url = https://github.com/Komorebi-Fork/komorebi
+	branch = master
+[submodule "upstream/desktop/hidamari"]
+	path = upstream/desktop/hidamari
+	url = https://github.com/jeffshee/hidamari
+	branch = master
+[submodule "upstream/desktop/lively"]
+	path = upstream/desktop/lively
+	url = https://github.com/rocksdanister/lively
+	branch = core-separation
+[submodule "upstream/desktop/shaderbg"]
+	path = upstream/desktop/shaderbg
+	url = https://git.sr.ht/~mstoeckl/shaderbg
+	branch = main
+[submodule "upstream/desktop/lottie-web"]
+	path = upstream/desktop/lottie-web
+	url = https://github.com/airbnb/lottie-web
+	branch = master
+[submodule "upstream/desktop/rlottie"]
+	path = upstream/desktop/rlottie
+	url = https://github.com/Samsung/rlottie
+	branch = master
+[submodule "upstream/desktop/velato"]
+	path = upstream/desktop/velato
+	url = https://github.com/linebender/velato
+	branch = main
+[submodule "upstream/desktop/dotlottie-rs"]
+	path = upstream/desktop/dotlottie-rs
+	url = https://github.com/LottieFiles/dotlottie-rs
+	branch = main
+[submodule "upstream/desktop/thorvg"]
+	path = upstream/desktop/thorvg
+	url = https://github.com/thorvg/thorvg
+	branch = main
+[submodule "upstream/desktop/rive-runtime"]
+	path = upstream/desktop/rive-runtime
+	url = https://github.com/rive-app/rive-runtime
+	branch = main
+[submodule "upstream/desktop/rive-wasm"]
+	path = upstream/desktop/rive-wasm
+	url = https://github.com/rive-app/rive-wasm
+	branch = master
+[submodule "upstream/desktop/gsap"]
+	path = upstream/desktop/gsap
+	url = https://github.com/greensock/GSAP
+	branch = master
+[submodule "upstream/desktop/motion"]
+	path = upstream/desktop/motion
+	url = https://github.com/motiondivision/motion
+	branch = main
+[submodule "upstream/desktop/theatre"]
+	path = upstream/desktop/theatre
+	url = https://github.com/theatre-js/theatre
+	branch = main
+[submodule "upstream/desktop/astal"]
+	path = upstream/desktop/astal
+	url = https://github.com/Aylur/astal
+	branch = main
+[submodule "upstream/desktop/ags"]
+	path = upstream/desktop/ags
+	url = https://github.com/Aylur/ags
+	branch = main
+[submodule "upstream/desktop/quickshell"]
+	path = upstream/desktop/quickshell
+	url = https://git.outfoxxed.me/quickshell/quickshell
+	branch = master
+[submodule "upstream/desktop/dots-hyprland"]
+	path = upstream/desktop/dots-hyprland
+	url = https://github.com/end-4/dots-hyprland
+	branch = main
+[submodule "upstream/desktop/caelestia-shell"]
+	path = upstream/desktop/caelestia-shell
+	url = https://github.com/caelestia-dots/shell
+	branch = main
+[submodule "upstream/desktop/eww"]
+	path = upstream/desktop/eww
+	url = https://github.com/elkowar/eww
+	branch = master
+[submodule "upstream/desktop/ironbar"]
+	path = upstream/desktop/ironbar
+	url = https://github.com/JakeStanger/ironbar
+	branch = master
+[submodule "upstream/desktop/matugen"]
+	path = upstream/desktop/matugen
+	url = https://github.com/InioX/matugen
+	branch = main
+[submodule "upstream/desktop/pywal16"]
+	path = upstream/desktop/pywal16
+	url = https://github.com/eylles/pywal16
+	branch = master
+[submodule "upstream/desktop/wallust"]
+	path = upstream/desktop/wallust
+	url = https://codeberg.org/explosion-mental/wallust
+	branch = master
