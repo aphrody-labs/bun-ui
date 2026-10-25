@@ -1,7 +1,7 @@
 {
   "name": "@aphrody/m3-tokens",
   "version": "1.4.7",
-  "description": "Material 3 design tokens (--md-sys-*) for the @aphrody/material-web fork: MUI-theme → M3 token CSS generation and runtime Material You dynamic colour via material-color-utilities.",
+  "description": "Material 3 design tokens (--md-sys-*) for the @aphrody/material-web fork: MUI-theme → M3 token CSS generation and runtime Material You dynamic colour from the Rust engine via @aphrody/m3-wasm.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aphrody-labs/bun-distribution.git",
@@ -45,7 +45,7 @@
     "generate:expressive": "bun scripts/generate-expressive.ts"
   },
   "dependencies": {
-    "@material/material-color-utilities": "catalog:"
+    "@aphrody/m3-wasm": "workspace:*"
   },
   "devDependencies": {
     "@aphrody/m3-config": "workspace:*"

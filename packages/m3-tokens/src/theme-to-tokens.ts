@@ -8,9 +8,10 @@
 // See the contract: migration/00-CONVENTIONS.md (§5) and the reference docs
 //   docs/02-tokens-theming-web.md  +  migration/02-theme-token-migration.md
 //
-// material-color-utilities (MCU) derives the M3 roles MUI has no equivalent for
-// (tertiary, *-container, surface-variant, outline, inverse-*, tonal surfaces)
-// from a single source colour.
+// The Rust Material 3 engine (crates/aphrody-m3-tokens, through @aphrody/m3-wasm)
+// derives the M3 roles MUI has no equivalent for (tertiary, *-container,
+// surface-variant, outline, inverse-*, tonal surfaces) from a single source
+// colour, with the legacy CorePalette scheme ("MCU" below refers to that role set).
 //
 // Fidelity notes M2 → M3 (detailed in the .md):
 //  * MUI (M2) lacks "container", "tertiary", "surface-variant", "outline",
@@ -22,7 +23,7 @@
 //    source. The source of each mode is honoured when provided.
 // -----------------------------------------------------------------------------
 
-import { themeFromSourceColor, argbFromHex, hexFromArgb } from "@material/material-color-utilities";
+import { argbFromHex, hexFromArgb, legacySchemeFromSeed } from "@aphrody/m3-wasm";
 
 // ---------------------------------------------------------------------------
 // MUI theme shape (subset we read). Loosely typed: every field is optional.
@@ -187,9 +188,7 @@ function buildScheme(palette: MuiPalette, mode: "light" | "dark"): Record<string
   const sourceHex = normalizeHex(palette?.primary?.main) || "#6750a4";
   const roles: Record<string, string> = {};
 
-  const theme = themeFromSourceColor(argbFromHex(sourceHex));
-  const scheme = mode === "dark" ? theme.schemes.dark : theme.schemes.light;
-  const json = scheme.toJSON() as Record<string, number>;
+  const json = legacySchemeFromSeed(argbFromHex(sourceHex), mode === "dark") as Record<string, number>;
   for (const [mcuKey, token] of Object.entries(MCU_ROLE_TO_TOKEN)) {
     if (json[mcuKey] != null) roles[token] = hexFromArgb(json[mcuKey]);
   }
