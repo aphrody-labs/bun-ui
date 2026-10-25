@@ -7,19 +7,14 @@ description = "Converts a constrained Material 3 TSX/JSX + CSS subset to GtkBuil
 publish = false
 autoexamples = false
 
-# Standalone until the root Bun UI Cargo workspace adopts this crate.
-[workspace]
 
 [dependencies]
 oxc_allocator = "0.155"
 oxc_ast = "0.155"
 oxc_parser = "0.155"
 oxc_span = "0.155"
-lightningcss = { version = "1.0.0-alpha.72", default-features = false }
+lightningcss = { workspace = true }
 
 [[bin]]
 name = "m3-convert"
 path = "src/main.rs"
-
-[profile.release]
-opt-level = 3

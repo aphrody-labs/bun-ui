@@ -9,20 +9,15 @@ description = "Material 3 theme and skins for Bevy UI and the bevy_ui_widgets he
 repository = "https://github.com/aphrody-labs/bun-ui"
 publish = false
 
-# Standalone until Bun UI has one root Cargo workspace.
-[workspace]
 
 [lints.rust]
 unsafe_code = "forbid"
 
 [dependencies]
-# The path crate `../aphrody-m3-tokens` inherits `serde` from a workspace root that Bun UI does
-# not have yet, so Cargo cannot load it as a path dependency. Use the identical published 1.4.7
-# until the tokens manifest stops inheriting workspace dependencies.
-aphrody-m3-tokens = { version = "=1.4.7", default-features = false, features = ["std"] }
-accesskit = "0.24"
-# Bevy 0.20, the version Bun OS pins (C:/src/bun-os/Cargo.toml, bun-os-shell); minimal features.
-bevy = { version = "=0.20.0", default-features = false, features = [
+aphrody-m3-tokens = { workspace = true }
+accesskit = { workspace = true }
+# Bevy 0.20, the version Bun OS pins; minimal features.
+bevy = { workspace = true, features = [
   "std",
   "bevy_ui",
   "bevy_ui_widgets",
@@ -34,7 +29,7 @@ bevy = { version = "=0.20.0", default-features = false, features = [
 ] }
 
 [dev-dependencies]
-bevy = { version = "=0.20.0", default-features = false, features = [
+bevy = { workspace = true, features = [
   "std",
   "multi_threaded",
   "async_executor",

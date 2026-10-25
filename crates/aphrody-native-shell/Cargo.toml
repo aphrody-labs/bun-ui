@@ -10,8 +10,6 @@ license = "Apache-2.0"
 description = "One lifecycle API for Aphrody native apps: about, window state, single instance, deep links, menus, tray, dialogs, notifications, clipboard, theme and signed updates."
 publish = false
 
-# Standalone until the Bun UI root Cargo workspace absorbs it.
-[workspace]
 
 [lints.rust]
 unsafe_code = "deny"
@@ -40,11 +38,11 @@ tauri = ["dep:tauri"]
 
 [dependencies]
 directories = "6"
-serde = { version = "1.0.228", features = ["derive"] }
-serde_json = "1"
+serde = { workspace = true }
+serde_json = { workspace = true }
 thiserror = "2"
 
-raw-window-handle = { version = "0.6", optional = true }
+raw-window-handle = { workspace = true, optional = true }
 muda = { version = "0.20", default-features = false, optional = true }
 tray-icon = { version = "0.25", default-features = false, optional = true }
 rfd = { version = "0.17", optional = true }
@@ -57,12 +55,12 @@ sha2 = { version = "0.10", optional = true }
 base64 = { version = "0.22", optional = true }
 semver = { version = "1", optional = true }
 
-eframe = { version = "0.36", default-features = false, features = ["default_fonts", "glow", "wayland", "x11", "accesskit"], optional = true }
+eframe = { workspace = true, features = ["default_fonts", "glow", "wayland", "x11", "accesskit"], optional = true }
 winit = { version = "0.30", optional = true }
-bevy_window = { version = "0.19", default-features = false, features = ["std"], optional = true }
-bevy_app = { version = "0.19", default-features = false, features = ["std"], optional = true }
-bevy_ecs = { version = "0.19", default-features = false, features = ["std"], optional = true }
-bevy_math = { version = "0.19", default-features = false, features = ["std"], optional = true }
+bevy_window = { workspace = true, features = ["std"], optional = true }
+bevy_app = { workspace = true, optional = true }
+bevy_ecs = { workspace = true, optional = true }
+bevy_math = { workspace = true, features = ["std"], optional = true }
 tauri = { version = "2", default-features = false, optional = true }
 
 [target.'cfg(windows)'.dependencies]

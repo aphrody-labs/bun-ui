@@ -1,0 +1,9 @@
+{
+  "extends": "@aphrody/m3-config/tsconfig.json",
+  "compilerOptions": {
+    "types": ["bun"],
+    "allowJs": true,
+    "declaration": false
+  },
+  "include": ["scripts/**/*.ts", "*.js", "*.d.ts", "pkg/*.d.ts"]
+}

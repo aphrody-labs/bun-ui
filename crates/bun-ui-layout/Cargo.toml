@@ -9,8 +9,6 @@ description = "One CSS layout engine for every Bun UI host: a CSS subset (Lightn
 repository = "https://github.com/aphrody-labs/bun-ui"
 publish = false
 
-# Standalone until Bun UI has one root Cargo workspace.
-[workspace]
 
 [lints.rust]
 unsafe_code = "forbid"
@@ -23,7 +21,7 @@ bevy = ["dep:bevy"]
 egui = ["dep:egui"]
 
 [dependencies]
-lightningcss = { version = "=1.0.0-alpha.72", default-features = false }
+lightningcss = { workspace = true }
 # Pinned: Taffy 0.15 changed the low-level tree traits and the alignment types.
 taffy = { version = "=0.15.0", default-features = false, features = [
   "std",
@@ -33,10 +31,10 @@ taffy = { version = "=0.15.0", default-features = false, features = [
   "block_layout",
   "content_size",
 ] }
-serde = { version = "1", features = ["derive"] }
-serde_json = "1"
-bevy = { version = "=0.20.0", optional = true, default-features = false, features = ["std", "bevy_ui"] }
-egui = { version = "0.37", optional = true, default-features = false }
+serde = { workspace = true }
+serde_json = { workspace = true }
+bevy = { workspace = true, optional = true, features = ["bevy_ui"] }
+egui = { workspace = true, optional = true }
 
 [[example]]
 name = "settings"

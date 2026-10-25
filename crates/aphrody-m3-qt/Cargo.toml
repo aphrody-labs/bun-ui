@@ -9,12 +9,10 @@ description = "Material 3 adapter for Qt 6 through cxx-qt: the M3Scheme QML sing
 publish = false
 links = "aphrody_m3_qt"
 
-# Standalone until the Bun UI root Cargo workspace exists.
-[workspace]
 
 [dependencies]
-aphrody-m3-emit = { path = "../aphrody-m3-emit" }
-aphrody-m3-tokens = { path = "../aphrody-m3-tokens" }
+aphrody-m3-emit = { workspace = true }
+aphrody-m3-tokens = { workspace = true }
 cxx = "1.0.205"
 cxx-qt = "0.10"
 cxx-qt-lib = { version = "0.10", features = ["qt_gui"] }

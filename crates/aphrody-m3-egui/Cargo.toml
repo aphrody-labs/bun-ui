@@ -8,18 +8,16 @@ license = "Apache-2.0"
 description = "Material 3 adapter for egui: Visuals/Style from a DynamicScheme, system theme following and M3 widgets."
 publish = false
 
-# Standalone until the Bun UI root Cargo workspace exists.
-[workspace]
 
 [lints.rust]
 unsafe_code = "forbid"
 
 [dependencies]
-aphrody-m3-tokens = { path = "../aphrody-m3-tokens" }
-egui = { version = "0.36", default-features = false, features = ["default_fonts"] }
+aphrody-m3-tokens = { workspace = true }
+egui = { workspace = true, features = ["default_fonts"] }
 
 [dev-dependencies]
-eframe = { version = "0.36", default-features = false, features = ["default_fonts", "wgpu", "wayland", "x11"] }
+eframe = { workspace = true, features = ["default_fonts", "wgpu", "wayland", "x11"] }
 
 [[example]]
 name = "gallery"

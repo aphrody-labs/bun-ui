@@ -8,8 +8,6 @@ license = "Apache-2.0"
 description = "Material 3 adapter for iced 0.14 (Theme, palettes, widget styles) and libcosmic cosmic-theme."
 publish = false
 
-# Standalone until the Bun UI root Cargo workspace exists.
-[workspace]
 
 [lints.rust]
 unsafe_code = "forbid"
@@ -20,7 +18,7 @@ default = []
 cosmic = ["dep:cosmic-theme"]
 
 [dependencies]
-aphrody-m3-tokens = { path = "../aphrody-m3-tokens" }
+aphrody-m3-tokens = { workspace = true }
 iced = { version = "0.14", default-features = false, features = ["wgpu", "tiny-skia", "x11", "wayland", "thread-pool"] }
 cosmic-theme = { git = "https://github.com/pop-os/libcosmic", optional = true }
 

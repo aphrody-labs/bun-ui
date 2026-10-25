@@ -7,7 +7,7 @@ description = "Writes one Material 3 scheme as GTK/libadwaita, KDE, COSMIC, Qt, 
 publish = false
 
 [dependencies]
-aphrody-m3-tokens = { path = "../aphrody-m3-tokens" }
+aphrody-m3-tokens = { workspace = true }
 
 [[bin]]
 name = "m3-emit"

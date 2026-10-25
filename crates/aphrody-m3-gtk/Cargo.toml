@@ -8,12 +8,10 @@ license = "Apache-2.0"
 description = "Material 3 adapter for GTK 4 / libadwaita: aphrody-m3-emit CSS, M3 widget helpers and Material Symbols icons."
 publish = false
 
-# Standalone until the Bun UI root Cargo workspace exists.
-[workspace]
 
 [dependencies]
-aphrody-m3-emit = { path = "../aphrody-m3-emit" }
-aphrody-m3-tokens = { path = "../aphrody-m3-tokens" }
+aphrody-m3-emit = { workspace = true }
+aphrody-m3-tokens = { workspace = true }
 gtk = { package = "gtk4", version = "0.11", features = ["v4_16"] }
 adw = { package = "libadwaita", version = "0.9", features = ["v1_6"] }
 

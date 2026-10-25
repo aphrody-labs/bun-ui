@@ -1,0 +1,91 @@
+# SPDX-License-Identifier: Apache-2.0
+# Bun UI root Cargo workspace. Every first-party crate is one direct child of crates/.
+# Dependency versions and features follow the aphrody-labs/bun-os root Cargo.toml.
+[workspace]
+resolver = "3"
+members = [
+  "crates/aphrody-m3",
+  "crates/aphrody-m3-bevy",
+  "crates/aphrody-m3-egui",
+  "crates/aphrody-m3-emit",
+  "crates/aphrody-m3-gtk",
+  "crates/aphrody-m3-iced",
+  "crates/aphrody-m3-qt",
+  "crates/aphrody-m3-reproduce",
+  "crates/aphrody-m3-tokens",
+  "crates/aphrody-m3-wasm",
+  "crates/aphrody-native-shell",
+  "crates/aphrody-render",
+  "crates/bun-ui-convert",
+  "crates/bun-ui-layout",
+  "crates/craft-ui",
+  "crates/libm3",
+  "crates/libm3-wasm",
+]
+# aphrody-m3-qt needs a system Qt 6 for cxx-qt-build; build it explicitly with `-p aphrody-m3-qt`.
+default-members = [
+  "crates/aphrody-m3",
+  "crates/aphrody-m3-bevy",
+  "crates/aphrody-m3-egui",
+  "crates/aphrody-m3-emit",
+  "crates/aphrody-m3-gtk",
+  "crates/aphrody-m3-iced",
+  "crates/aphrody-m3-reproduce",
+  "crates/aphrody-m3-tokens",
+  "crates/aphrody-m3-wasm",
+  "crates/aphrody-native-shell",
+  "crates/aphrody-render",
+  "crates/bun-ui-convert",
+  "crates/bun-ui-layout",
+  "crates/craft-ui",
+  "crates/libm3",
+  "crates/libm3-wasm",
+]
+exclude = ["upstream"]
+
+[workspace.package]
+version = "1.4.7"
+edition = "2024"
+rust-version = "1.97"
+
+[workspace.dependencies]
+# First-party crates.
+aphrody-m3 = { path = "crates/aphrody-m3", version = "1.4.7", default-features = false }
+aphrody-m3-emit = { path = "crates/aphrody-m3-emit" }
+aphrody-m3-tokens = { path = "crates/aphrody-m3-tokens", version = "1.4.7" }
+aphrody-render = { path = "crates/aphrody-render", version = "1.4.7" }
+libm3 = { path = "crates/libm3", version = "1.4.7", default-features = false }
+# Bun OS crate consumed from crates.io until it moves into Bun UI or a shared owner.
+aphrody-identity = { version = "1.4.7", default-features = false }
+
+# Shared third-party dependencies (versions and default features as in Bun OS).
+accesskit = { version = "0.24.1", default-features = false }
+bevy = { version = "0.20.0", default-features = false, features = ["std"] }
+bevy_app = { version = "0.20.0", default-features = false, features = ["std"] }
+bevy_ecs = { version = "0.20.0", default-features = false, features = ["std"] }
+bevy_math = { version = "0.20.0", default-features = false }
+bevy_window = { version = "0.20.0", default-features = false }
+eframe = { version = "0.36.2", default-features = false }
+egui = { version = "0.36.2", default-features = false }
+egui_extras = { version = "0.36.2", default-features = false }
+egui_kittest = { version = "0.36.2", default-features = false }
+image = { version = "0.25.10", default-features = false }
+lightningcss = { version = "=1.0.0-alpha.72", default-features = false }
+raw-window-handle = "0.6"
+serde = { version = "1.0.228", default-features = false, features = ["derive", "std"] }
+serde_json = { version = "1.0.154", default-features = false, features = ["std"] }
+taffy = { version = "0.9.2" }
+
+# aphrody-identity (crates.io) depends on aphrody-m3-tokens; point it at the local crate so the
+# workspace has one token type, as the Bun OS root does.
+[patch.crates-io]
+aphrody-m3-tokens = { path = "crates/aphrody-m3-tokens" }
+
+# Size-optimized WebAssembly build of crates/aphrody-m3-wasm (packages/m3-wasm/scripts/build.ts).
+[profile.m3-wasm]
+inherits = "release"
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
