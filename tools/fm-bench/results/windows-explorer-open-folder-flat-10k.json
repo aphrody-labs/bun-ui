@@ -1,0 +1,237 @@
+{
+  "schema": "fm-bench.results/v1",
+  "generatedAt": "2026-10-25T05:24:07.318Z",
+  "host": {
+    "os": "Microsoft Windows 11 Famille Insider Preview",
+    "build": "28120",
+    "cpu": "13th Gen Intel(R) Core(TM) i7-13700F",
+    "logicalCpus": 24,
+    "ramBytes": 34164056064,
+    "runtime": "bun 1.4.6"
+  },
+  "results": [
+    {
+      "app": "windows-explorer",
+      "platform": "windows",
+      "scenario": "open-folder",
+      "dataset": {
+        "profile": "flat-10k",
+        "files": 10000,
+        "bytes": 74004490,
+        "seed": 1
+      },
+      "runs": 5,
+      "cache": "warm",
+      "metrics": [
+        {
+          "name": "windowMs",
+          "unit": "ms",
+          "values": [
+            1436.1,
+            471.9,
+            440.7,
+            981.3,
+            448.3
+          ],
+          "n": 5,
+          "median": 471.9,
+          "min": 440.7,
+          "max": 1436.1,
+          "p90": 1436.1,
+          "source": "UI Automation (UIAutomationClient), Stopwatch from Start-Process: new CabinetWClass top-level window"
+        },
+        {
+          "name": "firstItemMs",
+          "unit": "ms",
+          "values": [
+            1555.1,
+            1032,
+            998,
+            1180.5,
+            1077.3
+          ],
+          "n": 5,
+          "median": 1077.3,
+          "min": 998,
+          "max": 1555.1,
+          "p90": 1555.1,
+          "source": "UI Automation (UIAutomationClient), Stopwatch from Start-Process: first ListItem under UIItemsView"
+        },
+        {
+          "name": "itemsMs",
+          "unit": "ms",
+          "values": [
+            1591.8,
+            1052.7,
+            1020.3,
+            1201,
+            1107.4
+          ],
+          "n": 5,
+          "median": 1107.4,
+          "min": 1020.3,
+          "max": 1591.8,
+          "p90": 1591.8,
+          "source": "UI Automation (UIAutomationClient), Stopwatch from Start-Process: status bar MetadataLabel count == expected"
+        },
+        {
+          "name": "workingSetBytes",
+          "unit": "bytes",
+          "values": [
+            190476288,
+            194752512,
+            176979968,
+            193277952,
+            179437568
+          ],
+          "n": 5,
+          "median": 190476288,
+          "min": 176979968,
+          "max": 194752512,
+          "p90": 194752512,
+          "source": "Get-Process WorkingSet64 of the window's owner process, 1.5 s after listing"
+        },
+        {
+          "name": "privateBytes",
+          "unit": "bytes",
+          "values": [
+            137818112,
+            141115392,
+            122990592,
+            139988992,
+            118857728
+          ],
+          "n": 5,
+          "median": 137818112,
+          "min": 118857728,
+          "max": 141115392,
+          "p90": 141115392,
+          "source": "Get-Process PrivateMemorySize64 of the owner process"
+        },
+        {
+          "name": "peakWorkingSetBytes",
+          "unit": "bytes",
+          "values": [
+            190554112,
+            194752512,
+            195936256,
+            193339392,
+            198320128
+          ],
+          "n": 5,
+          "median": 194752512,
+          "min": 190554112,
+          "max": 198320128,
+          "p90": 198320128,
+          "source": "Get-Process PeakWorkingSet64 of the owner process"
+        }
+      ],
+      "errors": [],
+      "notes": [
+        "owner process new per window in 5/5 runs (SeparateProcess setting: false)",
+        "item count source: StatusBar.MetadataLabel",
+        "warm cache: the OS standby list is not flushed between runs (no admin tools used)"
+      ],
+      "raw": {
+        "driver": "windows-explorer.ps1",
+        "path": "C:\\Users\\aphro\\AppData\\Local\\Temp\\fm-bench-run\\flat-10k",
+        "expectedItems": 10000,
+        "host": {
+          "os": "Microsoft Windows 11 Famille Insider Preview",
+          "build": "28120",
+          "cpu": "13th Gen Intel(R) Core(TM) i7-13700F",
+          "logicalCpus": 24,
+          "ramBytes": 34164056064,
+          "separateProcessSetting": false
+        },
+        "runs": [
+          {
+            "run": 1,
+            "windowMs": 1436.1,
+            "firstItemMs": 1555.1,
+            "itemsMs": 1591.8,
+            "itemCount": 10000,
+            "itemCountSource": "StatusBar.MetadataLabel",
+            "ownerPid": 40356,
+            "ownerIsNewProcess": true,
+            "workingSetBytes": 190476288,
+            "privateBytes": 137818112,
+            "peakWorkingSetBytes": 190554112,
+            "workingSetDeltaBytes": 190476288,
+            "privateDeltaBytes": 137818112,
+            "windowAliveAtEnd": true,
+            "error": null
+          },
+          {
+            "run": 2,
+            "windowMs": 471.9,
+            "firstItemMs": 1032,
+            "itemsMs": 1052.7,
+            "itemCount": 10000,
+            "itemCountSource": "StatusBar.MetadataLabel",
+            "ownerPid": 38632,
+            "ownerIsNewProcess": true,
+            "workingSetBytes": 194752512,
+            "privateBytes": 141115392,
+            "peakWorkingSetBytes": 194752512,
+            "workingSetDeltaBytes": 194752512,
+            "privateDeltaBytes": 141115392,
+            "windowAliveAtEnd": true,
+            "error": null
+          },
+          {
+            "run": 3,
+            "windowMs": 440.7,
+            "firstItemMs": 998,
+            "itemsMs": 1020.3,
+            "itemCount": 10000,
+            "itemCountSource": "StatusBar.MetadataLabel",
+            "ownerPid": 40676,
+            "ownerIsNewProcess": true,
+            "workingSetBytes": 176979968,
+            "privateBytes": 122990592,
+            "peakWorkingSetBytes": 195936256,
+            "workingSetDeltaBytes": 176979968,
+            "privateDeltaBytes": 122990592,
+            "windowAliveAtEnd": false,
+            "error": null
+          },
+          {
+            "run": 4,
+            "windowMs": 981.3,
+            "firstItemMs": 1180.5,
+            "itemsMs": 1201,
+            "itemCount": 10000,
+            "itemCountSource": "StatusBar.MetadataLabel",
+            "ownerPid": 30896,
+            "ownerIsNewProcess": true,
+            "workingSetBytes": 193277952,
+            "privateBytes": 139988992,
+            "peakWorkingSetBytes": 193339392,
+            "workingSetDeltaBytes": 193277952,
+            "privateDeltaBytes": 139988992,
+            "windowAliveAtEnd": true,
+            "error": null
+          },
+          {
+            "run": 5,
+            "windowMs": 448.3,
+            "firstItemMs": 1077.3,
+            "itemsMs": 1107.4,
+            "itemCount": 10000,
+            "itemCountSource": "StatusBar.MetadataLabel",
+            "ownerPid": 38128,
+            "ownerIsNewProcess": true,
+            "workingSetBytes": 179437568,
+            "privateBytes": 118857728,
+            "peakWorkingSetBytes": 198320128,
+            "workingSetDeltaBytes": 179437568,
+            "privateDeltaBytes": 118857728,
+            "windowAliveAtEnd": false,
+            "error": null
+          }
+        ]
+      }
+    }
+  ]
+}

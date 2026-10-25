@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aphrody.com/schemas/fm-bench.results.v1.json",
+  "title": "fm-bench results",
+  "type": "object",
+  "required": ["schema", "generatedAt", "host", "results"],
+  "properties": {
+    "schema": { "const": "fm-bench.results/v1" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "host": {
+      "type": "object",
+      "required": ["os", "cpu", "logicalCpus", "ramBytes", "runtime"],
+      "properties": {
+        "os": { "type": "string" },
+        "build": { "type": "string" },
+        "cpu": { "type": "string" },
+        "logicalCpus": { "type": "integer" },
+        "ramBytes": { "type": "integer" },
+        "runtime": { "type": "string" }
+      }
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["app", "platform", "scenario", "dataset", "runs", "cache", "metrics", "errors", "notes"],
+        "properties": {
+          "app": {
+            "enum": [
+              "windows-explorer", "gnome-nautilus", "kde-dolphin", "cosmic-files",
+              "spacedrive", "bunos-m3-explorer", "webos-files"
+            ]
+          },
+          "platform": { "enum": ["windows", "linux", "browser"] },
+          "scenario": {
+            "enum": [
+              "cold-start-first-paint", "open-folder", "open-100k-folder", "scroll-grid",
+              "thumbnails-2k", "filename-search", "copy-5g", "rss-idle-peak", "input-latency"
+            ]
+          },
+          "dataset": {
+            "type": "object",
+            "required": ["profile", "files", "bytes", "seed"],
+            "properties": {
+              "profile": { "type": "string" },
+              "files": { "type": "integer" },
+              "bytes": { "type": "integer" },
+              "seed": { "type": "integer" }
+            }
+          },
+          "runs": { "type": "integer", "minimum": 1 },
+          "cache": { "enum": ["warm", "cold"] },
+          "metrics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "unit", "values", "median", "min", "max", "p90", "source"],
+              "properties": {
+                "name": { "type": "string" },
+                "unit": { "enum": ["ms", "bytes", "MB/s", "fps", "count"] },
+                "values": { "type": "array", "items": { "type": "number" } },
+                "median": { "type": "number" },
+                "min": { "type": "number" },
+                "max": { "type": "number" },
+                "p90": { "type": "number" },
+                "source": { "type": "string" }
+              }
+            }
+          },
+          "errors": { "type": "array", "items": { "type": "string" } },
+          "notes": { "type": "array", "items": { "type": "string" } },
+          "raw": {}
+        }
+      }
+    }
+  }
+}
