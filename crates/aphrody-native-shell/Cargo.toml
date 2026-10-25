@@ -1,0 +1,77 @@
+# SPDX-License-Identifier: Apache-2.0
+[package]
+name = "aphrody-native-shell"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.97"
+authors = ["aphrody-code"]
+repository = "https://github.com/aphrody-labs/bun-ui"
+license = "Apache-2.0"
+description = "One lifecycle API for Aphrody native apps: about, window state, single instance, deep links, menus, tray, dialogs, notifications, clipboard, theme and signed updates."
+publish = false
+
+# Standalone until the Bun UI root Cargo workspace absorbs it.
+[workspace]
+
+[lints.rust]
+unsafe_code = "deny"
+
+[lints.clippy]
+all = "warn"
+
+[features]
+default = ["menu", "tray", "dialogs", "notifications", "clipboard", "updater"]
+# Declarative menu model rendered with muda (GTK 3 on Linux).
+menu = ["dep:muda", "muda/gtk3", "dep:raw-window-handle"]
+# muda accelerator emulation on X11 through libxdo (needs libxdo at link time).
+menu-libxdo = ["menu", "muda/libxdo"]
+# System tray through tray-icon (libayatana-appindicator3 + GTK 3 on Linux).
+tray = ["menu", "dep:tray-icon", "tray-icon/libappindicator", "dep:gtk"]
+dialogs = ["dep:rfd", "dep:raw-window-handle"]
+notifications = ["dep:notify-rust"]
+clipboard = ["dep:arboard"]
+updater = ["dep:ureq", "dep:ed25519-dalek", "dep:sha2", "dep:base64", "dep:semver"]
+
+# Toolkit backends.
+eframe = ["dep:eframe"]
+winit = ["dep:winit", "dep:raw-window-handle"]
+bevy = ["dep:bevy_window", "dep:bevy_app", "dep:bevy_ecs", "dep:bevy_math"]
+tauri = ["dep:tauri"]
+
+[dependencies]
+directories = "6"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+
+raw-window-handle = { version = "0.6", optional = true }
+muda = { version = "0.20", default-features = false, optional = true }
+tray-icon = { version = "0.25", default-features = false, optional = true }
+rfd = { version = "0.17", optional = true }
+notify-rust = { version = "4.18", optional = true }
+arboard = { version = "3.7", optional = true }
+
+ureq = { version = "3.4", optional = true }
+ed25519-dalek = { version = "2.2", optional = true }
+sha2 = { version = "0.10", optional = true }
+base64 = { version = "0.22", optional = true }
+semver = { version = "1", optional = true }
+
+eframe = { version = "0.36", default-features = false, features = ["default_fonts", "glow", "wayland", "x11", "accesskit"], optional = true }
+winit = { version = "0.30", optional = true }
+bevy_window = { version = "0.19", default-features = false, features = ["std"], optional = true }
+bevy_app = { version = "0.19", default-features = false, features = ["std"], optional = true }
+bevy_ecs = { version = "0.19", default-features = false, features = ["std"], optional = true }
+bevy_math = { version = "0.19", default-features = false, features = ["std"], optional = true }
+tauri = { version = "2", default-features = false, optional = true }
+
+[target.'cfg(windows)'.dependencies]
+winreg = "0.55"
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_Security", "Win32_System_Threading"] }
+
+[target.'cfg(any(target_os = "linux", target_os = "dragonfly", target_os = "freebsd", target_os = "netbsd", target_os = "openbsd"))'.dependencies]
+gtk = { version = "0.18", optional = true }
+
+[[example]]
+name = "egui_app"
+required-features = ["eframe"]
