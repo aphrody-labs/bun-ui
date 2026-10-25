@@ -93,6 +93,16 @@
   "scripts": {
     "upstreams:status": "bun tools/upstream-sync.ts status",
     "upstreams:sync": "bun tools/upstream-sync.ts sync",
-    "upstreams:update": "bun tools/upstream-sync.ts update"
+    "upstreams:update": "bun tools/upstream-sync.ts update",
+    "cross:setup": "bun tools/cross/windows.ts setup",
+    "cross:doctor": "bun tools/cross/windows.ts doctor",
+    "cross:env": "bun tools/cross/windows.ts env",
+    "cross:meson-cross": "bun tools/cross/windows.ts meson-cross",
+    "cross:build": "bun tools/cross/windows.ts build",
+    "cross:bundle": "bun tools/cross/windows.ts bundle",
+    "cross:installer": "bun tools/cross/windows.ts installer",
+    "cross:sign": "bun tools/cross/windows.ts sign",
+    "cross:smoke": "bun tools/cross/windows.ts smoke",
+    "cross:msvc": "bun tools/cross/windows.ts msvc"
   }
 }

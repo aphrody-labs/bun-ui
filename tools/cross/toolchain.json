@@ -1,0 +1,41 @@
+{
+  "$comment": "Pinned Linux -> Windows cross toolchain for tools/cross/windows.ts setup. Large data stays outside the repo.",
+  "llvmMingw": {
+    "release": "20261020",
+    "llvm": "23.1.4",
+    "asset": "llvm-mingw-20261020-ucrt-ubuntu-22.04-x86_64.tar.xz",
+    "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20261020/llvm-mingw-20261020-ucrt-ubuntu-22.04-x86_64.tar.xz",
+    "sha256": "55064b60b991a1e1e8090b8c2f84e82b22cfe5903d12c159d65064cf5e8ae335",
+    "license": "llvm-mingw: ISC + LLVM Apache-2.0 WITH LLVM-exception + mingw-w64 ZPL/public domain"
+  },
+  "quasiMsys2": {
+    "url": "https://github.com/HolyBlackCat/quasi-msys2",
+    "commit": "00a2b1645c1e7a21e4c8d975976c8d9808bb135c",
+    "license": "Zlib",
+    "msystems": {
+      "x86_64": "CLANG64",
+      "aarch64": "CLANGARM64"
+    },
+    "packages": [
+      "_crt",
+      "_headers",
+      "_winpthreads",
+      "_compiler-rt",
+      "_libc++",
+      "_libunwind",
+      "_gtk4",
+      "_libadwaita",
+      "_gtksourceview5",
+      "_qt6-base",
+      "_qt6-declarative",
+      "_qt6-svg",
+      "_qt6-shadertools",
+      "_adwaita-icon-theme",
+      "_hicolor-icon-theme",
+      "_librsvg",
+      "_pkgconf"
+    ]
+  },
+  "rustTargets": ["x86_64-pc-windows-gnullvm", "aarch64-pc-windows-gnullvm"],
+  "apt": ["wine", "wine64", "xvfb", "xauth", "nsis", "msitools", "wixl", "osslsigncode", "zip", "make", "wget", "gawk", "gpg", "gpgv", "zstd", "meson", "ninja-build", "cmake", "pkgconf"]
+}
