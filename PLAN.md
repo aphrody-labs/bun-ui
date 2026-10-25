@@ -22,7 +22,7 @@ becomes available to every host.
 
 | # | Work | Status |
 | --- | --- | --- |
-| 1 | Repository, upstream inventory and submodules (`upstream/<group>`): gnome, qt, kde, rust, cosmic, wayland, os, wasm, windows, desktop | active |
+| 1 | Repository and upstream inventory (`upstream.json`, materialized under `upstream/<group>` by `tools/upstream-sync.ts`): gnome, qt, kde, rust, cosmic, wayland, os, wasm, windows, desktop | active |
 | 2 | Import the M3 stack from Bun OS with history (`packages/m3*`, `crates/aphrody-m3*`, `libm3`, `craft-ui`, `aphrody-render`, showcases, `docs/material/m3`); Bun OS then consumes Bun UI | active (imported with history; root Cargo and Bun workspaces adopt every crate and package) |
 | 3 | Consolidate M3: retire `libm3` into `aphrody-m3` + backend crates; one JS color engine through Rust/wasm; merge duplicate showcases; app-ui on m3-motion, m3-icons, primitives; dialogs and icon buttons accessible; `apps/desktop` on M3 tokens; workspace dependencies only | open |
 | 4 | Conversion catalog (`catalog/conversion.toml`): colors, tokens, components, APIs per host | active (`catalog/conversion.toml`; `bun-ui-convert` emits GtkBuilder, QML and egui) |

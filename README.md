@@ -22,7 +22,7 @@ contract feeds every host:
 | `apps/` | Showcases and qualification apps |
 | `tools/` | Benchmarks and generators |
 | `catalog/conversion.toml` | Colors, tokens, components and APIs per host |
-| `upstream/<group>/<name>` | Pinned upstream sources as Git submodules |
+| `upstream/<group>/<name>` | Pinned upstream sources, materialized by `tools/upstream-sync.ts` (not tracked, not submodules) |
 | `upstream.json` | Machine-readable upstream inventory: URL, branch, commit, license |
 
 Rust crates:
@@ -67,4 +67,4 @@ Upstream sources keep their own licenses, notices and histories. First-party
 code states its license in each file or package manifest.
 
 Builds and qualification run on the VPS. The Windows workstation edits and
-synchronizes sources and does not initialize the large upstream submodules.
+synchronizes sources and does not materialize the large upstreams.

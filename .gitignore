@@ -3,3 +3,6 @@ node_modules/
 .local/
 *.log
 /target/
+
+# Upstream sources are materialized by tools/upstream-sync.ts from upstream.json.
+/upstream/
