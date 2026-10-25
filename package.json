@@ -89,5 +89,10 @@
     "typescript": "7.0.2",
     "zod": "^4.6.5",
     "zustand": "^5.0.15"
+  },
+  "scripts": {
+    "upstreams:status": "bun tools/upstream-sync.ts status",
+    "upstreams:sync": "bun tools/upstream-sync.ts sync",
+    "upstreams:update": "bun tools/upstream-sync.ts update"
   }
 }
