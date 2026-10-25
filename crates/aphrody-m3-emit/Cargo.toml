@@ -1,0 +1,14 @@
+[package]
+name = "aphrody-m3-emit"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "Writes one Material 3 scheme as GTK/libadwaita, KDE, COSMIC, Qt, WinUI, Hyprland, CSS and DTCG themes."
+publish = false
+
+[dependencies]
+aphrody-m3-tokens = { path = "../aphrody-m3-tokens" }
+
+[[bin]]
+name = "m3-emit"
+path = "src/main.rs"
