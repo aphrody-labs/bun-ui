@@ -1,0 +1,10 @@
+{
+  "extends": "../artcraft-frontend/tsconfig.base.json",
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "forceConsistentCasingInFileNames": true,
+    "types": ["@aphrody/bun-types", "node"]
+  },
+  "include": ["src/**/*.ts"]
+}
