@@ -1,0 +1,45 @@
+{
+  "name": "@aphrody/gi-bun",
+  "version": "0.1.0",
+  "description": "GObject Introspection for Bun through bun:ffi: load typelibs with libgirepository, call GLib/GObject/GTK APIs, connect signals, read and write properties, and run GJS-style `imports.gi` code with the GLib main loop cooperating with the Bun event loop.",
+  "keywords": [
+    "bun",
+    "ffi",
+    "gjs",
+    "glib",
+    "gobject-introspection",
+    "gtk"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aphrody-labs/bun-ui.git",
+    "directory": "packages/gi-bun"
+  },
+  "author": "aphrody-code",
+  "type": "module",
+  "files": [
+    "src",
+    "examples"
+  ],
+  "exports": {
+    ".": "./src/index.ts",
+    "./imports": "./src/imports.ts",
+    "./mainloop": "./src/mainloop.ts"
+  },
+  "scripts": {
+    "example:glib": "bun examples/glib.ts",
+    "example:gtk": "bun examples/hello-gtk.ts",
+    "typecheck": "bun check -p tsconfig.json --noEmit"
+  },
+  "os": [
+    "linux",
+    "darwin"
+  ],
+  "engines": {
+    "bun": ">=1.4.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
