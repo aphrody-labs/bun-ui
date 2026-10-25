@@ -1,0 +1,29 @@
+# SPDX-License-Identifier: Apache-2.0
+[package]
+name = "aphrody-m3-wasm"
+version = "1.4.7"
+edition = "2024"
+rust-version = "1.97"
+authors = ["aphrody-code"]
+license = "Apache-2.0"
+description = "WebAssembly bindings of the Rust Material 3 color engine (aphrody-m3-tokens) and theme emitters (aphrody-m3-emit)"
+publish = false
+
+# Standalone workspace: built on its own for wasm32-unknown-unknown.
+[workspace]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+aphrody-m3-emit = { path = "../aphrody-m3-emit" }
+aphrody-m3-tokens = { path = "../aphrody-m3-tokens", default-features = false, features = ["std"] }
+js-sys = "0.3"
+wasm-bindgen = "=0.2.129"
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

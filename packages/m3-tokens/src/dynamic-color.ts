@@ -7,39 +7,38 @@
 // re-theme every `<md-*>` element (and every `@aphrody/m3-react` wrapper) from
 // one colour, with no rebuild — that MUI has no native equivalent for.
 //
-// Built on @material/material-color-utilities (7 scheme variants: tonalSpot,
-// content, fidelity, expressive, vibrant, neutral, monochrome).
+// Built on the Rust Material 3 engine (crates/aphrody-m3-tokens) through
+// @aphrody/m3-wasm: the same scheme code the native emitters (m3-emit) run, so
+// web and native themes cannot drift. 7 scheme variants: tonalSpot, content,
+// fidelity, expressive, vibrant, neutral, monochrome.
 // Pure functions are environment-agnostic and unit-testable under bun;
 // only `applyDynamicColor` touches the DOM.
 // -----------------------------------------------------------------------------
 
-import {
-  argbFromHex,
-  hexFromArgb,
-  Hct,
-  SchemeTonalSpot,
-  SchemeContent,
-  SchemeFidelity,
-  SchemeExpressive,
-  SchemeVibrant,
-  SchemeNeutral,
-  SchemeMonochrome,
-  MaterialDynamicColors,
-  type DynamicColor,
-  type DynamicScheme,
-} from "@material/material-color-utilities";
+import * as engine from "@aphrody/m3-wasm";
+import { Hct } from "@aphrody/m3-wasm";
 import { ROLES } from "./native-theme";
 
 export { ROLES };
 
-export { argbFromHex, hexFromArgb, Hct, MaterialDynamicColors, type DynamicColor, type DynamicScheme };
+/** Opaque `0xAARRGGBB` from a CSS hex colour (`#rgb` or `#rrggbb`). */
+export function argbFromHex(hex: string): number {
+  return engine.argbFromHex(hex);
+}
+
+/** `#rrggbb` of an ARGB colour. */
+export function hexFromArgb(argb: number): string {
+  return engine.hexFromArgb(argb >>> 0);
+}
+
+export { Hct };
 
 // ---------------------------------------------------------------------------
 // Variant type
 // ---------------------------------------------------------------------------
 
 /**
- * MCU colour scheme variants, exposed as a string union for ergonomic use.
+ * Colour scheme variants of the Rust engine, exposed as a string union for ergonomic use.
  *
  * | Variant        | Character                                                  |
  * |----------------|------------------------------------------------------------|
@@ -69,7 +68,7 @@ export interface SchemeOptions {
    */
   contrast?: number;
   /**
-   * MCU colour scheme variant (default: `"tonalSpot"`).
+   * Colour scheme variant (default: `"tonalSpot"`).
    * All variants produce the same ~47 `--md-sys-color-*` roles; only the
    * palette relationships and chroma differ.
    */
@@ -79,11 +78,76 @@ export interface SchemeOptions {
 /** A map of `--md-sys-color-*` custom-property names to hex colours. */
 export type ColorRoleMap = Record<string, string>;
 
+/** A resolved scheme: one seed, variant, mode and contrast level. Roles resolve in the Rust engine. */
+export class DynamicScheme {
+  readonly sourceColorArgb: number;
+  readonly sourceColorHct: Hct;
+  readonly variant: SchemeVariant;
+  readonly isDark: boolean;
+  readonly contrastLevel: number;
+  #roles: Record<string, number> | undefined;
+
+  constructor(source: Hct | number, isDark: boolean, contrastLevel = 0, variant: SchemeVariant = "tonalSpot") {
+    this.sourceColorHct = typeof source === "number" ? Hct.fromInt(source >>> 0) : source;
+    this.sourceColorArgb = this.sourceColorHct.toInt();
+    this.variant = checkVariant(variant);
+    this.isDark = isDark;
+    this.contrastLevel = resolveContrast({ contrastLevel });
+  }
+
+  /** ARGB of a role (camel-case `MaterialDynamicColors` name). */
+  getArgb(role: string): number {
+    this.#roles ??= engine.schemeArgbFromSeed(
+      this.sourceColorArgb,
+      this.variant,
+      this.isDark,
+      this.contrastLevel,
+    ) as Record<string, number>;
+    const argb = this.#roles[role];
+    if (argb === undefined) throw new TypeError(`Unknown M3 colour role: ${role}`);
+    return argb;
+  }
+}
+
+/** One M3 colour role, resolvable against any {@link DynamicScheme}. */
+export interface DynamicColor {
+  readonly name: string;
+  getArgb(scheme: DynamicScheme): number;
+  getHct(scheme: DynamicScheme): Hct;
+}
+
+/** Every system colour role of the engine, keyed by camel-case name (`primary`, `onPrimaryContainer`, …). */
+export const MaterialDynamicColors: Readonly<Record<string, DynamicColor>> = Object.freeze(
+  Object.fromEntries(
+    (engine.roleNames() as string[]).map(name => [
+      name,
+      Object.freeze({
+        name,
+        getArgb: (scheme: DynamicScheme) => scheme.getArgb(name),
+        getHct: (scheme: DynamicScheme) => Hct.fromInt(scheme.getArgb(name)),
+      }),
+    ]),
+  ),
+);
+
 // ---------------------------------------------------------------------------
 // Internal helpers
 // ---------------------------------------------------------------------------
 
-const dynamicColors = MaterialDynamicColors as unknown as Record<string, DynamicColor | undefined>;
+const VARIANTS: ReadonlySet<string> = new Set<SchemeVariant>([
+  "tonalSpot",
+  "content",
+  "fidelity",
+  "expressive",
+  "vibrant",
+  "neutral",
+  "monochrome",
+]);
+
+function checkVariant(variant: SchemeVariant): SchemeVariant {
+  if (!VARIANTS.has(variant)) throw new TypeError(`Unknown M3 scheme variant: ${variant}`);
+  return variant;
+}
 
 /** `onPrimaryContainer` -> `on-primary-container`. */
 function kebab(role: string): string {
@@ -99,34 +163,12 @@ function resolveContrast(opts: SchemeOptions): number {
   return contrast;
 }
 
-/** Normalize a CSS hex seed, rejecting malformed colours before calling MCU. */
+/** Normalize a CSS hex seed, rejecting malformed colours before calling the engine. */
 export function normalizeSeedHex(seed: string): string {
   const match = /^#?([\da-f]{3}|[\da-f]{6})$/i.exec(seed.trim());
   if (!match) throw new TypeError(`Invalid M3 seed color: ${seed}`);
   const digits = match[1]!;
   return `#${(digits.length === 3 ? [...digits].map(digit => digit + digit).join("") : digits).toLowerCase()}`;
-}
-
-/** Build the MCU DynamicScheme for the requested variant. */
-function buildScheme(hct: Hct, isDark: boolean, contrastLevel: number, variant: SchemeVariant): DynamicScheme {
-  switch (variant) {
-    case "content":
-      return new SchemeContent(hct, isDark, contrastLevel);
-    case "fidelity":
-      return new SchemeFidelity(hct, isDark, contrastLevel);
-    case "expressive":
-      return new SchemeExpressive(hct, isDark, contrastLevel);
-    case "vibrant":
-      return new SchemeVibrant(hct, isDark, contrastLevel);
-    case "neutral":
-      return new SchemeNeutral(hct, isDark, contrastLevel);
-    case "monochrome":
-      return new SchemeMonochrome(hct, isDark, contrastLevel);
-    case "tonalSpot":
-      return new SchemeTonalSpot(hct, isDark, contrastLevel);
-    default:
-      throw new TypeError(`Unknown M3 scheme variant: ${variant}`);
-  }
 }
 
 // ---------------------------------------------------------------------------
@@ -148,14 +190,18 @@ export function schemeFromSeed(seedHex: string, opts: SchemeOptions = {}): Color
   const contrastLevel = resolveContrast(opts);
   const variant = opts.variant ?? "tonalSpot";
 
-  const hct = Hct.fromInt(argbFromHex(normalizeSeedHex(seedHex)));
-  const scheme = buildScheme(hct, dark, contrastLevel, variant);
+  const roles = engine.schemeFromSeed(
+    argbFromHex(normalizeSeedHex(seedHex)),
+    checkVariant(variant),
+    dark,
+    contrastLevel,
+  ) as Record<string, string>;
 
   const out: ColorRoleMap = {};
   for (const role of ROLES) {
-    const dynamicColor = dynamicColors[role];
-    if (!dynamicColor) continue;
-    out[`--md-sys-color-${kebab(role)}`] = hexFromArgb(dynamicColor.getArgb(scheme));
+    const hex = roles[role];
+    if (hex === undefined) continue;
+    out[`--md-sys-color-${kebab(role)}`] = hex;
   }
   return out;
 }

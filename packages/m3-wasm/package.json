@@ -1,0 +1,47 @@
+{
+  "name": "@aphrody/m3-wasm",
+  "version": "1.4.7",
+  "description": "The Rust Material 3 color engine (aphrody-m3-tokens) and theme emitters (aphrody-m3-emit) as WebAssembly: dynamic schemes, CSS and host themes, source color from image, harmonize.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aphrody-labs/bun-ui.git",
+    "directory": "packages/m3-wasm"
+  },
+  "license": "Apache-2.0",
+  "author": "aphrody-code",
+  "files": [
+    "browser.js",
+    "bun.js",
+    "index.d.ts",
+    "pkg/",
+    "scripts/",
+    "README.md"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "types": "./index.d.ts",
+  "main": "./bun.js",
+  "browser": "./browser.js",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "bun": "./bun.js",
+      "browser": "./browser.js",
+      "default": "./browser.js"
+    },
+    "./wasm": "./pkg/aphrody_m3_wasm_bg.wasm",
+    "./glue": {
+      "types": "./pkg/aphrody_m3_wasm.d.ts",
+      "default": "./pkg/aphrody_m3_wasm.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "bun scripts/build.ts"
+  },
+  "engines": {
+    "bun": ">=1.4.4"
+  }
+}
