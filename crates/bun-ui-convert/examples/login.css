@@ -1,0 +1,16 @@
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 16px;
+  background-color: var(--md-sys-color-surface-container-low);
+}
+.login-card {
+  gap: 16px;
+  padding: 24px;
+  max-width: 400px;
+  border-radius: var(--md-sys-shape-corner-extra-large);
+}
+.subtitle {
+  color: var(--md-sys-color-on-surface-variant);
+}

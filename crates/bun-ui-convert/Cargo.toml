@@ -1,0 +1,25 @@
+[package]
+name = "bun-ui-convert"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "Converts a constrained Material 3 TSX/JSX + CSS subset to GtkBuilder XML, QML and egui code."
+publish = false
+autoexamples = false
+
+# Standalone until the root Bun UI Cargo workspace adopts this crate.
+[workspace]
+
+[dependencies]
+oxc_allocator = "0.155"
+oxc_ast = "0.155"
+oxc_parser = "0.155"
+oxc_span = "0.155"
+lightningcss = { version = "1.0.0-alpha.72", default-features = false }
+
+[[bin]]
+name = "m3-convert"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 3

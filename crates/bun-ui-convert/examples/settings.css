@@ -1,0 +1,19 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: var(--md-sys-color-surface);
+}
+.section-title {
+  color: var(--md-sys-color-primary);
+}
+.hint {
+  color: var(--md-sys-color-on-surface-variant);
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 8px;
+  padding: 0 16px 16px 16px;
+}

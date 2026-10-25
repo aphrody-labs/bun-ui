@@ -1,0 +1,9 @@
+error: unsupported.tsx:6:3: hook `useState` is not supported: components must be stateless (each backend generates its own state)
+error: unsupported.tsx:8:10: inline style: CSS property `position` is outside the converter subset
+error: unsupported.tsx:8:10: inline style: display `grid` is not supported (flex or block only)
+error: unsupported.tsx:9:18: spread attributes ({...props}) are not supported
+error: unsupported.tsx:9:36: prop `label`: `props` is not a compile-time constant (only literals, module constants and .map() items are converted)
+error: unsupported.tsx:10:8: logical expressions (`&&`, `||`, `??`) are not converted
+error: unsupported.tsx:11:30: handler calls with arguments are not converted; pass a named handler (onClick={onSave})
+error: unsupported.tsx:12:7: <Marquee> is not a Material 3 contract component or supported layout element
+m3-convert: unsupported.tsx: 8 error(s); no output written
