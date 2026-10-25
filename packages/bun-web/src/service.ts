@@ -2,7 +2,7 @@
 /**
  * `WebService`: the Bun client of the Aphrody web service contract.
  *
- * Product code (Shenron, RG, Achillea, kernel tooling) imports this module instead of spawning
+ * Product code (web apps, kernel tooling) imports this module instead of spawning
  * `aphrody-web`, puppeteer or playwright itself. One-shot operations (fetch, scrape, crawl) run
  * the `aphrody-web` CLI as a child process with a hard timeout; interactive operations
  * (`session`, `screenshot`, `query`) attach to a CDP engine, starting a private one when no

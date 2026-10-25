@@ -17,7 +17,7 @@
 // Cloudflare: same credentials as deploy.ts.
 import { existsSync, readFileSync } from "node:fs";
 import { homedir } from "node:os";
-import { dirname, join } from "node:path";
+import { dirname, join, resolve } from "node:path";
 import { connect } from "node:tls";
 import { wrangler } from "../../../bun-cloudflare/src/wrangler.ts";
 import { envFile, parseEnv } from "./deploy.ts";
@@ -48,8 +48,14 @@ export const hosts = [
 /** Names never proxied: SSH/host names, mail, FTP, databases, and hosts served by another platform. */
 const dnsOnly = /^(vps|dbfr|omar|ftp|db|mail|imap|pop3|smtp|autoconfig|autodiscover|shop)\./;
 
-/** Web hosts answered by a Worker at the edge rather than by their origin, with the Worker config. */
-const edge = [{ host: /(^|.)rosegriffon.fr$/, zone: "rosegriffon.fr", config: "maintenance/wrangler.jsonc" }];
+/**
+ * Web hosts answered by a Worker at the edge rather than by their origin. The Worker config belongs to the owner
+ * of the site (the rosegriffon.fr maintenance Worker lives in aphrody-labs/rosegriffon,
+ * infra/cloudflare/maintenance/wrangler.jsonc) and is deployed only when its path is configured.
+ */
+const edge: { host: RegExp; zone: string; config: string | undefined }[] = [
+  { host: /(^|.)rosegriffon.fr$/, zone: "rosegriffon.fr", config: process.env.RG_MAINTENANCE_WRANGLER_CONFIG },
+];
 
 const dryRun = process.argv.includes("--dry-run");
 const ovhBin = process.env.APHRODY_OVH ?? join(homedir(), "AppData/Local/aphrody/bin/aphrody-ovh.exe");
@@ -333,7 +339,11 @@ async function mirror(domain: { name: string; profile: string }, z: Zone) {
 /** Deploys the edge Worker of an active zone unless its routes already exist. */
 async function edgeWorker(z: Zone) {
   for (const e of edge.filter(e => e.zone === z.name)) {
-    const config = join(import.meta.dir, "..", e.config);
+    if (!e.config) {
+      step(`${z.name}: edge Worker config not set, deploy skipped`);
+      continue;
+    }
+    const config = resolve(e.config);
     const { name } = Bun.JSONC.parse(readFileSync(config, "utf8")) as { name: string };
     const routes = await cf<{ script?: string }[]>("GET", `/zones/${z.id}/workers/routes`);
     if (routes.some(r => r.script === name)) continue;

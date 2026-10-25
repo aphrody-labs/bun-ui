@@ -309,7 +309,6 @@ export const STACK_CONFIG: Readonly<Record<string, { file: string }>> = {
   "html-tailwind": { file: "stacks/html-tailwind.csv" },
   shadcn: { file: "stacks/shadcn.csv" },
   m3: { file: "stacks/m3.csv" },
-  "rg-ui": { file: "stacks/rg-ui.csv" },
   "jetpack-compose": { file: "stacks/jetpack-compose.csv" },
   threejs: { file: "stacks/threejs.csv" },
   angular: { file: "stacks/angular.csv" },
@@ -356,7 +355,6 @@ export const WEB_STACKS: ReadonlySet<string> = new Set([
   ...Object.keys(WEB_STACK_CURRENT_MAJORS),
   "shadcn",
   "m3",
-  "rg-ui",
 ]);
 
 export const STACK_CURRENT_VERSIONS: Readonly<Record<string, readonly number[]>> = {
@@ -371,7 +369,6 @@ export const STACK_CURRENT_VERSIONS: Readonly<Record<string, readonly number[]>>
   threejs: [0, 185],
   laravel: [13],
   m3: [1, 4],
-  "rg-ui": [1, 4],
 };
 export const LEGACY_ONLY_STACKS: ReadonlySet<string> = new Set(["uwp"]);
 export const STACK_CURRENT_APPLICABILITY: Readonly<Record<string, string>> = {
@@ -384,7 +381,6 @@ export const STACK_CURRENT_APPLICABILITY: Readonly<Record<string, string>> = {
   "html-tailwind": "html-tailwind 4.3",
   shadcn: "shadcn cli 4",
   m3: "m3 1.4.4",
-  "rg-ui": "rg-ui 1.4.4",
   nuxtjs: "nuxtjs 4.5",
   "nuxt-ui": "nuxt-ui 4.11.1",
   "react-native": "react-native 0.86.x",
@@ -421,7 +417,6 @@ const STACK_QUERY_NAMES: Readonly<Record<string, string>> = {
   threejs: "three(?:\\.js|js)?",
   laravel: "laravel",
   m3: "(?:@aphrody/)?m3",
-  "rg-ui": "rg[\\s-]*ui|rose\\s*griffon\\s*ui|@rosegriffon/ui",
 };
 
 export const AVAILABLE_STACKS = Object.keys(STACK_CONFIG);
@@ -1040,15 +1035,6 @@ export async function domainKeywords(): Promise<Record<Domain, string[]>> {
       "brand theme",
       "brand palette",
       "brand tokens",
-      "rose griffon",
-      "rosegriffon",
-      "azalee",
-      "azalée",
-      "achillea",
-      "achilléa",
-      "gaelle",
-      "gaëlle",
-      "rg-ui theme",
       "bun os brand",
       "aphrody brand",
     ],
@@ -1404,7 +1390,7 @@ function stackRowFilter(rows: readonly Row[], query: string, stack: string): [Ro
     variant = "non-legacy";
   }
 
-  if (stack !== "shadcn" && stack !== "rg-ui") return [statusFilter, variant];
+  if (stack !== "shadcn") return [statusFilter, variant];
   const normalized = normalize(String(query ?? "").toLowerCase());
   let requestedBase: string;
   if (normalized.includes("base ui")) requestedBase = "base";
@@ -1417,10 +1403,6 @@ function stackRowFilter(rows: readonly Row[], query: string, stack: string): [Ro
     const bases = match ? match[1]!.split("|") : [];
     return statusFilter(row) && bases.includes(requestedBase);
   };
-  // rg-ui is Base UI only: never filter its rows away for a base it does not tag.
-  if (stack === "rg-ui" && !rows.some(row => /\bbase=/.test((row["Applies To"] ?? "").toLowerCase()))) {
-    return [statusFilter, variant];
-  }
   return [matchesBase, `${variant};base=${requestedBase}`];
 }
 

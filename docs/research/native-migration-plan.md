@@ -48,13 +48,11 @@ lightcraft-web, no Android targets, no shared menu/dialog/updater.
 | `apps/iecode-web` (+ wasm crates) | emulator frontend over Rust wasm | 2.4k + 2.1k Rust | WebGPU, canvas, audio | none |
 | `packages/nie-ui` | emulator UI, WebGPU menus | 1.9k | WebGPU | none |
 | `packages/product` | CLI serving the web UI, app-server relay | 29.6k | none | Cloudflare, R2, loopback app-server |
-| `packages/shenron-ui` | React on Base UI + Tailwind 4 | 11.5k | none | host |
-| `packages/admin-ui` | Next admin (Tiptap, Drizzle) | 38.9k | none | host `apps/shenron/site` missing |
+| `packages/admin-ui` | Next admin (Tiptap, Drizzle) | 38.9k | none | host app missing |
 | `packages/bun-os-platform` | i18n and theme | 4.4k | none | - |
 
 Other: `apps/aphrody-drive` (Spacedrive daemon, no UI), `apps/bun-android` (Compose),
-`apps/iecode-dotnet/Gui` (Avalonia), `crates/bun-os-shell` (Bevy 0.20); `rg-*`/`azalee-web`
-have no source here.
+`apps/iecode-dotnet/Gui` (Avalonia), `crates/bun-os-shell` (Bevy 0.20).
 
 ## Target per app
 
@@ -67,7 +65,7 @@ have no source here.
 | m3 demos | A | static export in the host |
 | webos | A for the shell + native backends | OPFS to `aphrody-shell-vfs`; v86 stays wasm |
 | product | CLI/server, UI via A | ship as sidecar |
-| shenron-ui, admin-ui | web (optional A) | Next server actions; admin host missing |
+| admin-ui | web (optional A) | Next server actions; admin host missing |
 | iecode-web + nie-ui | B or D | Rust core; WebGPU shader to `aphrody-render` (wgpu) |
 | Craft studios | B (done) | Android targets, worklet replacements, shared shell |
 | bun-os-shell | D (done) | shared auth and updater |
@@ -106,6 +104,6 @@ have no source here.
 
 CEF size and no CEF on Android (mobile Tauri needs wry); no Android build proven yet;
 uneven WebGPU in webviews (prefer native wgpu); missing sources (artcraft-frontend,
-admin-ui host, rg/azalee); upstream code maintenance (ArtCraft, Spacedrive FSL);
+admin-ui host); upstream code maintenance (ArtCraft, Spacedrive FSL);
 Bun.serve/Cloudflare coupling in webos, product, play; duplicated UIs (ArtCraft webview
 vs egui, WebOS vs aphrody-app).
