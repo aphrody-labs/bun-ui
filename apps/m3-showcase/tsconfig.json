@@ -1,0 +1,13 @@
+{
+  "extends": "@aphrody/m3-config/tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "types": ["@aphrody/bun-types", "node"],
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["src/**/*", "scripts/**/*", "test/**/*", "m3.config.ts"]
+}

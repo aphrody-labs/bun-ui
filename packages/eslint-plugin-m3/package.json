@@ -1,0 +1,59 @@
+{
+  "name": "@aphrody/eslint-plugin-m3",
+  "version": "1.4.7",
+  "description": "Lint rules for sites consuming material-web (@aphrody/m3-react + Material Symbols) — runs under the native bun lint (jsPlugins).",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "lint",
+    "m3",
+    "material-design",
+    "material-web",
+    "oxlint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aphrody-labs/bun-distribution.git",
+    "directory": "packages/eslint-plugin-m3"
+  },
+  "homepage": "https://github.com/aphrody-labs/bun-distribution/tree/os/packages/eslint-plugin-m3#readme",
+  "bugs": {
+    "url": "https://github.com/aphrody-labs/bun-distribution/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "aphrody-code",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "rules/",
+    "data/",
+    "README.md"
+  ],
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "pretest": "bun scripts/sync-symbol-names.ts",
+    "test": "bun test/run.ts",
+    "pretypecheck": "bun scripts/sync-symbol-names.ts",
+    "typecheck": "bun check -p tsconfig.json --noEmit",
+    "sync-symbols": "bun scripts/sync-symbol-names.ts",
+    "prepack": "bun scripts/sync-symbol-names.ts"
+  },
+  "devDependencies": {
+    "@aphrody/m3-config": "workspace:*"
+  },
+  "engines": {
+    "bun": ">=1.4.4"
+  }
+}

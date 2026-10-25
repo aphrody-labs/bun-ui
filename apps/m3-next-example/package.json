@@ -1,0 +1,38 @@
+{
+  "name": "@aphrody/m3-next-example",
+  "version": "1.4.7",
+  "description": "Sample Next.js 16 app on the M3 stack: App Router, Cache Components, proxy.ts, React Compiler, typed routes, Tailwind v4 and Base UI, built and served on Bun through yolo.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "bun ../../packages/m3-next/bin/m3-next.ts dev",
+    "build": "bun ../../packages/m3-next/bin/m3-next.ts build",
+    "start": "bun ../../packages/m3-next/bin/m3-next.ts start",
+    "typecheck": "bun check -p tsconfig.json --noEmit",
+    "test": "bun test ./test/"
+  },
+  "dependencies": {
+    "@aphrody/m3-baseui": "workspace:*",
+    "@aphrody/m3-next": "workspace:*",
+    "@aphrody/m3-tailwind": "workspace:*",
+    "@aphrody/m3-tokens": "workspace:*",
+    "next": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "catalog:",
+    "@types/bun": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "babel-plugin-react-compiler": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:"
+  },
+  "engines": {
+    "bun": "=1.4.4"
+  }
+}
