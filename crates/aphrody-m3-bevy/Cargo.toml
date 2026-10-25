@@ -1,0 +1,53 @@
+# SPDX-License-Identifier: Apache-2.0
+[package]
+name = "aphrody-m3-bevy"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+license = "Apache-2.0"
+description = "Material 3 theme and skins for Bevy UI and the bevy_ui_widgets headless widgets"
+repository = "https://github.com/aphrody-labs/bun-ui"
+publish = false
+
+# Standalone until Bun UI has one root Cargo workspace.
+[workspace]
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[dependencies]
+# The path crate `../aphrody-m3-tokens` inherits `serde` from a workspace root that Bun UI does
+# not have yet, so Cargo cannot load it as a path dependency. Use the identical published 1.4.7
+# until the tokens manifest stops inheriting workspace dependencies.
+aphrody-m3-tokens = { version = "=1.4.7", default-features = false, features = ["std"] }
+accesskit = "0.24"
+# Bevy 0.20, the version Bun OS pins (C:/src/bun-os/Cargo.toml, bun-os-shell); minimal features.
+bevy = { version = "=0.20.0", default-features = false, features = [
+  "std",
+  "bevy_ui",
+  "bevy_ui_widgets",
+  "bevy_text",
+  "bevy_window",
+  "bevy_input_focus",
+  "bevy_picking",
+  "ui_picking",
+] }
+
+[dev-dependencies]
+bevy = { version = "=0.20.0", default-features = false, features = [
+  "std",
+  "multi_threaded",
+  "async_executor",
+  "bevy_log",
+  "bevy_winit",
+  "x11",
+  "default_font",
+  "ui_api",
+  "ui_bevy_render",
+  "bevy_ui_widgets",
+  "ui_picking",
+] }
+
+[[example]]
+name = "gallery"
+path = "examples/gallery.rs"
